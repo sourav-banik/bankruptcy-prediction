@@ -1,0 +1,539 @@
+company_id,company_type,bankruptcy_date,ticker,name,Sector,Industry,bloomberg_identifier,prediction_date,start_date,end_date
+SA_222,bankrupt,1998-09-16,SNTVQ,"Sun Television and Appliances, Inc.",,,SNTVQ US Equity,1998-06-18,1993-06-18,1998-06-18
+SA_187,bankrupt,1998-10-05,BOST,"Boston Chicken, Inc.",,,BCHXQ US Equity,1998-07-07,1993-07-07,1998-07-07
+SA_135,bankrupt,1998-12-27,JSIBQ,"JumboSports, Inc.",,,JSIBQ US Equity,1998-09-28,1993-09-28,1998-09-28
+SA_4,bankrupt,1998-12-29,SLNT,Salant Corp. (1998),,,2777116Q US Equity,1998-09-30,1993-09-30,1998-09-30
+SA_26,bankrupt,1999-02-11,WIRL,"Wireless One, Inc.",,,WIRLQ US Equity,1998-11-13,1993-11-13,1998-11-13
+SA_172,bankrupt,1999-03-01,PNFTQ,Penn Traffic Co (1999),,,PNFTQ US Equity,1998-12-01,1993-12-01,1998-12-01
+SA_80,bankrupt,1999-03-15,SME,"Service Merchandise Company, Inc.",,,SVCDQ US Equity,1998-12-15,1993-12-15,1998-12-15
+SA_134,bankrupt,1999-09-03,COSE,"Costilla Energy, Inc.",,,COSEQ US Equity,1999-06-05,1994-06-05,1999-06-05
+SA_52,bankrupt,1999-09-16,TRSM,"Trism, Inc.",,,2471671D US Equity,1999-06-18,1994-06-18,1999-06-18
+SA_145,bankrupt,1999-11-04,FEET,"Just For Feet, Inc.",,,FEETQ US Equity,1999-08-06,1994-08-06,1999-08-06
+SA_75,bankrupt,1999-12-03,TLTXQ,Tultex Corporation,,,TLTXQ US Equity,1999-09-04,1994-09-04,1999-09-04
+SA_234,bankrupt,1999-12-08,ABNTQ,American Banknote Corporation,,,ABNTQ US Equity,1999-09-09,1994-09-09,1999-09-09
+SA_59,bankrupt,2000-01-18,MPN,"Mariner Post-Acute Network, Inc.",,,MPANQ US Equity,1999-10-20,1994-10-20,1999-10-20
+SA_263,bankrupt,2000-05-01,KHKH,"Kitty Hawk, Inc.",,,KHKH US Equity,2000-02-01,1995-02-01,2000-02-01
+SA_130,bankrupt,2000-05-03,SSAXQ,"System Software Associates, Inc.",,,SSAXQ US Equity,2000-02-03,1995-02-03,2000-02-03
+SA_9,bankrupt,2000-08-08,CRHEQ,Coram Healthcare Corp.,,,CRHEQ US Equity,2000-05-10,1995-05-10,2000-05-10
+SA_51,bankrupt,2000-10-05,OWENQ,Owens Corning,,,OWENQ US Equity,2000-07-07,1995-07-07,2000-07-07
+SA_215,bankrupt,2000-11-09,CMDCQ,CareMatrix Corp.,,,CMDCQ US Equity,2000-08-11,1995-08-11,2000-08-11
+SA_173,bankrupt,2000-11-14,ICGXQ,"ICG Communications, Inc.",,,603190Q US Equity,2000-08-16,1995-08-16,2000-08-16
+SA_280,bankrupt,2000-12-19,NWSW,Northwestern Steel & Wire Co.,,,NWSW US Equity,2000-09-20,1995-09-20,2000-09-20
+SA_90,bankrupt,2000-12-29,PGEXQ,"Pacific Gateway Exchange, Inc.",,,PGEXQ US Equity,2000-09-30,1995-09-30,2000-09-30
+SA_143,bankrupt,2001-05-31,PSIXQ,PSINet Inc.,,,PSIXQ US Equity,2001-03-02,1996-03-02,2001-03-02
+SA_162,bankrupt,2001-10-01,FDMLQ,Federal-Mogul Corporation,,,FDMLQ US Equity,2001-07-03,1996-07-03,2001-07-03
+SA_176,bankrupt,2001-11-13,ANCJQ,ANC Rental Corp.,,,ANCJQ US Equity,2001-08-15,1996-08-15,2001-08-15
+SA_220,bankrupt,2001-11-13,CLSCQ,"Classic Communications, Inc.",,,CLSCQ US Equity,2001-08-15,1996-08-15,2001-08-15
+SA_238,bankrupt,2001-11-15,BRLGQ,"Burlington Industries, Inc.",,,BRLGQ US Equity,2001-08-17,1996-08-17,2001-08-17
+SA_10,bankrupt,2001-11-20,VMIXQ,Valley Media Inc.,,,VMIXQ US Equity,2001-08-22,1996-08-22,2001-08-22
+SA_290,bankrupt,2001-12-05,HAZ,"Hayes Lemmerz International, Inc. (2001)",,,HLMMQ US Equity,2001-09-06,1996-09-06,2001-09-06
+SA_84,bankrupt,2001-12-14,STGCQ,Startec Global Communications Corporation,,,STGCQ US Equity,2001-09-15,1996-09-15,2001-09-15
+SA_160,bankrupt,2002-01-16,ITXG,"IT Group, Inc.",,,ITXG US Equity,2001-10-18,1996-10-18,2001-10-18
+SA_99,bankrupt,2002-02-15,VRDOQ,"Verado Holdings, Inc.",,,VRDOQ US Equity,2001-11-17,1996-11-17,2001-11-17
+SA_77,bankrupt,2002-02-20,KELLQ,"Kellstrom Industries, Inc.",,,KELLQ US Equity,2001-11-22,1996-11-22,2001-11-22
+SA_240,bankrupt,2002-03-06,NSTLQ,National Steel Corp.,,,NSTLQ US Equity,2001-12-06,1996-12-06,2001-12-06
+SA_3,bankrupt,2002-03-11,AGATQ,"U.S. Aggregates, Inc.",,,AGATQ US Equity,2001-12-11,1996-12-11,2001-12-11
+SA_219,bankrupt,2002-04-15,AGCCQ,Anchor Glass Container Corp. (2002),,,237002Q US Equity,2002-01-15,1997-01-15,2002-01-15
+SA_118,bankrupt,2002-05-20,MFNXQ,"Metromedia Fiber Network, Inc.",,,MFNXQ US Equity,2002-02-19,1997-02-19,2002-02-19
+SA_308,bankrupt,2002-05-23,PTACQ,Pentacon Inc.,,,PTACQ US Equity,2002-02-22,1997-02-22,2002-02-22
+SA_131,bankrupt,2002-06-03,BIR,Birmingham Steel Corp.,,,BIRS US Equity,2002-03-05,1997-03-05,2002-03-05
+SA_36,bankrupt,2002-06-11,NWPWQ,"NewPower Holdings, Inc.",,,NWPWQ US Equity,2002-03-13,1997-03-13,2002-03-13
+SA_253,bankrupt,2002-08-11,UAIRQ,"US Airways Group, Inc. (2002)",,,UAIRQ US Equity,2002-05-13,1997-05-13,2002-05-13
+SA_223,bankrupt,2002-09-03,CFWEQ,Consolidated Freightways Corp.,,,CFWEQ US Equity,2002-06-05,1997-06-05,2002-06-05
+SA_45,bankrupt,2002-11-27,GENUQ,Genuity Inc.,,,GENUQ US Equity,2002-08-29,1997-08-29,2002-08-29
+SA_58,bankrupt,2002-12-20,SVSSF,"Seven Seas Petroleum, Inc.",,,SVSSF US Equity,2002-09-21,1997-09-21,2002-09-21
+SA_271,bankrupt,2003-03-17,SPGLQ,Spiegel Inc.,,,SPGLQ US Equity,2002-12-17,1997-12-17,2002-12-17
+SA_22,bankrupt,2003-03-21,SBLUQ,"SONICblue, Inc.",,,SBLUQ US Equity,2002-12-21,1997-12-21,2002-12-21
+SA_166,bankrupt,2003-04-01,FLMIQ,"Fleming Companies, Inc.",,,FLMIQ US Equity,2003-01-01,1998-01-01,2003-01-01
+SA_235,bankrupt,2003-05-06,ACTRQ,Acterna Corp.,,,ACTRQ US Equity,2003-02-05,1998-02-05,2003-02-05
+SA_178,bankrupt,2003-05-07,DZTKQ,DaisyTek International Corp.,,,DZTKQ US Equity,2003-02-06,1998-02-06,2003-02-06
+SA_277,bankrupt,2003-05-15,MSPIQ,Mississippi Chemical Corp.,,,MSPIQ US Equity,2003-02-14,1998-02-14,2003-02-14
+SA_140,bankrupt,2003-06-17,RDRTQ,Read-Rite Corp.,,,RDRTQ US Equity,2003-03-19,1998-03-19,2003-03-19
+SA_105,bankrupt,2003-06-27,NSV,National Equipment Services Inc.,,,NEQSQ US Equity,2003-03-29,1998-03-29,2003-03-29
+SA_203,bankrupt,2003-06-29,CRPP,Crown Pacific Partners L.P.,,,1514052D US Equity,2003-03-31,1998-03-31,2003-03-31
+SA_117,bankrupt,2003-08-20,DDICQ,DDI Corp.,,,DDICQ US Equity,2003-05-22,1998-05-22,2003-05-22
+SA_68,bankrupt,2003-09-14,NTHWQ,NorthWestern Corporation,,,NTHWQ US Equity,2003-06-16,1998-06-16,2003-06-16
+SA_251,bankrupt,2003-09-24,CJML,Cone Mills Corp,,,CJML US Equity,2003-06-26,1998-06-26,2003-06-26
+SA_47,bankrupt,2003-10-23,RGIDQ,"Rouge Industries, Inc.",,,RGIDQ US Equity,2003-07-25,1998-07-25,2003-07-25
+SA_136,bankrupt,2004-01-30,AAWHQ,Atlas Air Worldwide Holdings Inc.,,,AAWHQ US Equity,2003-11-01,1998-11-01,2003-11-01
+SA_0,bankrupt,2004-02-04,AVDO,Avado Brands Inc.,,,AVDO US Equity,2003-11-06,1998-11-06,2003-11-06
+SA_268,bankrupt,2004-05-27,RCNCQ,RCN Corporation,,,RCNCQ US Equity,2004-02-27,1999-02-27,2004-02-27
+SA_13,bankrupt,2004-10-05,CWONQ,"Choice One Communications, Inc.",,,CWONQ US Equity,2004-07-07,1999-07-07,2004-07-07
+SA_70,bankrupt,2004-10-20,HUFCQ,Huffy Corp.,,,HUFCQ US Equity,2004-07-22,1999-07-22,2004-07-22
+SA_165,bankrupt,2004-10-26,ATAHQ,ATA Holdings Corp.,,,ATAHQ US Equity,2004-07-28,1999-07-28,2004-07-28
+SA_287,bankrupt,2004-11-30,AICOQ,Amcast Industrial Corporation (2004),,,AICOQ US Equity,2004-09-01,1999-09-01,2004-09-01
+SA_206,bankrupt,2004-12-21,TMARQ,"Trico Marine Services, Inc. (2004)",,,TRMAQ US Equity,2004-09-22,1999-09-22,2004-09-22
+SA_207,bankrupt,2005-01-31,FCPR,"Falcon Products, Inc.",,,FCPR US Equity,2004-11-02,1999-11-02,2004-11-02
+SA_182,bankrupt,2005-02-02,TWRAQ,"Tower Automotive, Inc.",,,TWRAQ US Equity,2004-11-04,1999-11-04,2004-11-04
+SA_53,bankrupt,2005-02-21,WNDXQ,"Winn-Dixie Stores, Inc.",,,1986047D US Equity,2004-11-23,1999-11-23,2004-11-23
+SA_158,bankrupt,2005-03-07,WHXCQ,WHX Corporation,,,WHXCQ US Equity,2004-12-07,1999-12-07,2004-12-07
+SA_88,bankrupt,2005-05-17,CKCRQ,Collins & Aikman Corporation,,,CKCRQ US Equity,2005-02-16,2000-02-16,2005-02-16
+SA_120,bankrupt,2005-07-31,AHIZQ,"Allied Holdings, Inc.",,,AHIZQ US Equity,2005-05-02,2000-05-02,2005-05-02
+SA_267,bankrupt,2005-09-14,DALRQ,"Delta Air Lines, Inc.",,,DALRQ US Equity,2005-06-16,2000-06-16,2005-06-16
+SA_5,bankrupt,2005-09-14,NWACQ,Northwest Airlines Corporation,,,NWACQ US Equity,2005-06-16,2000-06-16,2005-06-16
+SA_79,bankrupt,2005-11-07,FLYIQ,"FLYi, Inc.",,,FLYIQ US Equity,2005-08-09,2000-08-09,2005-08-09
+SA_190,bankrupt,2006-09-28,GEGQQ,Global Power Equipment Group Inc.,,,GEGQQ US Equity,2006-06-30,2001-06-30,2006-06-30
+SA_71,bankrupt,2006-12-11,GBTVQ,Granite Broadcasting Corporation,,,GBTVQ US Equity,2006-09-12,2001-09-12,2006-09-12
+SA_49,bankrupt,2007-03-21,HKFIQ,"Hancock Fabrics, Inc.",,,HKFIQ US Equity,2006-12-21,2001-12-21,2006-12-21
+SA_93,bankrupt,2007-11-19,PTBTQ,"Pope & Talbot, Inc.",,,PTBTQ US Equity,2007-08-21,2002-08-21,2007-08-21
+SA_39,bankrupt,2008-01-29,TOUSQ,"TOUSA, Inc.",,,TOUSQ US Equity,2007-10-31,2002-10-31,2007-10-31
+SA_153,bankrupt,2008-11-06,MPCCQ,MPC Corporation,,,MPCCQ US Equity,2008-08-08,2003-08-08,2008-08-08
+SA_211,bankrupt,2009-02-18,BGPTQ,"BearingPoint, Inc.",,,BGPTQ US Equity,2008-11-20,2003-11-20,2008-11-20
+SA_27,bankrupt,2009-02-21,JRCOQ,Journal Register Company,,,JRCOQ US Equity,2008-11-23,2003-11-23,2008-11-23
+SA_171,bankrupt,2009-03-18,CEMJQ,Chemtura Corporation,,,CEMJQ US Equity,2008-12-18,2003-12-18,2008-12-18
+SA_243,bankrupt,2009-03-27,CHTRQ,"Charter Communications, Inc.",,,CHTRQ US Equity,2008-12-27,2003-12-27,2008-12-27
+SA_309,bankrupt,2009-03-31,IDARQ,Idearc Inc.,,,IDARQ US Equity,2008-12-31,2003-12-31,2008-12-31
+SA_115,bankrupt,2009-04-19,DSUPQ,Dayton Superior Corporation,,,DSUPQ US Equity,2009-01-19,2004-01-19,2009-01-19
+SA_7,bankrupt,2009-04-20,ASYTQ,"Asyst Technologies, Inc.",,,ASYTQ US Equity,2009-01-20,2004-01-20,2009-01-20
+SA_129,bankrupt,2009-05-28,VSTNQ,Visteon Corporation,,,VSTNQ US Equity,2009-02-27,2004-02-27,2009-02-27
+SA_202,bankrupt,2009-05-28,RHDCQ,R.H. Donnelley Corporation,,,RHDCQ US Equity,2009-02-27,2004-02-27,2009-02-27
+SA_102,bankrupt,2009-07-07,LEARQ,Lear Corporation,,,LEARQ US Equity,2009-04-08,2004-04-08,2009-04-08
+SA_78,bankrupt,2009-09-15,TPUTQ,Barzel Industries Inc.,,,TPUTQ US Equity,2009-06-17,2004-06-17,2009-06-17
+SA_248,bankrupt,2009-10-01,EPEXQ,Edge Petroleum Corporation,,,EPEXQ US Equity,2009-07-03,2004-07-03,2009-07-03
+SA_164,bankrupt,2009-11-15,CJHBQ,"Champion Enterprises, Inc.",,,CJHBQ US Equity,2009-08-17,2004-08-17,2009-08-17
+SA_106,bankrupt,2010-05-16,NFFCA,Neff Corp.,,,NFFCA US Equity,2010-02-15,2005-02-15,2010-02-15
+SA_40,bankrupt,2010-09-23,BLIAQ,Blockbuster Inc.,,,BLIAQ US Equity,2010-06-25,2005-06-25,2010-06-25
+SA_57,bankrupt,2011-02-11,HAWKQ,"Seahawk Drilling, Inc.",,,HAWKQ US Equity,2010-11-13,2005-11-13,2010-11-13
+SA_209,bankrupt,2011-05-24,JHTXQ,Jackson Hewitt Tax Service Inc.,,,JHTXQ US Equity,2011-02-23,2006-02-23,2011-02-23
+SA_266,bankrupt,2011-08-19,SDTHQ,"ShengdaTech, Inc.",,,SDTHQ US Equity,2011-05-21,2006-05-21,2011-05-21
+SA_307,bankrupt,2011-11-02,SYMSQ,Syms Corp.,,,SYMSQ US Equity,2011-08-04,2006-08-04,2011-08-04
+SA_186,bankrupt,2011-11-07,DYNIQ,"Dynegy Holdings, LLC",,,DYNIQ US Equity,2011-08-09,2006-08-09,2011-08-09
+SA_274,bankrupt,2012-01-04,TRIDQ,"Trident Microsystems, Inc.",,,TRIDQ US Equity,2011-10-06,2006-10-06,2011-10-06
+SA_64,bankrupt,2012-02-14,ENERQ,"Energy Conversion Devices, Inc.",,,ENERQ US Equity,2011-11-16,2006-11-16,2011-11-16
+SA_113,bankrupt,2012-04-12,RDDYQ,"Reddy Ice Holdings, Inc.",,,RDDYQ US Equity,2012-01-13,2007-01-13,2012-01-13
+SA_34,bankrupt,2012-07-17,FTWRQ,FiberTower Corporation,,,FBBT US Equity,2012-04-18,2007-04-18,2012-04-18
+SA_29,bankrupt,2012-08-17,ATPAQ,ATP Oil & Gas Corporation,,,ATPAQ US Equity,2012-05-19,2007-05-19,2012-05-19
+SA_65,bankrupt,2012-11-14,OSGIQ,"Overseas Shipholding Group, Inc.",,,OSGIQ US Equity,2012-08-16,2007-08-16,2012-08-16
+SA_72,bankrupt,2013-01-28,SCHSQ,"School Specialty, Inc.",,,SCHSQ US Equity,2012-10-30,2007-10-30,2012-10-30
+SA_74,bankrupt,2013-01-28,PWAVQ,"Powerwave Technologies, Inc.",,,PWAVQ US Equity,2012-10-30,2007-10-30,2012-10-30
+SA_18,bankrupt,2013-04-08,ROHIQ,Rotech Healthcare Inc.,,,ROHIQ US Equity,2013-01-08,2008-01-08,2013-01-08
+SA_265,bankrupt,2013-07-02,HOKUQ,Hoku Corporation,,,HOKUQ US Equity,2013-04-03,2008-04-03,2013-04-03
+SA_205,bankrupt,2013-09-17,FFNTQ,FriendFinder Networks Inc.,,,FFNTQ US Equity,2013-06-19,2008-06-19,2013-06-19
+SA_161,bankrupt,2013-09-27,GHSEQ,"GateHouse Media, Inc.",,,1917175D US Equity,2013-06-29,2008-06-29,2013-06-29
+SA_41,bankrupt,2014-03-23,DOLNQ,Dolan Company,,,DOLNQ US Equity,2013-12-23,2008-12-23,2013-12-23
+SA_137,bankrupt,2014-04-11,CWTRQ,Coldwater Creek Inc.,,,CWTRQ US Equity,2014-01-11,2009-01-11,2014-01-11
+SA_76,bankrupt,2015-02-05,RSHCQ,RadioShack Corporation,,,RSHCQ US Equity,2014-11-07,2009-11-07,2014-11-07
+SA_191,bankrupt,2015-03-03,CDVIQ,"Cal Dive International, Inc.",,,CDVIQ US Equity,2014-12-03,2009-12-03,2014-12-03
+SA_149,bankrupt,2015-03-12,SRCTQ,Standard Register Company,,,SRCTQ US Equity,2014-12-12,2009-12-12,2014-12-12
+SA_6,bankrupt,2015-03-17,KWKAQ,Quicksilver Resources Inc.,,,KWKAQ US Equity,2014-12-17,2009-12-17,2014-12-17
+SA_189,bankrupt,2015-05-04,COCOQ,"Corinthian Colleges, Inc.",,,COCOQ US Equity,2015-02-03,2010-02-03,2015-02-03
+SA_272,bankrupt,2015-06-25,MCPIQ,"Molycorp, Inc.",,,MCPIQ US Equity,2015-03-27,2010-03-27,2015-03-27
+SA_44,bankrupt,2015-07-15,WLTGQ,"Walter Energy, Inc.",,,WLTGQ US Equity,2015-04-16,2010-04-16,2015-04-16
+SA_82,bankrupt,2015-07-15,SOGCQ,Sabine Oil & Gas Corporation,,,SOGCQ US Equity,2015-04-16,2010-04-16,2015-04-16
+SA_221,bankrupt,2015-08-03,ANRZQ,"Alpha Natural Resources, Inc.",,,ANRZQ US Equity,2015-05-05,2010-05-05,2015-05-05
+SA_154,bankrupt,2015-08-13,HEROQ,"Hercules Offshore, Inc.",,,HEROQ US Equity,2015-05-15,2010-05-15,2015-05-15
+SA_33,bankrupt,2016-01-11,ACIIQ,"Arch Coal, Inc.",,,ARCH US Equity,2015-10-13,2010-10-13,2015-10-13
+SA_276,bankrupt,2016-02-08,NORNQ,Noranda Aluminum Holding Corporation,,,NORNQ US Equity,2015-11-10,2010-11-10,2015-11-10
+SA_174,bankrupt,2016-02-25,RJETQ,Republic Airways Holdings Inc.,,,RJETQ US Equity,2015-11-27,2010-11-27,2015-11-27
+SA_55,bankrupt,2016-04-21,SUNEQ,"SunEdison, Inc.",,,SUNEQ US Equity,2016-01-22,2011-01-22,2016-01-22
+SA_116,bankrupt,2016-04-29,UPLCQ,Ultra Petroleum Corp. (2016),,,UPLCQ US Equity,2016-01-30,2011-01-30,2016-01-30
+SA_180,bankrupt,2016-05-02,FWMHQ,Fairway Group Holdings Corp.,,,FWMHQ US Equity,2016-02-02,2011-02-02,2016-02-02
+SA_224,bankrupt,2016-05-04,AROPQ,"Aeropostale, Inc.",,,AROPQ US Equity,2016-02-04,2011-02-04,2016-02-04
+SA_256,bankrupt,2016-05-15,BBEPQ,Breitburn Energy Partners LP,,,BBEPQ US Equity,2016-02-15,2011-02-15,2016-02-15
+SA_282,bankrupt,2016-05-16,SDOCQ,"SandRidge Energy, Inc.",,,SD US Equity,2016-02-16,2011-02-16,2016-02-16
+SA_109,bankrupt,2016-06-07,SSEIQ,Seventy Seven Energy Inc.,,,SSEIQ US Equity,2016-03-09,2011-03-09,2016-03-09
+SA_192,bankrupt,2016-07-27,HKRSQ,Halcon Resources Corporation,,,HKRSQ US Equity,2016-04-28,2011-04-28,2016-04-28
+SA_304,bankrupt,2016-08-01,ISHCQ,International Shipholding Corporation,,,ISHCQ US Equity,2016-05-03,2011-05-03,2016-05-03
+SA_81,bankrupt,2016-09-16,ESINQ,"ITT Educational Services, Inc.",,,ESINQ US Equity,2016-06-18,2011-06-18,2016-06-18
+SA_14,bankrupt,2016-10-25,BASXQ,"Basic Energy Services, Inc. (2016)",,,BASXQ US Equity,2016-07-27,2011-07-27,2016-07-27
+SA_257,bankrupt,2017-01-16,MEMPQ,Memorial Production Partners LP,,,0618563D US Equity,2016-10-18,2011-10-18,2016-10-18
+SA_83,bankrupt,2017-01-30,AZURQ,"Azure Midstream Partners, LP",,,0862978D US Equity,2016-11-01,2011-11-01,2016-11-01
+SA_15,bankrupt,2017-05-01,NESCQ,"Nuverra Environmental Solutions, Inc.",,,NES US Equity,2017-01-31,2012-01-31,2017-01-31
+SA_159,bankrupt,2017-05-17,GLFMQ,"GulfMark Offshore, Inc.",,,GLF US Equity,2017-02-16,2012-02-16,2017-02-16
+SA_236,bankrupt,2017-08-26,PERFQ,"Perfumania Holdings, Inc.",,,PERFQ US Equity,2017-05-28,2012-05-28,2017-05-28
+SA_35,bankrupt,2017-11-29,CMLSQ,Cumulus Media Inc.,,,CMLSQ US Equity,2017-08-31,2012-08-31,2017-08-31
+SA_292,bankrupt,2017-12-14,CIEIQ,"Cobalt International Energy, Inc.",,,CIEIQ US Equity,2017-09-15,2012-09-15,2017-09-15
+SA_62,bankrupt,2017-12-19,RTKHQ,"Rentech, Inc.",,,RTKHQ US Equity,2017-09-20,2012-09-20,2017-09-20
+SA_232,bankrupt,2018-01-15,XCOOQ,"EXCO Resources, Inc.",,,XCOOQ US Equity,2017-10-17,2012-10-17,2017-10-17
+SA_151,bankrupt,2018-02-02,CVOVQ,"Cenveo, Inc.",,,CVOVQ US Equity,2017-11-04,2012-11-04,2017-11-04
+SA_250,bankrupt,2018-03-12,OREXQ,"Orexigen Therapeutics, Inc.",,,OREXQ US Equity,2017-12-12,2012-12-12,2017-12-12
+SA_46,bankrupt,2018-05-18,REXXQ,Rex Energy Corporation,,,REXXQ US Equity,2018-02-17,2013-02-17,2018-02-17
+SA_288,bankrupt,2018-10-15,SHLDQ,Sears Holdings Corporation,,,SHLDQ US Equity,2018-07-17,2013-07-17,2018-07-17
+SA_112,bankrupt,2018-10-31,GSTCQ,Gastar Exploration Inc.,,,GSTCQ US Equity,2018-08-02,2013-08-02,2018-08-02
+SA_199,bankrupt,2018-12-12,PKDSQ,Parker Drilling Company,,,PKDC US Equity,2018-09-13,2013-09-13,2018-09-13
+SA_289,bankrupt,2019-02-25,WINMQ,"Windstream Holdings, Inc. (Windstream Services, LLC)",,,WINMQ US Equity,2018-11-27,2013-11-27,2018-11-27
+SA_69,bankrupt,2019-03-14,PHIIQ,"PHI, Inc.",,,PHIIQ US Equity,2018-12-14,2013-12-14,2018-12-14
+SA_194,bankrupt,2019-04-01,TISUQ,Orchids Paper Products Company,,,TISUQ US Equity,2019-01-01,2014-01-01,2019-01-01
+SA_227,bankrupt,2019-04-14,JONEQ,"Jones Energy, Inc.",,,JONEQ US Equity,2019-01-14,2014-01-14,2019-01-14
+SA_50,bankrupt,2019-05-10,CLDPQ,Cloud Peak Energy Inc.,,,CLDPQ US Equity,2019-02-09,2014-02-09,2019-02-09
+SA_193,bankrupt,2019-05-11,BRSWQ,Bristow Group Inc.,,,BRSWQ US Equity,2019-02-10,2014-02-10,2019-02-10
+SA_218,bankrupt,2019-06-18,LGCYQ,Legacy Reserves Inc.,,,LGCYQ US Equity,2019-03-20,2014-03-20,2019-03-20
+SA_241,bankrupt,2019-08-11,SNECQ,Sanchez Energy Corporation,,,SNECQ US Equity,2019-05-13,2014-05-13,2019-05-13
+SA_104,bankrupt,2019-10-03,EPEGQ,EP Energy Corporation (EP Energy LLC),,,EPEGQ US Equity,2019-07-05,2014-07-05,2019-07-05
+SA_270,bankrupt,2019-10-21,NRTSF,Nobilis Health Corp.,,,NRTSF US Equity,2019-07-23,2014-07-23,2019-07-23
+SA_2,bankrupt,2019-11-18,AREXQ,Approach Resources Inc.,,,AREXQ US Equity,2019-08-20,2014-08-20,2019-08-20
+SA_119,bankrupt,2020-01-21,MDRIQ,"McDermott International, Inc.",,,MDRIQ US Equity,2019-10-23,2014-10-23,2019-10-23
+SA_252,bankrupt,2020-02-17,PIRRQ,"Pier 1 Imports, Inc.",,,PIRRQ US Equity,2019-11-19,2014-11-19,2019-11-19
+SA_214,bankrupt,2020-03-10,FELPQ,Foresight Energy LP,,,FELPQ US Equity,2019-12-11,2014-12-11,2019-12-11
+SA_262,bankrupt,2020-04-07,QHCCQ,Quorum Health Corporation,,,QHCCQ US Equity,2020-01-08,2015-01-08,2020-01-08
+SA_198,bankrupt,2020-05-18,CTRCQ,Centric Brands Inc.,,,CTRCQ US Equity,2020-02-18,2015-02-18,2020-02-18
+SA_56,bankrupt,2020-05-19,HOSSQ,"Hornbeck Offshore Services, Inc.",,,HOS US Equity,2020-02-19,2015-02-19,2020-02-19
+SA_144,bankrupt,2020-05-20,AKRXQ,"Akorn, Inc.",,,AKRXQ US Equity,2020-02-20,2015-02-20,2020-02-20
+SA_298,bankrupt,2020-05-27,TUEMQ,Tuesday Morning Corporation,,,TUEMQ US Equity,2020-02-27,2015-02-27,2020-02-27
+SA_31,bankrupt,2020-06-01,LBYYQ,Libbey Inc.,,,LBYYQ US Equity,2020-03-03,2015-03-03,2020-03-03
+SA_188,bankrupt,2020-06-15,PYXSQ,"Pyxus International, Inc.",,,PYXSQ US Equity,2020-03-17,2015-03-17,2020-03-17
+SA_231,bankrupt,2020-06-20,AACH,"AAC Holdings, Inc.",,,AACH US Equity,2020-03-22,2015-03-22,2020-03-22
+SA_8,bankrupt,2020-06-23,GNCIQ,"GNC Holdings, Inc.",,,GNCIQ US Equity,2020-03-25,2015-03-25,2020-03-25
+SA_286,bankrupt,2020-06-24,JASNQ,"Jason Industries, Inc.",,,JASNQ US Equity,2020-03-26,2015-03-26,2020-03-26
+SA_100,bankrupt,2020-06-29,CVIAQ,Covia Holdings Corporation,,,CVIAQ US Equity,2020-03-31,2015-03-31,2020-03-31
+SA_95,bankrupt,2020-07-12,HCRSQ,Hi-Crush Inc.,,,HCRSQ US Equity,2020-04-13,2015-04-13,2020-04-13
+SA_244,bankrupt,2020-07-15,CRCQQ,California Resources Corporation,,,CRC US Equity,2020-04-16,2015-04-16,2020-04-16
+SA_38,bankrupt,2020-07-26,ROSEQ,Rosehill Resources Inc.,,,ROSUQ US Equity,2020-04-27,2015-04-27,2020-04-27
+SA_226,bankrupt,2020-08-02,TLRDQ,"Tailored Brands, Inc.",,,TLRDQ US Equity,2020-05-04,2015-05-04,2020-05-04
+SA_111,bankrupt,2020-09-30,LONEQ,Lonestar Resources US Inc.,,,1478868D US Equity,2020-07-02,2015-07-02,2020-07-02
+SA_54,bankrupt,2021-08-31,SQBGQ,"Sequential Brands Group, Inc.",,,SQBGQ US Equity,2021-06-02,2016-06-02,2021-06-02
+SA_11,bankrupt,2022-12-11,CLVSQ,"Clovis Oncology, Inc.",,,CLVSQ US Equity,2022-09-12,2017-09-12,2022-09-12
+SA_184,bankrupt,2024-08-06,TWOUQ,2u Inc,,,TWOUQ US Equity,2024-05-08,2019-05-08,2024-05-08
+SA_156,bankrupt,2024-08-07,VBIV,Vbi Vaccines Inc,,,VBIVQ US Equity,2024-05-09,2019-05-09,2024-05-09
+SA_294,bankrupt,2024-08-09,LLFLQ,Ll Flooring Holdings Inc,,,LLFLQ US Equity,2024-05-11,2019-05-11,2024-05-11
+SA_303,bankrupt,2024-08-15,SPWRQ,Sunpower Corp,,,SPWRQ US Equity,2024-05-17,2019-05-17,2024-05-17
+SA_275,bankrupt,2024-08-20,MMATQ,Meta Materials Inc,,,MMATQ US Equity,2024-05-22,2019-05-22,2024-05-22
+SA_200,bankrupt,2024-09-09,BIGGQ,Big Lots Inc,,,BIGGQ US Equity,2024-06-11,2019-06-11,2024-06-11
+SA_21,bankrupt,2024-09-17,TUPBQ,Tupperware Brands Corp,,,TUPBQ US Equity,2024-06-19,2019-06-19,2024-06-19
+SA_24,bankrupt,2024-09-17,EGIOQ,Edgio Inc,,,EGIOQ US Equity,2024-06-19,2019-06-19,2024-06-19
+SA_48,bankrupt,2024-09-18,BGXXQ,Bright Green Corp,,,BGXXQ US Equity,2024-06-20,2019-06-20,2024-06-20
+SA_60,bankrupt,2024-09-18,SMFL,Smart For Life Inc,,,SMFL US Equity,2024-06-20,2019-06-20,2024-06-20
+SA_230,bankrupt,2024-09-20,BFICQ,Burgerfi International Inc,,,BFICQ US Equity,2024-06-22,2019-06-22,2024-06-22
+SA_73,bankrupt,2024-10-03,EVVAQ,Enviva Inc,,,EVVAQ US Equity,2024-07-05,2019-07-05,2024-07-05
+SA_42,bankrupt,2024-10-07,VTNRQ,Vertex Energy Inc,,,VTNRQ US Equity,2024-07-09,2019-07-09,2024-07-09
+SA_30,bankrupt,2024-10-21,GRTSQ,Gritstone Bio Inc,,,GRTSQ US Equity,2024-07-23,2019-07-23,2024-07-23
+SA_208,bankrupt,2024-10-30,VEVMQ,Vicinity Motor Corp,,,VEVMQ US Equity,2024-08-01,2019-08-01,2024-08-01
+SA_132,bankrupt,2024-11-18,SAVEQ,Spirit Airlines Inc,,,SAVEQ US Equity,2024-08-20,2019-08-20,2024-08-20
+SA_242,bankrupt,2024-11-21,VINOQ,Gaucho Group Holdings Inc,,,VINO US Equity,2024-08-23,2019-08-23,2024-08-23
+SA_133,bankrupt,2024-11-27,CMAXQ,Caremax Inc,,,CMAXQ US Equity,2024-08-29,2019-08-29,2024-08-29
+SA_110,bankrupt,2024-12-05,ENGC,Englobal Corp,,,ENGCQ US Equity,2024-09-06,2019-09-06,2024-09-06
+SA_157,bankrupt,2024-12-05,MONDQ,Mondee Holdings Inc,,,MOND US Equity,2024-09-06,2019-09-06,2024-09-06
+SA_181,bankrupt,2024-12-09,TCSGQ,Container Store Group Inc,,,TCSGQ US Equity,2024-09-10,2019-09-10,2024-09-10
+SA_67,bankrupt,2024-12-12,TFFP,Tff Pharmaceuticals Inc,,,TFFP US Equity,2024-09-13,2019-09-13,2024-09-13
+SA_177,bankrupt,2024-12-17,AKTSQ,Akoustis Technologies Inc,,,AKTSQ US Equity,2024-09-18,2019-09-18,2024-09-18
+SA_281,bankrupt,2024-12-17,LEVGQ,Lion Electric Co.,,,LEVGQ US Equity,2024-09-18,2019-09-18,2024-09-18
+SA_213,bankrupt,2024-12-19,BSFC,Blue Star Foods Corp,,,BSFC US Equity,2024-09-20,2019-09-20,2024-09-20
+SA_259,bankrupt,2024-12-24,MTEM,Molecular Templates Inc,,,MTEMQ US Equity,2024-09-25,2019-09-25,2024-09-25
+SA_258,bankrupt,2024-12-30,DNMRQ,Danimer Scientific Inc,,,DNMRQ US Equity,2024-10-01,2019-10-01,2024-10-01
+SA_175,bankrupt,2024-12-31,AILEQ,Ilearningengines Inc,,,AILEQ US Equity,2024-10-02,2019-10-02,2024-10-02
+SA_124,bankrupt,2025-01-28,GOEVQ,Canoo Inc,,,GOEVQ US Equity,2024-10-30,2019-10-30,2024-10-30
+SA_233,bankrupt,2025-01-30,HYZN,Hyzon Motors Inc,,,1837938D US Equity,2024-11-01,2019-11-01,2024-11-01
+SA_260,bankrupt,2025-02-14,AVGR,Avinger Inc,,,AVGR US Equity,2024-11-16,2019-11-16,2024-11-16
+SA_261,bankrupt,2025-02-18,BPTH,Bio-path Holdings Inc,,,BPTH US Equity,2024-11-20,2019-11-20,2024-11-20
+SA_170,bankrupt,2025-02-24,OMGAQ,Omega Therapeutics Inc,,,OMGAQ US Equity,2024-11-26,2019-11-26,2024-11-26
+SA_204,bankrupt,2025-02-25,NKLAQ,Nikola Corp,,,NKLAQ US Equity,2024-11-27,2019-11-27,2024-11-27
+SA_66,bankrupt,2025-03-04,CRKN,Crown Electrokinetics Corp,,,CRKN US Equity,2024-12-04,2019-12-04,2024-12-04
+SA_169,bankrupt,2025-03-12,CUTRQ,Cutera Inc,,,CUTRQ US Equity,2024-12-12,2019-12-12,2024-12-12
+SA_279,bankrupt,2025-03-18,ATXI,Avenue Therapeutics Inc,,,ATXI US Equity,2024-12-18,2019-12-18,2024-12-18
+SA_228,bankrupt,2025-03-25,BACK,Imac Holdings Inc,,,BACK US Equity,2024-12-25,2019-12-25,2024-12-25
+SA_284,bankrupt,2025-03-26,BHILQ,Benson Hill Inc,,,BHILQ US Equity,2024-12-26,2019-12-26,2024-12-26
+SA_43,bankrupt,2025-03-28,LKCOF,Luokung Technology Corp,,,LKCOF US Equity,2024-12-28,2019-12-28,2024-12-28
+SA_141,bankrupt,2025-04-04,VRPX,Virpax Pharmaceuticals Inc,,,VRPX US Equity,2025-01-04,2020-01-04,2025-01-04
+SA_196,bankrupt,2025-04-21,SCPX,Scorpius Holdings Inc,,,SCPX US Equity,2025-01-21,2020-01-21,2025-01-21
+SA_291,bankrupt,2025-04-21,AIEV,Thunder Power Holdings Inc,,,AIEV US Equity,2025-01-21,2020-01-21,2025-01-21
+SA_273,bankrupt,2025-04-22,VINC,Vincerx Pharma Inc,,,VINC US Equity,2025-01-22,2020-01-22,2025-01-22
+SA_197,bankrupt,2025-05-14,AXDXQ,Accelerate Diagnostics Inc,,,AXDXQ US Equity,2025-02-13,2020-02-13,2025-02-13
+SA_217,bankrupt,2025-05-21,ICCT,Icoreconnect Inc,,,ICCT US Equity,2025-02-20,2020-02-20,2025-02-20
+SA_103,bankrupt,2025-06-10,NOVA,Sunnova Energy International Inc,,,NOVAQ US Equity,2025-03-12,2020-03-12,2025-03-12
+SA_278,bankrupt,2025-06-20,FMTOF,Femto Technologies Inc,,,FMTOF US Equity,2025-03-22,2020-03-22,2025-03-22
+SA_195,bankrupt,2025-06-25,MRINQ,Marin Software Inc,,,MRINQ US Equity,2025-03-27,2020-03-27,2025-03-27
+SA_216,bankrupt,2025-07-29,PETXQ,Wag! Group Co.,,,PETXQ US Equity,2025-04-30,2020-04-30,2025-04-30
+SA_246,bankrupt,2025-08-05,SANW,S&w Seed Co.,,,SANW US Equity,2025-05-07,2020-05-07,2025-05-07
+SA_28,bankrupt,2025-08-05,THRD,Third Harmonic Bio Inc,,,2617273D US Equity,2025-05-07,2020-05-07,2025-05-07
+SA_152,bankrupt,2025-08-08,HOOK,Hookipa Pharma Inc,,,HOOK US Equity,2025-05-10,2020-05-10,2025-05-10
+SA_254,bankrupt,2025-08-12,FOXO,Foxo Technologies Inc,,,FOXO US Equity,2025-05-14,2020-05-14,2025-05-14
+SA_168,bankrupt,2025-08-15,OTRKQ,Ontrak Inc,,,OTRKQ US Equity,2025-05-17,2020-05-17,2025-05-17
+SA_23,bankrupt,2025-08-18,TPIC,Tpi Composites Inc,,,TPICQ US Equity,2025-05-20,2020-05-20,2025-05-20
+SA_61,bankrupt,2025-08-28,MODVQ,Modivcare Inc,,,MODVQ US Equity,2025-05-30,2020-05-30,2025-05-30
+SA_12,bankrupt,2025-09-03,FLYYQ,Spirit Aviation Holdings Inc,,,FLYYQ US Equity,2025-06-05,2020-06-05,2025-06-05
+SA_85,bankrupt,2025-10-24,FPAYQ,Flexshopper Inc,,,FPAYQ US Equity,2025-07-26,2020-07-26,2025-07-26
+SA_91,bankrupt,2025-10-28,AMBIQ,Ambipar Emergency Response,,,AMBIQ US Equity,2025-07-30,2020-07-30,2025-07-30
+SA_128,bankrupt,2025-11-21,SONDQ,Sonder Holdings Inc,,,SONDQ US Equity,2025-08-23,2020-08-23,2025-08-23
+SA_107,bankrupt,2025-11-25,NETD,Nabors Energy Transition Corp Ii,,,NETC US Equity,2025-08-27,2020-08-27,2025-08-27
+SA_19,bankrupt,2025-11-26,GORV,Lazydays Holdings Inc,,,GORV US Equity,2025-08-28,2020-08-28,2025-08-28
+SA_138,bankrupt,2025-11-28,CLSDQ,Clearside Biomedical Inc,,,CLSDQ US Equity,2025-08-30,2020-08-30,2025-08-30
+SA_210,bankrupt,2025-12-12,BLMZF,Harrison Global Holdings Inc,,,BLMZF US Equity,2025-09-13,2020-09-13,2025-09-13
+SA_249,bankrupt,2025-12-19,IRBTQ,Irobot Corp,,,IRBTQ US Equity,2025-09-20,2020-09-20,2025-09-20
+SA_293,bankrupt,2025-12-23,ZYXIQ,Zynex Inc,,,ZYXIQ US Equity,2025-09-24,2020-09-24,2025-09-24
+SA_306,bankrupt,2025-12-23,LAZRQ,Luminar Technologies Inc,,,1707890D US Equity,2025-09-24,2020-09-24,2025-09-24
+SA_16,bankrupt,2026-01-15,ECDA,Ecd Automotive Design Inc,,,ECDA US Equity,2025-10-17,2020-10-17,2025-10-17
+SA_201,bankrupt,2026-01-20,IVPR,Inspire Veterinary Partners Inc,,,IVPR US Equity,2025-10-22,2020-10-22,2025-10-22
+SA_300,bankrupt,2026-01-30,NINEQ,Nine Energy Service Inc,,,NINE US Equity,2025-11-01,2020-11-01,2025-11-01
+SA_1,bankrupt,2026-02-03,TWNPQ,Twin Hospitality Group Inc,,,TWNPQ US Equity,2025-11-05,2020-11-05,2025-11-05
+SA_147,bankrupt,2026-02-03,FATAQ,Fat Brands Inc,,,FATAQ US Equity,2025-11-05,2020-11-05,2025-11-05
+SA_101,bankrupt,2026-03-13,BHATF,Blue Hat Interactive Entertainment Technology,,,BHATF US Equity,2025-12-13,2020-12-13,2025-12-13
+SA_167,bankrupt,2026-04-06,IOBTQ,Io Biotech Inc,,,IOBTQ US Equity,2026-01-06,2021-01-06,2026-01-06
+SA_98,bankrupt,2026-04-24,QVCAQ,Qvc Group Inc,,,QVCG US Equity,2026-01-24,2021-01-24,2026-01-24
+SA_245,bankrupt,2026-05-12,AREB,American Rebel Holdings Inc,,,AREB US Equity,2026-02-11,2021-02-11,2026-02-11
+SA_37,bankrupt,2026-05-20,SOPAQ,Society Pass Incorporated,,,SOPAQ US Equity,2026-02-19,2021-02-19,2026-02-19
+SA_183,bankrupt,2026-06-10,NOTVQ,Inotiv Inc,,,NOTVQ US Equity,2026-03-12,2021-03-12,2026-03-12
+SA_229,bankrupt,2026-06-15,GOCOQ,Gohealth Inc,,,GOCOQ US Equity,2026-03-17,2021-03-17,2026-03-17
+SA_146,bankrupt,2026-06-22,SNBRQ,Sleep Number Corp,,,SNBRQ US Equity,2026-03-24,2021-03-24,2026-03-24
+SA_301,bankrupt,2026-06-23,DEVSF,Devvstream Corp,,,DEVSF US Equity,2026-03-25,2021-03-25,2026-03-25
+SA_63,bankrupt,2026-06-24,ADTX,Aditxt Inc,,,ADTX US Equity,2026-03-26,2021-03-26,2026-03-26
+SA_148,bankrupt,2026-07-01,ORGN,Origin Materials Inc,,,ORGN US Equity,2026-04-02,2021-04-02,2026-04-02
+SA_269,bankrupt,2026-07-31,GVHGF,Visionary Holdings Inc,,,GVHGF US Equity,2026-05-02,2021-05-02,2026-05-02
+NB_1092,nonbankrupt,,FBIN,Fortune Brands Innovations Inc. Common Stock,Basic Materials,Forest Products,FBIN US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2950,nonbankrupt,,TROX,Tronox Holdings plc Ordinary Shares (UK),Basic Materials,Major Chemicals,TROX US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_3043,nonbankrupt,,USAU,U.S. Gold Corp. Common Stock,Basic Materials,Metal Mining,USAU US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1533,nonbankrupt,,IPX,IperionX Limited American Depositary Share,Basic Materials,Other Metals and Minerals,IPX US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_658,nonbankrupt,,CLW,Clearwater Paper Corporation Common Stock,Basic Materials,Paper,CLW US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_772,nonbankrupt,,CTGO,Contango Silver & Gold Inc. Common Stock,Basic Materials,Precious Metals,CTGO US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_202,nonbankrupt,,ANGI,Angi Inc. Class A Common Stock,Consumer Discretionary,Advertising,ANGI US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1572,nonbankrupt,,JBLU,JetBlue Airways Corporation Common Stock,Consumer Discretionary,Air Freight/Delivery Services,JBLU US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2900,nonbankrupt,,TLF,Tandy Leather Factory Inc. Common Stock,Consumer Discretionary,Apparel,TLF US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_5,nonbankrupt,,AAP,Advance Auto Parts Inc.,Consumer Discretionary,Auto & Home Supply Stores,AAP US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_798,nonbankrupt,,CVGI,Commercial Vehicle Group Inc. Common Stock,Consumer Discretionary,Auto Parts:O.E.M.,CVGI US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1059,nonbankrupt,,EVGO,EVgo Inc. Class A Common Stock,Consumer Discretionary,Automotive Aftermarket,EVGO US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2602,nonbankrupt,,SCHL,Scholastic Corporation Common Stock,Consumer Discretionary,Books,SCHL US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_3032,nonbankrupt,,UONE,Urban One Inc. Class A Common Stock,Consumer Discretionary,Broadcasting,UONE US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_728,nonbankrupt,,CPSH,CPS Technologies Corp. Common Stock,Consumer Discretionary,Building Materials,CPSH US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_973,nonbankrupt,,EFOI,Energy Focus Inc. Common Stock,Consumer Discretionary,Building Products,EFOI US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_45,nonbankrupt,,ACVA,ACV Auctions Inc. Class A Common Stock,Consumer Discretionary,Business Services,ACVA US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_3170,nonbankrupt,,WEX,WEX Inc. common stock,Consumer Discretionary,Business Services,WEX US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_3278,nonbankrupt,,Z,Zillow Group Inc. Class C Capital Stock,Consumer Discretionary,Business Services,Z US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_196,nonbankrupt,,AMZN,Amazon.com Inc. Common Stock,Consumer Discretionary,Catalog/Specialty Distribution,AMZN US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2529,nonbankrupt,,ROST,Ross Stores Inc. Common Stock,Consumer Discretionary,Clothing/Shoe/Accessory Stores,ROST US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_432,nonbankrupt,,BLBD,Blue Bird Corporation Common Stock,Consumer Discretionary,Construction/Ag Equipment/Trucks,BLBD US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_711,nonbankrupt,,COOK,Traeger Inc. Common Stock,Consumer Discretionary,Consumer Electronics/Appliances,COOK US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_372,nonbankrupt,,BBY,Best Buy Co. Inc. Common Stock,Consumer Discretionary,Consumer Electronics/Video Chains,BBY US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2035,nonbankrupt,,NHTC,Natural Health Trends Corp. Common Stock,Consumer Discretionary,Consumer Specialties,NHTC US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2743,nonbankrupt,,SON,Sonoco Products Company Common Stock,Consumer Discretionary,Containers/Packaging,SON US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1803,nonbankrupt,,M,Macy's Inc Common Stock,Consumer Discretionary,Department/Specialty Retail Stores,M US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_13,nonbankrupt,,ABM,ABM Industries Incorporated Common Stock,Consumer Discretionary,Diversified Commercial Services,ABM US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_79,nonbankrupt,,AENT,Alliance Entertainment Holding Corporation Class A Common Stock,Consumer Discretionary,Durable Goods,AENT US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1263,nonbankrupt,,GME,GameStop Corporation Common Stock,Consumer Discretionary,Electronics Distribution,GME US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_186,nonbankrupt,,AMRC,Ameresco Inc. Class A Common Stock,Consumer Discretionary,Engineering & Construction,AMRC US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_3028,nonbankrupt,,UNFI,United Natural Foods Inc. Common Stock,Consumer Discretionary,Food Distributors,UNFI US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2931,nonbankrupt,,TPC,Tutor Perini Corporation Common Stock,Consumer Discretionary,General Bldg Contractors - Nonresidential Bldgs,TPC US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_170,nonbankrupt,,AMCI,AMC Robotics Corporation Common Stock,Consumer Discretionary,Home Furnishings,AMCI US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1710,nonbankrupt,,LGIH,LGI Homes Inc. Common Stock,Consumer Discretionary,Homebuilding,LGIH US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1357,nonbankrupt,,HGV,Hilton Grand Vacations Inc. Common Stock,Consumer Discretionary,Hotels/Resorts,HGV US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2833,nonbankrupt,,SWK,Stanley Black & Decker Inc. Common Stock,Consumer Discretionary,Industrial Machinery/Components,SWK US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_3091,nonbankrupt,,VIRC,Virco Manufacturing Corporation Common Stock,Consumer Discretionary,Industrial Specialties,VIRC US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2868,nonbankrupt,,TDW,Tidewater Inc. Common Stock,Consumer Discretionary,Marine Transportation,TDW US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1112,nonbankrupt,,FELE,Franklin Electric Co. Inc. Common Stock,Consumer Discretionary,Metal Fabrications,FELE US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_27,nonbankrupt,,ACFN,Acorn Energy Inc. Common Stock,Consumer Discretionary,Military/Government/Technical,ACFN US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_835,nonbankrupt,,DAKT,Daktronics Inc. Common Stock,Consumer Discretionary,Miscellaneous manufacturing industries,DAKT US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1159,nonbankrupt,,FOXF,Fox Factory Holding Corp. Common Stock,Consumer Discretionary,Motor Vehicles,FOXF US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2812,nonbankrupt,,STRZ,Starz Entertainment Corp. Common Shares,Consumer Discretionary,Movies/Entertainment,STRZ US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_885,nonbankrupt,,DJCO,Daily Journal Corp. (S.C.) Common Stock,Consumer Discretionary,Newspapers/Magazines,DJCO US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_959,nonbankrupt,,EBF,Ennis Inc. Common Stock,Consumer Discretionary,Office Equipment/Supplies/Services,EBF US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_3173,nonbankrupt,,WFRD,Weatherford International plc Ordinary Shares,Consumer Discretionary,Oil and Gas Field Machinery,WFRD US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1061,nonbankrupt,,EVI,EVI Industries Inc.  Common Stock,Consumer Discretionary,Other Consumer Services,EVI US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1144,nonbankrupt,,FLWS,1-800-FLOWERS.COM Inc. Common Stock,Consumer Discretionary,Other Specialty Stores,FLWS US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_456,nonbankrupt,,BNKK,Bonk Inc. Common Stock,Consumer Discretionary,Package Goods/Cosmetics,BNKK US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_340,nonbankrupt,,AXTA,Axalta Coating Systems Ltd. Common Shares,Consumer Discretionary,Paints/Coatings,AXTA US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1392,nonbankrupt,,HQI,HireQuest Inc. Common Stock (DE),Consumer Discretionary,Professional Services,HQI US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2672,nonbankrupt,,SITE,SiteOne Landscape Supply Inc. Common Stock,Consumer Discretionary,Professional and commerical equipment,SITE US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_22,nonbankrupt,,ACCO,Acco Brands Corporation Common Stock,Consumer Discretionary,Publishing,ACCO US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1575,nonbankrupt,,JCTC,Jewett-Cameron Trading Company Common Shares,Consumer Discretionary,RETAIL: Building Materials,JCTC US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1584,nonbankrupt,,JOUT,Johnson Outdoors Inc. Class A Common Stock,Consumer Discretionary,Recreational Games/Products/Toys,JOUT US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1411,nonbankrupt,,HTZ,Hertz Global Holdings Inc Common Stock,Consumer Discretionary,Rental/Leasing Companies,HTZ US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1787,nonbankrupt,,LVO,LiveOne Inc. Common Stock,Consumer Discretionary,Restaurants,LVO US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2651,nonbankrupt,,SHAK,Shake Shack Inc. Class A Common Stock,Consumer Discretionary,Restaurants,SHAK US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_12,nonbankrupt,,ABG,Asbury Automotive Group Inc Common Stock,Consumer Discretionary,Retail-Auto Dealers and Gas Stations,ABG US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_3196,nonbankrupt,,WMG,Warner Music Group Corp. Class A Common Stock,Consumer Discretionary,Services-Misc. Amusement & Recreation,WMG US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_531,nonbankrupt,,CAL,Caleres Inc. Common Stock,Consumer Discretionary,Shoe Manufacturing,CAL US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_273,nonbankrupt,,ASH,Ashland Inc. Common Stock,Consumer Discretionary,Specialty Chemicals,ASH US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_284,nonbankrupt,,ASTS,AST SpaceMobile Inc. Class A Common Stock,Consumer Discretionary,Telecommunications Equipment,ASTS US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_113,nonbankrupt,,AIN,Albany International Corporation Common Stock,Consumer Discretionary,Textiles,AIN US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2930,nonbankrupt,,TPB,Turning Point Brands Inc. Common Stock,Consumer Discretionary,Tobacco,TPB US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2964,nonbankrupt,,TTC,Toro Company (The) Common Stock,Consumer Discretionary,Tools/Hardware,TTC US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2564,nonbankrupt,,RXO,RXO Inc. Common Stock,Consumer Discretionary,Transportation Services,RXO US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_511,nonbankrupt,,BXC,Bluelinx Holdings Inc. Common Stock,Consumer Discretionary,Wholesale Distributors,BXC US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_3171,nonbankrupt,,WEYS,Weyco Group Inc. Common Stock,Consumer Staples,Apparel,WEYS US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_190,nonbankrupt,,AMSS,AMASS Brands Inc. Common Stock,Consumer Staples,Beverages (Production/Distribution),AMSS US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1272,nonbankrupt,,GNSS,Genasys Inc. Common Stock,Consumer Staples,Consumer Electronics/Appliances,GNSS US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2569,nonbankrupt,,RYM,RYTHM Inc. Common Stock,Consumer Staples,Farming/Seeds/Milling,RYM US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_3197,nonbankrupt,,WMK,Weis Markets Inc. Common Stock,Consumer Staples,Food Chains,WMK US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1397,nonbankrupt,,HRL,Hormel Foods Corporation Common Stock,Consumer Staples,Meat/Poultry/Fish,HRL US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2709,nonbankrupt,,SMPL,The Simply Good Foods Company Common Stock,Consumer Staples,Packaged Foods,SMPL US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_807,nonbankrupt,,CVS,CVS Health Corporation Common Stock,Consumer Staples,Retail-Drug Stores and Proprietary Stores,CVS US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_473,nonbankrupt,,BRID,Bridgford Foods Corporation Common Stock,Consumer Staples,Specialty Foods,BRID US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2003,nonbankrupt,,NC,NACCO Industries Inc. Common Stock,Energy,Coal Mining,NC US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1866,nonbankrupt,,MGEE,MGE Energy Inc,Energy,Electric Utilities: Central,MGEE US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2337,nonbankrupt,,POWL,Powell Industries Inc. Common Stock,Energy,Electrical Products,POWL US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_386,nonbankrupt,,BE,Bloom Energy Corporation Class A Common Stock,Energy,Industrial Machinery/Components,BE US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_3098,nonbankrupt,,VLO,Valero Energy Corporation Common Stock,Energy,Integrated oil Companies,VLO US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_889,nonbankrupt,,DKL,Delek Logistics Partners L.P. Common Units representing Limited Partner Interests,Energy,Natural Gas Distribution,DKL US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_90,nonbankrupt,,AGIG,Abundia Global Impact Group Inc. Common stock,Energy,Oil & Gas Production,AGIG US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_899,nonbankrupt,,DMLP,Dorchester Minerals L.P. Common Units Representing Limited Partnership Interests,Energy,Oil & Gas Production,DMLP US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1016,nonbankrupt,,EOG,EOG Resources Inc. Common Stock,Energy,Oil & Gas Production,EOG US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1253,nonbankrupt,,GLND,Greenland Energy Company Common Stock,Energy,Oil & Gas Production,GLND US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1254,nonbankrupt,,GLNDW,Greenland Energy Company Warrant,Energy,Oil & Gas Production,GLNDW US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_219,nonbankrupt,,APC,ARKO Petroleum Corp. Class A Common Stock,Energy,Oil Refining/Marketing,APC US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2974,nonbankrupt,,TUSK,Mammoth Energy Services Inc. Common Stock,Energy,Oilfield Services/Equipment,TUSK US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_305,nonbankrupt,,ATYR,aTyr Pharma Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),ATYR US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_410,nonbankrupt,,BIIB,Biogen Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),BIIB US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_968,nonbankrupt,,EDIT,Editas Medicine Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),EDIT US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1466,nonbankrupt,,IKT,Inhibikase Therapeutics Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),IKT US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1494,nonbankrupt,,INMB,INmune Bio Inc. Common stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),INMB US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2479,nonbankrupt,,RGEN,Repligen Corporation Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),RGEN US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2555,nonbankrupt,,RVMDW,Revolution Medicines Inc. Warrant,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),RVMDW US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2606,nonbankrupt,,SCLX,Scilex Holding Company Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),SCLX US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2986,nonbankrupt,,TWST,Twist Bioscience Corporation Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),TWST US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2135,nonbankrupt,,OABI,OmniAb Inc. Common Stock,Health Care,Biotechnology: Commercial Physical & Biological Resarch,OABI US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2126,nonbankrupt,,NXL,Nexalin Technology Inc. Common Stock,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus,NXL US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2015,nonbankrupt,,NEOG,Neogen Corporation Common Stock,Health Care,Biotechnology: In Vitro & In Vivo Diagnostic Substances,NEOG US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_7,nonbankrupt,,AARD,Aardvark Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations,AARD US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_43,nonbankrupt,,ACTU,Actuate Therapeutics Inc. Common stock,Health Care,Biotechnology: Pharmaceutical Preparations,ACTU US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_132,nonbankrupt,,AKTS,Aktis Oncology Inc. Common stock,Health Care,Biotechnology: Pharmaceutical Preparations,AKTS US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_226,nonbankrupt,,APLM,Apollomics Inc. Class A Ordinary Shares,Health Care,Biotechnology: Pharmaceutical Preparations,APLM US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_267,nonbankrupt,,ARWR,Arrowhead Pharmaceuticals Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations,ARWR US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_374,nonbankrupt,,BCAX,Bicara Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations,BCAX US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_461,nonbankrupt,,BOLD,Boundless Bio Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations,BOLD US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_462,nonbankrupt,,BOLT,Bolt Biotherapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations,BOLT US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_538,nonbankrupt,,CAPR,Capricor Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations,CAPR US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_635,nonbankrupt,,CING,Cingulate Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations,CING US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_687,nonbankrupt,,CNTX,Context Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations,CNTX US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_774,nonbankrupt,,CTMX,CytomX Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations,CTMX US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1259,nonbankrupt,,GLSI,Greenwich LifeSciences Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations,GLSI US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1286,nonbankrupt,,GOSS,Gossamer Bio Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations,GOSS US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1290,nonbankrupt,,GPCR,Structure Therapeutics Inc. American Depositary Shares,Health Care,Biotechnology: Pharmaceutical Preparations,GPCR US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1398,nonbankrupt,,HRMY,Harmony Biosciences Holdings Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations,HRMY US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1474,nonbankrupt,,IMNM,Immunome Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations,IMNM US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1537,nonbankrupt,,IRD,Opus Genetics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations,IRD US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1649,nonbankrupt,,KROS,Keros Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations,KROS US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1795,nonbankrupt,,LXRX,Lexicon Pharmaceuticals Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations,LXRX US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1900,nonbankrupt,,MLTX,MoonLake Immunotherapeutics Class A Ordinary Shares,Health Care,Biotechnology: Pharmaceutical Preparations,MLTX US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2106,nonbankrupt,,NVCT,Nuvectis Pharma Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations,NVCT US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2247,nonbankrupt,,PBH,Prestige Consumer Healthcare Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations,PBH US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2367,nonbankrupt,,PRTA,Prothena Corporation plc Ordinary Shares,Health Care,Biotechnology: Pharmaceutical Preparations,PRTA US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2382,nonbankrupt,,PTGX,Protagonist Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations,PTGX US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2471,nonbankrupt,,REVBW,Revelation Biosciences Inc. Warrant,Health Care,Biotechnology: Pharmaceutical Preparations,REVBW US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2519,nonbankrupt,,RNTX,Rein Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations,RNTX US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2608,nonbankrupt,,SCNX,Scienture Holdings Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations,SCNX US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2813,nonbankrupt,,STTK,Shattuck Labs Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations,STTK US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2827,nonbankrupt,,SVRA,Savara Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations,SVRA US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2224,nonbankrupt,,PACS,PACS Group Inc. Common Stock,Health Care,Hospital/Nursing Management,PACS US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_696,nonbankrupt,,COCHW,Envoy Medical Inc Warrant,Health Care,Industrial Specialties,COCHW US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_483,nonbankrupt,,BRTX,BioRestorative Therapies Inc. Common Stock (NV),Health Care,Managed Health Care,BRTX US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1222,nonbankrupt,,GEHC,GE HealthCare Technologies Inc. Common Stock,Health Care,Medical Electronics,GEHC US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_709,nonbankrupt,,CON,Concentra Group Holdings Parent Inc. Common Stock,Health Care,Medical Specialities,CON US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1467,nonbankrupt,,ILMN,Illumina Inc. Common Stock,Health Care,Medical Specialities,ILMN US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_205,nonbankrupt,,ANIK,Anika Therapeutics Inc. Common Stock,Health Care,Medical/Dental Instruments,ANIK US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_359,nonbankrupt,,BAX,Baxter International Inc. Common Stock,Health Care,Medical/Dental Instruments,BAX US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1212,nonbankrupt,,GCTK,GlucoTrack Inc. Common Stock,Health Care,Medical/Dental Instruments,GCTK US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2016,nonbankrupt,,NEPH,Nephros Inc. Common Stock,Health Care,Medical/Dental Instruments,NEPH US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2123,nonbankrupt,,NXGL,NexGel Inc Common Stock,Health Care,Medical/Dental Instruments,NXGL US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2441,nonbankrupt,,RCEL,Avita Medical Inc. Common Stock,Health Care,Medical/Dental Instruments,RCEL US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2662,nonbankrupt,,SI,Shoulder Innovations Inc. Common Stock,Health Care,Medical/Dental Instruments,SI US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1361,nonbankrupt,,HIMS,Hims & Hers Health Inc. Class A Common Stock,Health Care,Medical/Nursing Services,HIMS US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_3047,nonbankrupt,,USNA,USANA Health Sciences Inc. Common Stock,Health Care,Medicinal Chemicals and Botanical Products,USNA US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_564,nonbankrupt,,CCEL,Cryo-Cell International Inc. Common Stock,Health Care,Misc Health and Biotechnology Services,CCEL US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_710,nonbankrupt,,COO,The Cooper Companies Inc. Common Stock,Health Care,Ophthalmic Goods,COO US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_528,nonbankrupt,,CAH,Cardinal Health Inc. Common Stock,Health Care,Other Pharmaceuticals,CAH US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_108,nonbankrupt,,AIDX,20/20 Biolabs Inc. Common Stock,Health Care,Precision Instruments,AIDX US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_30,nonbankrupt,,ACHR,Archer Aviation Inc. Class A Common Stock,Industrials,Aerospace,ACHR US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_317,nonbankrupt,,AVD,American Vanguard Corporation Common Stock ($0.10 Par Value),Industrials,Agricultural Chemicals,AVD US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_597,nonbankrupt,,CENX,Century Aluminum Company Common Stock,Industrials,Aluminum,CENX US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2958,nonbankrupt,,TSLA,Tesla Inc. Common Stock,Industrials,Auto Manufacturing,TSLA US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_0,nonbankrupt,,A,Agilent Technologies Inc. Common Stock,Industrials,Biotechnology: Laboratory Analytical Instruments,A US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2785,nonbankrupt,,SSP,E.W. Scripps Company (The) Class A Common Stock,Industrials,Broadcasting,SSP US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1073,nonbankrupt,,EXP,Eagle Materials Inc Common Stock,Industrials,Building Materials,EXP US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_505,nonbankrupt,,BW,Babcock & Wilcox Enterprises Inc. Common Stock,Industrials,Building Products,BW US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2879,nonbankrupt,,TEX,Terex Corporation Common Stock,Industrials,Construction/Ag Equipment/Trucks,TEX US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_566,nonbankrupt,,CCK,Crown Holdings Inc.,Industrials,Containers/Packaging,CCK US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1154,nonbankrupt,,FORR,Forrester Research Inc. Common Stock,Industrials,Diversified Commercial Services,FORR US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_84,nonbankrupt,,AES,The AES Corporation Common Stock,Industrials,Electric Utilities: Central,AES US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2949,nonbankrupt,,TRNS,Transcat Inc. Common Stock,Industrials,Electrical Products,TRNS US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1132,nonbankrupt,,FIX,Comfort Systems USA Inc. Common Stock,Industrials,Engineering & Construction,FIX US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_647,nonbankrupt,,CLH,Clean Harbors Inc. Common Stock,Industrials,Environmental Services,CLH US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_621,nonbankrupt,,CHSCL,CHS Inc Class B Cumulative Redeemable Preferred Stock Series 4,Industrials,Farming/Seeds/Milling,CHSCL US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_217,nonbankrupt,,AP,Ampco-Pittsburgh Corporation Common Stock,Industrials,Fluid Controls,AP US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_770,nonbankrupt,,CTAS,Cintas Corporation Common Stock,Industrials,Garments and Clothing,CTAS US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1191,nonbankrupt,,FUL,H. B. Fuller Company Common Stock,Industrials,Home Furnishings,FUL US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_3174,nonbankrupt,,WGO,Winnebago Industries Inc. Common Stock,Industrials,Homebuilding,WGO US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_4,nonbankrupt,,AAON,AAON Inc. Common Stock,Industrials,Industrial Machinery/Components,AAON US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_543,nonbankrupt,,CARR,Carrier Global Corporation Common Stock,Industrials,Industrial Machinery/Components,CARR US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_857,nonbankrupt,,DE,Deere & Company Common Stock,Industrials,Industrial Machinery/Components,DE US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2540,nonbankrupt,,RRX,Regal Rexnord Corporation Common Stock,Industrials,Industrial Machinery/Components,RRX US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2845,nonbankrupt,,SYPR,Sypris Solutions Inc. Common Stock,Industrials,Industrial Machinery/Components,SYPR US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1968,nonbankrupt,,MTRN,Materion Corporation,Industrials,Industrial Specialties,MTRN US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2501,nonbankrupt,,RLGT,Radiant Logistics Inc. Common Stock,Industrials,Integrated Freight & Logistics,RLGT US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_852,nonbankrupt,,DD,DuPont de Nemours Inc. Common Stock,Industrials,Major Chemicals,DD US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2580,nonbankrupt,,SAFX,XCF Global Inc. Class A Common Stock,Industrials,Major Chemicals,SAFX US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1360,nonbankrupt,,HII,Huntington Ingalls Industries Inc. Common Stock,Industrials,Marine Transportation,HII US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1603,nonbankrupt,,KEQU,Kewaunee Scientific Corporation Common Stock,Industrials,Medical Specialities,KEQU US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_3102,nonbankrupt,,VMI,Valmont Industries Inc. Common Stock,Industrials,Metal Fabrications,VMI US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1320,nonbankrupt,,GVA,Granite Construction Incorporated Common Stock,Industrials,Military/Government/Technical,GVA US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1849,nonbankrupt,,MDU,MDU Resources Group Inc. Common Stock (Holding Company),Industrials,Mining & Quarrying of Nonmetallic Minerals (No Fuels),MDU US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1179,nonbankrupt,,FTAIM,FTAI Aviation Ltd. 9.500% Fixed-Rate Reset Series D Cumulative Perpetual Redeemable Preferred Shares,Industrials,Misc Corporate Leasing Services,FTAIM US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1324,nonbankrupt,,GWW,W.W. Grainger Inc. Common Stock,Industrials,Office Equipment/Supplies/Services,GWW US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1091,nonbankrupt,,FBDT,First Breach Inc. Common Stock,Industrials,Ordnance And Accessories,FBDT US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1277,nonbankrupt,,GOLD,Gold.com Inc. Common Stock,Industrials,Other Specialty Stores,GOLD US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_331,nonbankrupt,,AWI,Armstrong World Industries Inc Common Stock,Industrials,Plastic Products,AWI US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_848,nonbankrupt,,DCI,Donaldson Company Inc. Common Stock,Industrials,Pollution Control Equipment,DCI US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_269,nonbankrupt,,ASA,ASA  Gold and Precious Metals Limited,Industrials,Precious Metals,ASA US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1125,nonbankrupt,,FIP,FTAI Infrastructure Inc. Common Stock,Industrials,Railroads,FIP US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_3271,nonbankrupt,,YHGJ,Yunhong Green CTI Ltd. Common Stock,Industrials,Specialty Chemicals,YHGJ US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_292,nonbankrupt,,ATI,ATI Inc. Common Stock,Industrials,Steel/Iron Ore,ATI US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_380,nonbankrupt,,BDC,Belden Inc Common Stock,Industrials,Telecommunications Equipment,BDC US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2230,nonbankrupt,,PAMT,PAMT CORP Common Stock,Industrials,Trucking Freight/Courier Services,PAMT US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_951,nonbankrupt,,DY,Dycom Industries Inc. Common Stock,Industrials,Water Sewer Pipeline Comm & Power Line Construction,DY US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2475,nonbankrupt,,REZI,Resideo Technologies Inc. Common Stock,Industrials,Wholesale Distributors,REZI US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1507,nonbankrupt,,INTG,Intergroup Corporation (The) Common Stock,Real Estate,Building operators,INTG US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1583,nonbankrupt,,JOE,St. Joe Company (The) Common Stock,Real Estate,Homebuilding,JOE US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_221,nonbankrupt,,APEI,American Public Education Inc. Common Stock,Real Estate,Other Consumer Services,APEI US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1280,nonbankrupt,,GOODN,Gladstone Commercial Corporation 6.625% Series E Cumulative Redeemable Preferred Stock,Real Estate,Real Estate,GOODN US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_53,nonbankrupt,,ADAML,Adamas Trust Inc. 6.875% Series F Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock $0.01 par value per share,Real Estate,Real Estate Investment Trusts,ADAML US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_93,nonbankrupt,,AGNC,AGNC Investment Corp. Common Stock,Real Estate,Real Estate Investment Trusts,AGNC US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_246,nonbankrupt,,ARE,Alexandria Real Estate Equities Inc. Common Stock,Real Estate,Real Estate Investment Trusts,ARE US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_894,nonbankrupt,,DLR,Digital Realty Trust Inc. Common Stock,Real Estate,Real Estate Investment Trusts,DLR US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_994,nonbankrupt,,ELS,Equity Lifestyle Properties Inc. Common Stock,Real Estate,Real Estate Investment Trusts,ELS US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1294,nonbankrupt,,GPMT,Granite Point Mortgage Trust Inc. Common Stock,Real Estate,Real Estate Investment Trusts,GPMT US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1405,nonbankrupt,,HST,Host Hotels & Resorts Inc. Common Stock,Real Estate,Real Estate Investment Trusts,HST US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1558,nonbankrupt,,IVR,INVESCO MORTGAGE CAPITAL INC Common Stock,Real Estate,Real Estate Investment Trusts,IVR US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2128,nonbankrupt,,NXRT,NexPoint Residential Trust Inc. Common Stock,Real Estate,Real Estate Investment Trusts,NXRT US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2324,nonbankrupt,,PMTV,PennyMac Mortgage Investment Trust 9.00% Senior Notes due 2030,Real Estate,Real Estate Investment Trusts,PMTV US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2559,nonbankrupt,,RWTN,Redwood Trust Inc. 9.125% Senior Notes Due 2029,Real Estate,Real Estate Investment Trusts,RWTN US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2579,nonbankrupt,,SAFE,Safehold Inc. New Common Stock,Real Estate,Real Estate Investment Trusts,SAFE US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2689,nonbankrupt,,SLG,SL Green Realty Corp Common Stock,Real Estate,Real Estate Investment Trusts,SLG US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_3087,nonbankrupt,,VICI,VICI Properties Inc. Common Stock,Real Estate,Real Estate Investment Trusts,VICI US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_3204,nonbankrupt,,WPC,W. P. Carey Inc. REIT,Real Estate,Real Estate Investment Trusts,WPC US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_3223,nonbankrupt,,WY,Weyerhaeuser Company Common Stock,Real Estate,Real Estate Investment Trusts,WY US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2702,nonbankrupt,,SMCI,Super Micro Computer Inc. Common Stock,Technology,Computer Manufacturing,SMCI US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_308,nonbankrupt,,AUID,authID Inc. Common Stock,Technology,Computer Software: Prepackaged Software,AUID US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_354,nonbankrupt,,BAND,Bandwidth Inc. Class A Common Stock,Technology,Computer Software: Prepackaged Software,BAND US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_435,nonbankrupt,,BLIN,Bridgeline Digital Inc. Common Stock,Technology,Computer Software: Prepackaged Software,BLIN US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_562,nonbankrupt,,CCC,CCC Intelligent Solutions Holdings Inc. Common Stock,Technology,Computer Software: Prepackaged Software,CCC US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_758,nonbankrupt,,CRWV,CoreWeave Inc. Class A Common Stock,Technology,Computer Software: Prepackaged Software,CRWV US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_853,nonbankrupt,,DDD,3D Systems Corporation Common Stock,Technology,Computer Software: Prepackaged Software,DDD US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1224,nonbankrupt,,GEN,Gen Digital Inc. Common Stock,Technology,Computer Software: Prepackaged Software,GEN US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2197,nonbankrupt,,ORCL,Oracle Corporation Common Stock,Technology,Computer Software: Prepackaged Software,ORCL US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2314,nonbankrupt,,PLTR,Palantir Technologies Inc. Class A Common Stock,Technology,Computer Software: Prepackaged Software,PLTR US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2729,nonbankrupt,,SNOW,Snowflake Inc. Common Stock,Technology,Computer Software: Prepackaged Software,SNOW US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2730,nonbankrupt,,SNPS,Synopsys Inc. Common Stock,Technology,Computer Software: Prepackaged Software,SNPS US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2803,nonbankrupt,,STRD,Strategy Inc 10.00% Series A Perpetual Stride Preferred Stock,Technology,Computer Software: Prepackaged Software,STRD US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_3249,nonbankrupt,,XPER,Xperi Inc. Common Stock,Technology,Computer Software: Prepackaged Software,XPER US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2720,nonbankrupt,,SNAP,Snap Inc. Class A Common Stock,Technology,Computer Software: Programming Data Processing,SNAP US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2870,nonbankrupt,,TEAD,Teads Holding Co. Common Stock,Technology,Computer Software: Programming Data Processing,TEAD US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_111,nonbankrupt,,AIMD,Ainos Inc. Common Stock,Technology,Computer peripheral equipment,AIMD US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1219,nonbankrupt,,GE,GE Aerospace Common Stock,Technology,Consumer Electronics/Appliances,GE US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_285,nonbankrupt,,ASUR,Asure Software Inc Common Stock,Technology,EDP Services,ASUR US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_484,nonbankrupt,,BRUN,Boost Run Inc. Class A Common Stock,Technology,EDP Services,BRUN US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1217,nonbankrupt,,GDRX,GoodRx Holdings Inc. Class A Common Stock,Technology,EDP Services,GDRX US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1371,nonbankrupt,,HNGE,Hinge Health Inc. Class A Common Stock,Technology,EDP Services,HNGE US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2244,nonbankrupt,,PAYS,Paysign Inc. Common Stock,Technology,EDP Services,PAYS US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2273,nonbankrupt,,PEGA,Pegasystems Inc. Common Stock,Technology,EDP Services,PEGA US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2486,nonbankrupt,,RGTIW,Rigetti Computing Inc. Warrants,Technology,EDP Services,RGTIW US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_223,nonbankrupt,,APH,Amphenol Corporation Common Stock,Technology,Electrical Products,APH US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_266,nonbankrupt,,ARW,Arrow Electronics Inc. Common Stock,Technology,Electronic Components,ARW US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1019,nonbankrupt,,EPAC,Enerpac Tool Group Corp. Common Stock,Technology,Industrial Machinery/Components,EPAC US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_117,nonbankrupt,,AIRG,Airgain Inc. Common Stock,Technology,Radio And Television Broadcasting And Communications Equipment,AIRG US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_649,nonbankrupt,,CLMB,Climb Global Solutions Inc. Common Stock,Technology,Retail: Computer Software & Peripheral Equipment,CLMB US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_3,nonbankrupt,,AAOI,Applied Optoelectronics Inc. Common Stock,Technology,Semiconductors,AAOI US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_139,nonbankrupt,,ALGM,Allegro MicroSystems Inc. Common Stock,Technology,Semiconductors,ALGM US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_177,nonbankrupt,,AMKR,Amkor Technology Inc. Common Stock,Technology,Semiconductors,AMKR US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1637,nonbankrupt,,KOPN,Kopin Corporation Common Stock,Technology,Semiconductors,KOPN US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1945,nonbankrupt,,MRVL,Marvell Technology Inc. Common Stock,Technology,Semiconductors,MRVL US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1720,nonbankrupt,,LILA,Liberty Latin America Ltd. Class A Common Stock,Telecommunications,Cable & Other Pay Television Services,LILA US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1511,nonbankrupt,,INTZ,Intrusion Inc. Common Stock,Telecommunications,Computer Communications Equipment,INTZ US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_1818,nonbankrupt,,MATW,Matthews International Corporation Class A Common Stock,Telecommunications,Metal Fabrications,MATW US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2913,nonbankrupt,,TMUSI,T-Mobile US Inc. 5.500% Senior Notes due June 2070,Telecommunications,Telecommunications Equipment,TMUSI US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_82,nonbankrupt,,AEP,American Electric Power Company Inc. Common Stock,Utilities,Electric Utilities: Central,AEP US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_590,nonbankrupt,,CEG,Constellation Energy Corporation Common Stock,Utilities,Electric Utilities: Central,CEG US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2054,nonbankrupt,,NNE,Nano Nuclear Energy Inc. Common Stock,Utilities,Electric Utilities: Central,NNE US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_335,nonbankrupt,,AWX,Avalon Holdings Corporation Common Stock,Utilities,Environmental Services,AWX US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_165,nonbankrupt,,AM,Antero Midstream Corporation Common Stock,Utilities,Natural Gas Distribution,AM US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_724,nonbankrupt,,CPK,Chesapeake Utilities Corporation Common Stock,Utilities,Oil & Gas Production,CPK US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2115,nonbankrupt,,NWN,Northwest Natural Holding Company Common Stock,Utilities,Oil/Gas Transmission,NWN US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_2036,nonbankrupt,,NI,NiSource Inc Common Stock,Utilities,Power Generation,NI US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_630,nonbankrupt,,CIEN,Ciena Corporation Common Stock,Utilities,Telecommunications Equipment,CIEN US Equity,2021-06-30,2016-06-30,2021-06-30
+NB_3213,nonbankrupt,,WTRG,Essential Utilities Inc. Common Stock,Utilities,Water Supply,WTRG US Equity,2021-06-30,2016-06-30,2021-06-30
