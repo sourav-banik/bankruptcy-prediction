@@ -1,0 +1,4700 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Modeling dataset: leakage check report</title><style>body{font:15px/1.6 system-ui,sans-serif;color:#202b39;background:#f4f6f9;margin:0}
+main{max-width:1200px;margin:24px auto;padding:30px;background:white;border-radius:12px}
+h1{font-size:28px}h2{margin-top:32px;color:#193f5c}.notice{padding:14px 18px;background:#fff2d8;border-left:5px solid #b47914}
+.status{padding:12px;background:#fbe8e6;border-left:5px solid #b5473c}.ok{background:#e8f4ec;border-color:#2b794b}
+.table-wrap{overflow-x:auto;margin:14px 0}.data-table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{padding:8px 10px;border-bottom:1px solid #e0e5eb;text-align:left;vertical-align:top}th{background:#edf2f7;position:sticky;top:0}
+tr:nth-child(even){background:#f8fafc}img{max-width:100%;height:auto}figure{margin:22px 0}figcaption{font-size:13px;color:#536273}
+code{background:#edf2f7;padding:2px 5px}details{margin:18px 0}summary{cursor:pointer;font-weight:600}small{color:#596779}</style></head><body><main><h1>Modeling dataset: leakage check report</h1><p><small>Input: data/processed/modeling_dataset_unprocessed.csv ? 768 company-events ? 770 columns</small></p><p class="status"><strong>Overall validation: FAIL / evidence incomplete.</strong> 3 failed checks; 3 unverified checks. Do not interpret completed date checks as full certification of outcome surveillance or historical information availability.</p><p>Requested matching design: <strong>1:2</strong>. Current declared design(s): <strong>[3]</strong>.</p><h2>What these checks establish</h2><p>Source/reference dates must be on or before each individual prediction date. Financial statements must also respect the 90-day reporting lag. Historical trend endpoints are checked against their own earlier prediction cutoffs, and all trend values are independently reconstructed from cleaned observations.</p><p>Filing dates and outcome-end dates are future labels/audits and are excluded from predictor source-date checks. Control follow-up observations after prediction establish outcome coverage only.</p><h2>Unverified evidence</h2><div class="table-wrap"><table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>section</th>
+      <th>check</th>
+      <th>status</th>
+      <th>checked</th>
+      <th>violations</th>
+      <th>detail</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>leakage</td>
+      <td>Comprehensive bankruptcy surveillance for zero labels</td>
+      <td>UNVERIFIED</td>
+      <td>0</td>
+      <td>Unavailable</td>
+      <td>Notebook 05 has no confirmed bankruptcy-screening end. Calendar/market follow-up passes do not prove absence of bankruptcy; negative labels remain provisional.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Financial publication dates and macro real-time vintages</td>
+      <td>UNVERIFIED</td>
+      <td>0</td>
+      <td>Unavailable</td>
+      <td>Fiscal/observation dates and a reporting-lag proxy do not verify release dates or whether revised macro values were available historically.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Historical sector/industry and entity continuity</td>
+      <td>UNVERIFIED</td>
+      <td>0</td>
+      <td>Unavailable</td>
+      <td>Current Bloomberg classifications and security/ticker identity do not verify historical classification or legal-entity continuity.</td>
+    </tr>
+  </tbody>
+</table></div><h2>Date and outcome-window checks</h2><div class="table-wrap"><table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>section</th>
+      <th>check</th>
+      <th>status</th>
+      <th>checked</th>
+      <th>violations</th>
+      <th>detail</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>leakage</td>
+      <td>Prediction cutoff: metadata_financial_reference_date</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Required reference dates must be known and on/before prediction.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Prediction cutoff: metadata_market_reference_date</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Required reference dates must be known and on/before prediction.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Prediction cutoff: metadata_macro_reference_date</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Required reference dates must be known and on/before prediction.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>All source/audit dates on or before prediction</td>
+      <td>PASS</td>
+      <td>122608</td>
+      <td>0</td>
+      <td>Includes financial, monthly prices, market endpoints, macro endpoints/windows, and trend sources.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>No positive feature source after bankruptcy filing</td>
+      <td>PASS</td>
+      <td>122608</td>
+      <td>0</td>
+      <td>Filing/outcome dates are labels/metadata and are excluded from source dates.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Financial statements respect 90-day reporting lag</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Use fiscal statement dates no later than prediction minus 90 days.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Trend lag-1 cutoffs calculated correctly</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Apply each prior prediction date's own financial reporting lag.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Trend lag-1 financial source precedes its cutoff</td>
+      <td>PASS</td>
+      <td>757</td>
+      <td>0</td>
+      <td>A lagged statement cannot come from a later annual slot.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Trend lag-1 market cutoff: adjusted_price</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Lagged market values must precede their own earlier prediction date.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Trend lag-1 market cutoff: market_cap</td>
+      <td>PASS</td>
+      <td>764</td>
+      <td>0</td>
+      <td>Lagged market values must precede their own earlier prediction date.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Trend lag-1 market cutoff: shares_outstanding</td>
+      <td>PASS</td>
+      <td>764</td>
+      <td>0</td>
+      <td>Lagged market values must precede their own earlier prediction date.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Trend lag-1 market cutoff: volume</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Lagged market values must precede their own earlier prediction date.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Trend lag-1 market cutoff: turnover</td>
+      <td>PASS</td>
+      <td>767</td>
+      <td>0</td>
+      <td>Lagged market values must precede their own earlier prediction date.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Trend lag-2 cutoffs calculated correctly</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Apply each prior prediction date's own financial reporting lag.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Trend lag-2 financial source precedes its cutoff</td>
+      <td>PASS</td>
+      <td>737</td>
+      <td>0</td>
+      <td>A lagged statement cannot come from a later annual slot.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Trend lag-2 market cutoff: adjusted_price</td>
+      <td>PASS</td>
+      <td>738</td>
+      <td>0</td>
+      <td>Lagged market values must precede their own earlier prediction date.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Trend lag-2 market cutoff: market_cap</td>
+      <td>PASS</td>
+      <td>736</td>
+      <td>0</td>
+      <td>Lagged market values must precede their own earlier prediction date.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Trend lag-2 market cutoff: shares_outstanding</td>
+      <td>PASS</td>
+      <td>738</td>
+      <td>0</td>
+      <td>Lagged market values must precede their own earlier prediction date.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Trend lag-2 market cutoff: volume</td>
+      <td>PASS</td>
+      <td>739</td>
+      <td>0</td>
+      <td>Lagged market values must precede their own earlier prediction date.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Trend lag-2 market cutoff: turnover</td>
+      <td>PASS</td>
+      <td>734</td>
+      <td>0</td>
+      <td>Lagged market values must precede their own earlier prediction date.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Trend lag-3 cutoffs calculated correctly</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Apply each prior prediction date's own financial reporting lag.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Trend lag-3 financial source precedes its cutoff</td>
+      <td>PASS</td>
+      <td>710</td>
+      <td>0</td>
+      <td>A lagged statement cannot come from a later annual slot.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Trend lag-3 market cutoff: adjusted_price</td>
+      <td>PASS</td>
+      <td>702</td>
+      <td>0</td>
+      <td>Lagged market values must precede their own earlier prediction date.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Trend lag-3 market cutoff: market_cap</td>
+      <td>PASS</td>
+      <td>692</td>
+      <td>0</td>
+      <td>Lagged market values must precede their own earlier prediction date.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Trend lag-3 market cutoff: shares_outstanding</td>
+      <td>PASS</td>
+      <td>695</td>
+      <td>0</td>
+      <td>Lagged market values must precede their own earlier prediction date.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Trend lag-3 market cutoff: volume</td>
+      <td>PASS</td>
+      <td>703</td>
+      <td>0</td>
+      <td>Lagged market values must precede their own earlier prediction date.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Trend lag-3 market cutoff: turnover</td>
+      <td>PASS</td>
+      <td>682</td>
+      <td>0</td>
+      <td>Lagged market values must precede their own earlier prediction date.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>12-calendar-month outcome dates</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Use DateOffset(months=12), including leap-year calendar behavior.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Completed negative outcome window at collection/screening cutoff</td>
+      <td>PASS</td>
+      <td>571</td>
+      <td>0</td>
+      <td>Cutoff = 2026-05-02; collection endpoint is only a proxy when screening is unconfirmed.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Company-specific negative follow-up extends through outcome</td>
+      <td>PASS</td>
+      <td>571</td>
+      <td>0</td>
+      <td>Both the extraction endpoint and observed market history must extend past the outcome end; future prices are follow-up only.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Positive filing lies in outcome window</td>
+      <td>PASS</td>
+      <td>197</td>
+      <td>0</td>
+      <td>A positive outcome must occur after prediction and within the 12-month window.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>No known negative filing through outcome end</td>
+      <td>PASS</td>
+      <td>571</td>
+      <td>0</td>
+      <td>Known earlier filings also invalidate an unscreened non-bankrupt identity.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Comprehensive bankruptcy surveillance for zero labels</td>
+      <td>UNVERIFIED</td>
+      <td>0</td>
+      <td>Unavailable</td>
+      <td>Notebook 05 has no confirmed bankruptcy-screening end. Calendar/market follow-up passes do not prove absence of bankruptcy; negative labels remain provisional.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Financial publication dates and macro real-time vintages</td>
+      <td>UNVERIFIED</td>
+      <td>0</td>
+      <td>Unavailable</td>
+      <td>Fiscal/observation dates and a reporting-lag proxy do not verify release dates or whether revised macro values were available historically.</td>
+    </tr>
+    <tr>
+      <td>leakage</td>
+      <td>Historical sector/industry and entity continuity</td>
+      <td>UNVERIFIED</td>
+      <td>0</td>
+      <td>Unavailable</td>
+      <td>Current Bloomberg classifications and security/ticker identity do not verify historical classification or legal-entity continuity.</td>
+    </tr>
+  </tbody>
+</table></div><h2>Source date audit</h2><div class="table-wrap"><table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source_column</th>
+      <th>observed_dates</th>
+      <th>after_prediction</th>
+      <th>after_positive_filing</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>metadata_financial_reporting_cutoff_date</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_financial_reference_date</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_adjusted_price_reference_date</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_market_cap_reference_date</td>
+      <td>765</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_shares_outstanding_reference_date</td>
+      <td>765</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_turnover_reference_date</td>
+      <td>767</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_volume_reference_date</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_reference_date</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_monthly_price_date_00</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_monthly_price_date_01</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_monthly_price_date_02</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_monthly_price_date_03</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_monthly_price_date_04</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_monthly_price_date_05</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_monthly_price_date_06</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_monthly_price_date_07</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_monthly_price_date_08</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_monthly_price_date_09</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_monthly_price_date_10</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_monthly_price_date_11</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_monthly_price_date_12</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_history_start_date</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_history_end_date</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_macro_reference_date</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_reference_prediction_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_financial_target_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_financial_cutoff_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_financial_reference_date_1y</td>
+      <td>757</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_market_adjusted_price_reference_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_market_market_cap_reference_date_1y</td>
+      <td>764</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_market_shares_outstanding_reference_date_1y</td>
+      <td>764</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_market_volume_reference_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_market_turnover_reference_date_1y</td>
+      <td>767</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_market_reference_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_reference_prediction_date_2y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_financial_target_date_2y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_financial_cutoff_date_2y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_financial_reference_date_2y</td>
+      <td>737</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_market_adjusted_price_reference_date_2y</td>
+      <td>738</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_market_market_cap_reference_date_2y</td>
+      <td>736</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_market_shares_outstanding_reference_date_2y</td>
+      <td>738</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_market_volume_reference_date_2y</td>
+      <td>739</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_market_turnover_reference_date_2y</td>
+      <td>734</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_market_reference_date_2y</td>
+      <td>742</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_reference_prediction_date_3y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_financial_target_date_3y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_financial_cutoff_date_3y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_financial_reference_date_3y</td>
+      <td>710</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_market_adjusted_price_reference_date_3y</td>
+      <td>702</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_market_market_cap_reference_date_3y</td>
+      <td>692</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_market_shares_outstanding_reference_date_3y</td>
+      <td>695</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_market_volume_reference_date_3y</td>
+      <td>703</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_market_turnover_reference_date_3y</td>
+      <td>682</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_trend_market_reference_date_3y</td>
+      <td>707</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_feature_price_reference_date</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_return_12m_baseline_cutoff_date</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_price_window_start_date_12m</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_price_window_end_date_12m</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_return_12m_baseline_date</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_return_24m_baseline_cutoff_date</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_price_window_start_date_24m</td>
+      <td>736</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_price_window_end_date_24m</td>
+      <td>736</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_return_24m_baseline_date</td>
+      <td>736</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_return_36m_baseline_cutoff_date</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_price_window_start_date_36m</td>
+      <td>698</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_price_window_end_date_36m</td>
+      <td>698</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_return_36m_baseline_date</td>
+      <td>698</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_cap_change_12m_current_date</td>
+      <td>764</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_market_cap_change_12m_baseline_date</td>
+      <td>764</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_volume_change_12m_current_date</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_volume_change_12m_baseline_date</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_turnover_change_12m_current_date</td>
+      <td>767</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_turnover_change_12m_baseline_date</td>
+      <td>767</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_bid_ask_spread_average_12m_start_date</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_bid_ask_spread_average_12m_end_date</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_inflation_macro_reference_date</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_inflation_macro_reference_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_inflation_macro_lag_cutoff_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_inflation_macro_reference_date_2y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_inflation_macro_lag_cutoff_date_2y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_inflation_macro_reference_date_3y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_inflation_macro_lag_cutoff_date_3y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_inflation_macro_window_start_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_inflation_macro_window_end_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_gdp_growth_macro_reference_date</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_gdp_growth_macro_reference_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_gdp_growth_macro_lag_cutoff_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_gdp_growth_macro_reference_date_2y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_gdp_growth_macro_lag_cutoff_date_2y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_gdp_growth_macro_reference_date_3y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_gdp_growth_macro_lag_cutoff_date_3y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_gdp_growth_macro_window_start_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_gdp_growth_macro_window_end_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_unemployment_rate_macro_reference_date</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_unemployment_rate_macro_reference_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_unemployment_rate_macro_lag_cutoff_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_unemployment_rate_macro_reference_date_2y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_unemployment_rate_macro_lag_cutoff_date_2y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_unemployment_rate_macro_reference_date_3y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_unemployment_rate_macro_lag_cutoff_date_3y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_unemployment_rate_macro_window_start_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_unemployment_rate_macro_window_end_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_federal_funds_rate_macro_reference_date</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_federal_funds_rate_macro_reference_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_federal_funds_rate_macro_lag_cutoff_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_federal_funds_rate_macro_reference_date_2y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_federal_funds_rate_macro_lag_cutoff_date_2y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_federal_funds_rate_macro_reference_date_3y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_federal_funds_rate_macro_lag_cutoff_date_3y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_federal_funds_rate_macro_window_start_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_federal_funds_rate_macro_window_end_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_treasury_10y_yield_macro_reference_date</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_treasury_10y_yield_macro_reference_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_treasury_10y_yield_macro_lag_cutoff_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_treasury_10y_yield_macro_reference_date_2y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_treasury_10y_yield_macro_lag_cutoff_date_2y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_treasury_10y_yield_macro_reference_date_3y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_treasury_10y_yield_macro_lag_cutoff_date_3y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_treasury_10y_yield_macro_window_start_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_treasury_10y_yield_macro_window_end_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_treasury_3m_yield_macro_reference_date</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_treasury_3m_yield_macro_reference_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_treasury_3m_yield_macro_lag_cutoff_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_treasury_3m_yield_macro_reference_date_2y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_treasury_3m_yield_macro_lag_cutoff_date_2y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_treasury_3m_yield_macro_reference_date_3y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_treasury_3m_yield_macro_lag_cutoff_date_3y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_treasury_3m_yield_macro_window_start_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_treasury_3m_yield_macro_window_end_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_yield_curve_spread_macro_reference_date</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_yield_curve_spread_macro_reference_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_yield_curve_spread_macro_lag_cutoff_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_yield_curve_spread_macro_reference_date_2y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_yield_curve_spread_macro_lag_cutoff_date_2y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_yield_curve_spread_macro_reference_date_3y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_yield_curve_spread_macro_lag_cutoff_date_3y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_yield_curve_spread_macro_window_start_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_yield_curve_spread_macro_window_end_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_credit_spread_macro_reference_date</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_credit_spread_macro_reference_date_1y</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_credit_spread_macro_lag_cutoff_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_credit_spread_macro_reference_date_2y</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_credit_spread_macro_lag_cutoff_date_2y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_credit_spread_macro_reference_date_3y</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_credit_spread_macro_lag_cutoff_date_3y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_credit_spread_macro_window_start_date_1y</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_credit_spread_macro_window_end_date_1y</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_vix_macro_reference_date</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_vix_macro_reference_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_vix_macro_lag_cutoff_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_vix_macro_reference_date_2y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_vix_macro_lag_cutoff_date_2y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_vix_macro_reference_date_3y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_vix_macro_lag_cutoff_date_3y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_vix_macro_window_start_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_vix_macro_window_end_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_recession_indicator_macro_reference_date</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_recession_indicator_macro_reference_date_1y</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_recession_indicator_macro_lag_cutoff_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_recession_indicator_macro_reference_date_2y</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_recession_indicator_macro_lag_cutoff_date_2y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_recession_indicator_macro_reference_date_3y</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_recession_indicator_macro_lag_cutoff_date_3y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_recession_indicator_macro_window_start_date_1y</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_recession_indicator_macro_window_end_date_1y</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_corporate_bond_total_return_index_macro_reference_date</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_corporate_bond_total_return_index_macro_reference_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_corporate_bond_total_return_index_macro_lag_cutoff_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_corporate_bond_total_return_index_macro_reference_date_2y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_corporate_bond_total_return_index_macro_lag_cutoff_date_2y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_corporate_bond_total_return_index_macro_reference_date_3y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_corporate_bond_total_return_index_macro_lag_cutoff_date_3y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_corporate_bond_total_return_index_macro_window_start_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_corporate_bond_total_return_index_macro_window_end_date_1y</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>metadata_macro_feature_reference_date</td>
+      <td>768</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table></div><h2>Independent trend reconstruction</h2><div class="table-wrap"><table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>section</th>
+      <th>check</th>
+      <th>status</th>
+      <th>checked</th>
+      <th>violations</th>
+      <th>detail</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_total_assets_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_total_assets_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_total_assets_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_total_assets_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_total_assets_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_total_assets_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_total_assets_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: total_assets</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_total_liabilities_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_total_liabilities_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_total_liabilities_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_total_liabilities_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_total_liabilities_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_total_liabilities_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_total_liabilities_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: total_liabilities</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_total_debt_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_total_debt_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_total_debt_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_total_debt_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_total_debt_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_total_debt_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_total_debt_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: total_debt</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_short_term_debt_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_short_term_debt_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_short_term_debt_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_short_term_debt_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_short_term_debt_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_short_term_debt_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_short_term_debt_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: short_term_debt</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_long_term_debt_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_long_term_debt_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_long_term_debt_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_long_term_debt_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_long_term_debt_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_long_term_debt_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_long_term_debt_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: long_term_debt</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_cash_short_term_investments_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_cash_short_term_investments_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_cash_short_term_investments_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_cash_short_term_investments_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_cash_short_term_investments_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_cash_short_term_investments_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_cash_short_term_investments_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: cash_short_term_investments</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_current_assets_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_current_assets_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_current_assets_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_current_assets_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_current_assets_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_current_assets_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_current_assets_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: current_assets</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_current_liabilities_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_current_liabilities_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_current_liabilities_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_current_liabilities_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_current_liabilities_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_current_liabilities_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_current_liabilities_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: current_liabilities</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_shareholders_equity_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_shareholders_equity_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_shareholders_equity_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_shareholders_equity_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_shareholders_equity_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_shareholders_equity_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_shareholders_equity_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: shareholders_equity</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_accounts_receivable_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_accounts_receivable_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_accounts_receivable_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_accounts_receivable_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_accounts_receivable_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_accounts_receivable_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_accounts_receivable_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: accounts_receivable</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_inventory_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_inventory_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_inventory_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_inventory_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_inventory_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_inventory_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_inventory_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: inventory</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_working_capital_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_working_capital_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_working_capital_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_working_capital_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_working_capital_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_working_capital_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_working_capital_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: working_capital</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_revenue_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_revenue_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_revenue_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_revenue_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_revenue_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_revenue_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_revenue_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: revenue</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebit_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebit_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebit_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebit_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebit_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebit_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebit_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: ebit</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebitda_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebitda_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebitda_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebitda_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebitda_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebitda_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebitda_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: ebitda</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_net_income_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_net_income_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_net_income_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_net_income_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_net_income_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_net_income_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_net_income_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: net_income</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_interest_expense_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_interest_expense_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_interest_expense_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_interest_expense_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_interest_expense_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_interest_expense_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_interest_expense_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: interest_expense</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_depreciation_amortization_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_depreciation_amortization_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_depreciation_amortization_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_depreciation_amortization_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_depreciation_amortization_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_depreciation_amortization_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_depreciation_amortization_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: depreciation_amortization</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_operating_cash_flow_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_operating_cash_flow_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_operating_cash_flow_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_operating_cash_flow_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_operating_cash_flow_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_operating_cash_flow_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_operating_cash_flow_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: operating_cash_flow</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_capital_expenditures_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_capital_expenditures_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_capital_expenditures_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_capital_expenditures_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_capital_expenditures_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_capital_expenditures_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_capital_expenditures_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: capital_expenditures</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_free_cash_flow_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_free_cash_flow_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_free_cash_flow_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_free_cash_flow_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_free_cash_flow_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_free_cash_flow_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_free_cash_flow_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: free_cash_flow</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_adjusted_price_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_adjusted_price_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_adjusted_price_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_adjusted_price_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_adjusted_price_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_adjusted_price_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_adjusted_price_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: adjusted_price</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_market_cap_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_market_cap_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_market_cap_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_market_cap_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_market_cap_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_market_cap_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_market_cap_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: market_cap</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_shares_outstanding_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_shares_outstanding_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_shares_outstanding_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_shares_outstanding_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_shares_outstanding_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_shares_outstanding_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_shares_outstanding_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: shares_outstanding</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_volume_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_volume_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_volume_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_volume_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_volume_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_volume_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_volume_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: volume</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_turnover_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_turnover_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_turnover_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_turnover_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_turnover_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_turnover_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_turnover_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: turnover</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_debt_to_assets_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_debt_to_assets_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_debt_to_assets_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_debt_to_assets_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_debt_to_assets_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_debt_to_assets_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_debt_to_assets_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: debt_to_assets</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_liabilities_to_assets_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_liabilities_to_assets_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_liabilities_to_assets_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_liabilities_to_assets_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_liabilities_to_assets_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_liabilities_to_assets_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_liabilities_to_assets_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: liabilities_to_assets</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_current_ratio_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_current_ratio_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_current_ratio_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_current_ratio_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_current_ratio_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_current_ratio_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_current_ratio_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: current_ratio</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_cash_to_assets_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_cash_to_assets_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_cash_to_assets_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_cash_to_assets_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_cash_to_assets_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_cash_to_assets_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_cash_to_assets_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: cash_to_assets</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_debt_to_equity_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_debt_to_equity_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_debt_to_equity_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_debt_to_equity_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_debt_to_equity_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_debt_to_equity_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_debt_to_equity_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: debt_to_equity</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_liabilities_to_equity_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_liabilities_to_equity_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_liabilities_to_equity_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_liabilities_to_equity_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_liabilities_to_equity_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_liabilities_to_equity_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_liabilities_to_equity_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: liabilities_to_equity</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebit_margin_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebit_margin_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebit_margin_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebit_margin_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebit_margin_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebit_margin_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebit_margin_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: ebit_margin</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebitda_margin_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebitda_margin_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebitda_margin_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebitda_margin_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebitda_margin_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebitda_margin_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_ebitda_margin_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: ebitda_margin</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_net_income_margin_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_net_income_margin_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_net_income_margin_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_net_income_margin_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_net_income_margin_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_net_income_margin_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_net_income_margin_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: net_income_margin</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_operating_cash_flow_margin_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_operating_cash_flow_margin_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_operating_cash_flow_margin_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_operating_cash_flow_margin_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_operating_cash_flow_margin_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_operating_cash_flow_margin_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_operating_cash_flow_margin_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: operating_cash_flow_margin</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_interest_coverage_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_interest_coverage_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_interest_coverage_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_interest_coverage_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_interest_coverage_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_interest_coverage_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_interest_coverage_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: interest_coverage</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_operating_cash_flow_to_debt_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_operating_cash_flow_to_debt_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_operating_cash_flow_to_debt_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_operating_cash_flow_to_debt_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_operating_cash_flow_to_debt_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_operating_cash_flow_to_debt_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_operating_cash_flow_to_debt_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: operating_cash_flow_to_debt</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_free_cash_flow_to_debt_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_free_cash_flow_to_debt_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_free_cash_flow_to_debt_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_free_cash_flow_to_debt_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_free_cash_flow_to_debt_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_free_cash_flow_to_debt_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_free_cash_flow_to_debt_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: free_cash_flow_to_debt</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_working_capital_to_assets_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_working_capital_to_assets_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_working_capital_to_assets_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_working_capital_to_assets_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_working_capital_to_assets_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_working_capital_to_assets_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_working_capital_to_assets_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: working_capital_to_assets</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_capex_to_revenue_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_capex_to_revenue_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_capex_to_revenue_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_capex_to_revenue_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_capex_to_revenue_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_capex_to_revenue_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_capex_to_revenue_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: capex_to_revenue</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_market_to_book_change_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_market_to_book_growth_1y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_market_to_book_change_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_market_to_book_growth_2y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_market_to_book_change_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Recomputed using only the original current and audited earlier observations.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_market_to_book_growth_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No future values or pre-IPO zero filling; zero/missing lag denominator produces missing growth.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Source value: trend_market_to_book_slope_3y</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>OLS across only available audited annual slots; no interpolation/extrapolation.</td>
+    </tr>
+    <tr>
+      <td>trend</td>
+      <td>Observed slope count: market_to_book</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Audit count matches available finite annual observations.</td>
+    </tr>
+  </tbody>
+</table></div><h2>No full-sample preprocessing</h2><div class="table-wrap"><table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>section</th>
+      <th>check</th>
+      <th>status</th>
+      <th>checked</th>
+      <th>violations</th>
+      <th>detail</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_total_assets</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Original observations must equal cleaned source values at their audited pre-event dates; no scaling or imputation.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_total_liabilities</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Original observations must equal cleaned source values at their audited pre-event dates; no scaling or imputation.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_total_debt</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Original observations must equal cleaned source values at their audited pre-event dates; no scaling or imputation.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_short_term_debt</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Original observations must equal cleaned source values at their audited pre-event dates; no scaling or imputation.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_long_term_debt</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Original observations must equal cleaned source values at their audited pre-event dates; no scaling or imputation.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_cash_short_term_investments</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Original observations must equal cleaned source values at their audited pre-event dates; no scaling or imputation.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_current_assets</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Original observations must equal cleaned source values at their audited pre-event dates; no scaling or imputation.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_current_liabilities</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Original observations must equal cleaned source values at their audited pre-event dates; no scaling or imputation.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_shareholders_equity</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Original observations must equal cleaned source values at their audited pre-event dates; no scaling or imputation.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_accounts_receivable</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Original observations must equal cleaned source values at their audited pre-event dates; no scaling or imputation.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_inventory</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Original observations must equal cleaned source values at their audited pre-event dates; no scaling or imputation.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_working_capital</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Original observations must equal cleaned source values at their audited pre-event dates; no scaling or imputation.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_revenue</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Original observations must equal cleaned source values at their audited pre-event dates; no scaling or imputation.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_ebit</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Original observations must equal cleaned source values at their audited pre-event dates; no scaling or imputation.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_ebitda</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Original observations must equal cleaned source values at their audited pre-event dates; no scaling or imputation.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_net_income</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Original observations must equal cleaned source values at their audited pre-event dates; no scaling or imputation.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_interest_expense</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Original observations must equal cleaned source values at their audited pre-event dates; no scaling or imputation.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_depreciation_amortization</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Original observations must equal cleaned source values at their audited pre-event dates; no scaling or imputation.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_operating_cash_flow</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Original observations must equal cleaned source values at their audited pre-event dates; no scaling or imputation.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_capital_expenditures</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Original observations must equal cleaned source values at their audited pre-event dates; no scaling or imputation.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_free_cash_flow</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Original observations must equal cleaned source values at their audited pre-event dates; no scaling or imputation.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_adjusted_price</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Original observations must equal cleaned source values at their audited pre-event dates; no scaling or imputation.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_market_cap</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Original observations must equal cleaned source values at their audited pre-event dates; no scaling or imputation.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_shares_outstanding</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Original observations must equal cleaned source values at their audited pre-event dates; no scaling or imputation.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_volume</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Original observations must equal cleaned source values at their audited pre-event dates; no scaling or imputation.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_turnover</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Original observations must equal cleaned source values at their audited pre-event dates; no scaling or imputation.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_market_monthly_price_00</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Observed monthly price-history values remain unchanged; unavailable observations stay missing.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_market_monthly_price_01</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Observed monthly price-history values remain unchanged; unavailable observations stay missing.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_market_monthly_price_02</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Observed monthly price-history values remain unchanged; unavailable observations stay missing.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_market_monthly_price_03</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Observed monthly price-history values remain unchanged; unavailable observations stay missing.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_market_monthly_price_04</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Observed monthly price-history values remain unchanged; unavailable observations stay missing.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_market_monthly_price_05</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Observed monthly price-history values remain unchanged; unavailable observations stay missing.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_market_monthly_price_06</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Observed monthly price-history values remain unchanged; unavailable observations stay missing.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_market_monthly_price_07</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Observed monthly price-history values remain unchanged; unavailable observations stay missing.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_market_monthly_price_08</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Observed monthly price-history values remain unchanged; unavailable observations stay missing.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_market_monthly_price_09</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Observed monthly price-history values remain unchanged; unavailable observations stay missing.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_market_monthly_price_10</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Observed monthly price-history values remain unchanged; unavailable observations stay missing.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_market_monthly_price_11</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Observed monthly price-history values remain unchanged; unavailable observations stay missing.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: original_market_monthly_price_12</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Observed monthly price-history values remain unchanged; unavailable observations stay missing.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: derived_debt_to_assets</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Ratios use audited original observations and safe division, retaining valid negative values.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: derived_liabilities_to_assets</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Ratios use audited original observations and safe division, retaining valid negative values.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: derived_current_ratio</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Ratios use audited original observations and safe division, retaining valid negative values.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: derived_cash_to_assets</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Ratios use audited original observations and safe division, retaining valid negative values.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: derived_debt_to_equity</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Ratios use audited original observations and safe division, retaining valid negative values.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: derived_liabilities_to_equity</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Ratios use audited original observations and safe division, retaining valid negative values.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: derived_ebit_margin</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Ratios use audited original observations and safe division, retaining valid negative values.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: derived_ebitda_margin</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Ratios use audited original observations and safe division, retaining valid negative values.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: derived_net_income_margin</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Ratios use audited original observations and safe division, retaining valid negative values.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: derived_operating_cash_flow_margin</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Ratios use audited original observations and safe division, retaining valid negative values.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: derived_interest_coverage</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Ratios use audited original observations and safe division, retaining valid negative values.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: derived_operating_cash_flow_to_debt</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Ratios use audited original observations and safe division, retaining valid negative values.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: derived_free_cash_flow_to_debt</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Ratios use audited original observations and safe division, retaining valid negative values.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: derived_working_capital_to_assets</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Ratios use audited original observations and safe division, retaining valid negative values.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: derived_capex_to_revenue</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Ratios use audited original observations and safe division, retaining valid negative values.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Source value: derived_market_to_book</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Ratios use audited original observations and safe division, retaining valid negative values.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Unique feature-source events: original_features</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Exports must be uniquely keyed before comparison.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Feature-source cohort: original_features</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No extra/deleted events during combination.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Unaltered feature export: original_features</td>
+      <td>PASS</td>
+      <td>29952</td>
+      <td>0</td>
+      <td>Group prefixes rename values only; compare every contributed numeric predictor.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Unique feature-source events: derived_features</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Exports must be uniquely keyed before comparison.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Feature-source cohort: derived_features</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No extra/deleted events during combination.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Unaltered feature export: derived_features</td>
+      <td>PASS</td>
+      <td>12288</td>
+      <td>0</td>
+      <td>Group prefixes rename values only; compare every contributed numeric predictor.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Unique feature-source events: trend_features</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Exports must be uniquely keyed before comparison.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Feature-source cohort: trend_features</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No extra/deleted events during combination.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Unaltered feature export: trend_features</td>
+      <td>PASS</td>
+      <td>225792</td>
+      <td>0</td>
+      <td>Group prefixes rename values only; compare every contributed numeric predictor.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Unique feature-source events: market_features</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Exports must be uniquely keyed before comparison.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Feature-source cohort: market_features</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No extra/deleted events during combination.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Unaltered feature export: market_features</td>
+      <td>PASS</td>
+      <td>9984</td>
+      <td>0</td>
+      <td>Group prefixes rename values only; compare every contributed numeric predictor.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Unique feature-source events: macro_features</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>Exports must be uniquely keyed before comparison.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Feature-source cohort: macro_features</td>
+      <td>PASS</td>
+      <td>768</td>
+      <td>0</td>
+      <td>No extra/deleted events during combination.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>Unaltered feature export: macro_features</td>
+      <td>PASS</td>
+      <td>59904</td>
+      <td>0</td>
+      <td>Group prefixes rename values only; compare every contributed numeric predictor.</td>
+    </tr>
+    <tr>
+      <td>preprocessing</td>
+      <td>No full-sample predictor preprocessing in upstream code</td>
+      <td>PASS</td>
+      <td>7</td>
+      <td>0</td>
+      <td>AST scan of notebooks 07-13 checks fitting, scaling, imputation, interpolation, clipping, and quantiles. The sole count-report fillna is not predictor imputation.</td>
+    </tr>
+  </tbody>
+</table></div><div class="table-wrap"><table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>notebook</th>
+      <th>cell</th>
+      <th>call</th>
+      <th>assessment</th>
+      <th>expression</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>13_combine_modeling_dataset.ipynb</td>
+      <td>6</td>
+      <td>fillna</td>
+      <td>matching count report only</td>
+      <td>pd.DataFrame({"original_pair_uses": raw_control_reuse,\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"retained_pair_uses": retained_control_reuse}).fillna(0)</td>
+    </tr>
+  </tbody>
+</table></div><h2>Predictor-selection boundary</h2><p>Use the original_, derived_, trend_, market_, macro_, and missing_ groups for later predictor selection. Exclude company IDs, target, bankruptcy dates, event types, outcome dates, and all metadata_ columns, including matching stages, sizes, partners, and reuse counts. No train/test split or model was created at this stage.</p><p><small>Generated by notebook 14. Dataset values and rows were not modified. PASS/FAIL/UNVERIFIED describe only the stated check and available local evidence.</small></p></main></body></html>

@@ -1,0 +1,897 @@
+feature,family,effect_unit,included_in_model,excluded_reason,coefficient,absolute_coefficient,odds_ratio,nonzero
+numeric__market_maximum_drawdown_12m,market,one training SD of median-imputed value,True,,-0.05424850795404867,0.05424850795404867,0.9471966913398931,True
+categorical__industry_Advertising & Marketing,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Aerospace & Defense,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Apparel & Textile Products,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Automotive,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Beverages,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Cable & Satellite,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Chemicals,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Commercial Support Services,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Construction Materials,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Consumer Services,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Electric Utilities,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Electrical Equipment,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Entertainment Content,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+"categorical__industry_Forestry, Paper & Wood Products",categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Health Care Facilities & Svcs,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Home & Office Products,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Home Construction,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_IT Services,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Industrial Support Services,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Internet Media & Services,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Leisure Facilities & Services,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Leisure Products,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Machinery,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Oil & Gas Supply Chain,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Publishing & Broadcasting,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Renewable Energy,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Retail - Discretionary,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Semiconductors,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Software,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Steel,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Technology Hardware,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Telecommunications,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Transportation & Logistics,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Wholesale - Consumer Staples,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry_Wholesale - Discretionary,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__industry___MISSING__,categorical_industry,category indicator: 0 to 1 (other predictors held fixed),False,constant in training,0.0,0.0,1.0,False
+categorical__sector_Communications,categorical_sector,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__sector_Consumer Discretionary,categorical_sector,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__sector_Consumer Staples,categorical_sector,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__sector_Energy,categorical_sector,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__sector_Health Care,categorical_sector,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__sector_Industrials,categorical_sector,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__sector_Materials,categorical_sector,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__sector_Technology,categorical_sector,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__sector_Utilities,categorical_sector,category indicator: 0 to 1 (other predictors held fixed),True,,0.0,0.0,1.0,False
+categorical__sector___MISSING__,categorical_sector,category indicator: 0 to 1 (other predictors held fixed),False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_derived_capex_to_revenue,missing_derived,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_derived_cash_to_assets,missing_derived,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_derived_current_ratio,missing_derived,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_derived_debt_to_assets,missing_derived,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_derived_debt_to_equity,missing_derived,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_derived_ebit_margin,missing_derived,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_derived_ebitda_margin,missing_derived,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_derived_free_cash_flow_to_debt,missing_derived,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_derived_interest_coverage,missing_derived,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_derived_liabilities_to_assets,missing_derived,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_derived_liabilities_to_equity,missing_derived,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_derived_market_to_book,missing_derived,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_derived_net_income_margin,missing_derived,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_derived_operating_cash_flow_margin,missing_derived,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_derived_operating_cash_flow_to_debt,missing_derived,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_derived_working_capital_to_assets,missing_derived,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_corporate_bond_total_return_index,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_corporate_bond_total_return_index_average_1y,missing_macro,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_macro_corporate_bond_total_return_index_change_1y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_corporate_bond_total_return_index_change_2y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_corporate_bond_total_return_index_change_3y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_corporate_bond_total_return_index_level_at_prediction_date,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_corporate_bond_total_return_index_volatility_1y,missing_macro,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_macro_federal_funds_rate,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_federal_funds_rate_average_1y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_federal_funds_rate_change_1y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_federal_funds_rate_change_2y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_federal_funds_rate_change_3y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_federal_funds_rate_level_at_prediction_date,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_federal_funds_rate_volatility_1y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_gdp_growth,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_gdp_growth_average_1y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_gdp_growth_change_1y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_gdp_growth_change_2y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_gdp_growth_change_3y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_gdp_growth_level_at_prediction_date,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_gdp_growth_volatility_1y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_inflation_average_1y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_inflation_change_1y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_inflation_change_2y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_inflation_change_3y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_inflation_level,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_inflation_level_at_prediction_date,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_inflation_volatility_1y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_treasury_10y_yield,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_treasury_10y_yield_average_1y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_treasury_10y_yield_change_1y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_treasury_10y_yield_change_2y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_treasury_10y_yield_change_3y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_treasury_10y_yield_level_at_prediction_date,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_treasury_10y_yield_volatility_1y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_treasury_3m_yield,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_treasury_3m_yield_average_1y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_treasury_3m_yield_change_1y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_treasury_3m_yield_change_2y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_treasury_3m_yield_change_3y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_treasury_3m_yield_level_at_prediction_date,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_treasury_3m_yield_volatility_1y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_unemployment_change_1y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_unemployment_rate,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_unemployment_rate_average_1y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_unemployment_rate_change_1y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_unemployment_rate_change_2y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_unemployment_rate_change_3y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_unemployment_rate_level_at_prediction_date,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_unemployment_rate_volatility_1y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_vix,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_vix_average_1y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_vix_change_1y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_vix_change_2y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_vix_change_3y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_vix_level_at_prediction_date,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_vix_volatility_1y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_yield_curve_spread,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_yield_curve_spread_average_1y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_yield_curve_spread_change_1y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_yield_curve_spread_change_2y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_yield_curve_spread_change_3y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_yield_curve_spread_level_at_prediction_date,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_macro_yield_curve_spread_volatility_1y,missing_macro,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_market_market_cap_change_12m,missing_market,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_market_maximum_drawdown_12m,missing_market,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_market_maximum_drawdown_24m,missing_market,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_market_maximum_drawdown_36m,missing_market,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_market_return_12m,missing_market,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_market_return_24m,missing_market,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_market_return_36m,missing_market,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_market_turnover_change_12m,missing_market,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_market_volatility_12m,missing_market,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_market_volatility_24m,missing_market,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_market_volatility_36m,missing_market,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_market_volume_change_12m,missing_market,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_original_accounts_receivable,missing_original,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_original_adjusted_price,missing_original,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_original_capital_expenditures,missing_original,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_original_cash_short_term_investments,missing_original,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_original_current_assets,missing_original,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_original_current_liabilities,missing_original,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_original_depreciation_amortization,missing_original,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_original_ebit,missing_original,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_original_ebitda,missing_original,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_original_free_cash_flow,missing_original,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_original_interest_expense,missing_original,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_original_inventory,missing_original,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_original_long_term_debt,missing_original,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_original_market_cap,missing_original,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_original_market_monthly_price_00,missing_original,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_original_market_monthly_price_01,missing_original,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_original_market_monthly_price_02,missing_original,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_original_market_monthly_price_03,missing_original,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_original_market_monthly_price_04,missing_original,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_original_market_monthly_price_05,missing_original,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_original_market_monthly_price_06,missing_original,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_original_market_monthly_price_07,missing_original,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_original_market_monthly_price_08,missing_original,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_original_market_monthly_price_09,missing_original,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_original_market_monthly_price_10,missing_original,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_original_market_monthly_price_11,missing_original,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_original_market_monthly_price_12,missing_original,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_original_net_income,missing_original,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_original_operating_cash_flow,missing_original,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_original_revenue,missing_original,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_original_shareholders_equity,missing_original,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_original_shares_outstanding,missing_original,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_original_short_term_debt,missing_original,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_original_total_assets,missing_original,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_original_total_debt,missing_original,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_original_total_liabilities,missing_original,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_original_turnover,missing_original,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_original_volume,missing_original,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_original_working_capital,missing_original,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_trend_accounts_receivable_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_accounts_receivable_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_accounts_receivable_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_accounts_receivable_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_accounts_receivable_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_accounts_receivable_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_accounts_receivable_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_adjusted_price_change_1y,missing_trend,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_trend_adjusted_price_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_adjusted_price_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_adjusted_price_growth_1y,missing_trend,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_trend_adjusted_price_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_adjusted_price_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_adjusted_price_slope_3y,missing_trend,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_trend_capex_to_revenue_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_capex_to_revenue_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_capex_to_revenue_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_capex_to_revenue_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_capex_to_revenue_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_capex_to_revenue_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_capex_to_revenue_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_capital_expenditures_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_capital_expenditures_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_capital_expenditures_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_capital_expenditures_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_capital_expenditures_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_capital_expenditures_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_capital_expenditures_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_cash_short_term_investments_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_cash_short_term_investments_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_cash_short_term_investments_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_cash_short_term_investments_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_cash_short_term_investments_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_cash_short_term_investments_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_cash_short_term_investments_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_cash_to_assets_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_cash_to_assets_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_cash_to_assets_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_cash_to_assets_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_cash_to_assets_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_cash_to_assets_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_cash_to_assets_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_current_assets_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_current_assets_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_current_assets_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_current_assets_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_current_assets_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_current_assets_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_current_assets_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_current_liabilities_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_current_liabilities_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_current_liabilities_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_current_liabilities_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_current_liabilities_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_current_liabilities_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_current_liabilities_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_current_ratio_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_current_ratio_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_current_ratio_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_current_ratio_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_current_ratio_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_current_ratio_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_current_ratio_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_debt_to_assets_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_debt_to_assets_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_debt_to_assets_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_debt_to_assets_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_debt_to_assets_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_debt_to_assets_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_debt_to_assets_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_debt_to_equity_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_debt_to_equity_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_debt_to_equity_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_debt_to_equity_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_debt_to_equity_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_debt_to_equity_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_debt_to_equity_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_depreciation_amortization_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_depreciation_amortization_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_depreciation_amortization_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_depreciation_amortization_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_depreciation_amortization_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_depreciation_amortization_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_depreciation_amortization_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebit_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebit_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebit_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebit_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebit_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebit_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebit_margin_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebit_margin_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebit_margin_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebit_margin_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebit_margin_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebit_margin_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebit_margin_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebit_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebitda_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebitda_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebitda_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebitda_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebitda_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebitda_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebitda_margin_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebitda_margin_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebitda_margin_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebitda_margin_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebitda_margin_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebitda_margin_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebitda_margin_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_ebitda_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_free_cash_flow_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_free_cash_flow_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_free_cash_flow_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_free_cash_flow_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_free_cash_flow_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_free_cash_flow_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_free_cash_flow_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_free_cash_flow_to_debt_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_free_cash_flow_to_debt_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_free_cash_flow_to_debt_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_free_cash_flow_to_debt_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_free_cash_flow_to_debt_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_free_cash_flow_to_debt_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_free_cash_flow_to_debt_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_interest_coverage_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_interest_coverage_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_interest_coverage_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_interest_coverage_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_interest_coverage_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_interest_coverage_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_interest_coverage_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_interest_expense_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_interest_expense_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_interest_expense_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_interest_expense_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_interest_expense_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_interest_expense_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_interest_expense_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_inventory_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_inventory_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_inventory_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_inventory_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_inventory_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_inventory_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_inventory_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_liabilities_to_assets_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_liabilities_to_assets_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_liabilities_to_assets_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_liabilities_to_assets_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_liabilities_to_assets_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_liabilities_to_assets_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_liabilities_to_assets_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_liabilities_to_equity_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_liabilities_to_equity_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_liabilities_to_equity_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_liabilities_to_equity_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_liabilities_to_equity_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_liabilities_to_equity_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_liabilities_to_equity_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_long_term_debt_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_long_term_debt_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_long_term_debt_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_long_term_debt_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_long_term_debt_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_long_term_debt_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_long_term_debt_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_market_cap_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_market_cap_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_market_cap_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_market_cap_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_market_cap_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_market_cap_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_market_cap_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_market_to_book_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_market_to_book_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_market_to_book_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_market_to_book_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_market_to_book_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_market_to_book_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_market_to_book_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_net_income_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_net_income_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_net_income_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_net_income_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_net_income_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_net_income_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_net_income_margin_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_net_income_margin_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_net_income_margin_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_net_income_margin_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_net_income_margin_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_net_income_margin_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_net_income_margin_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_net_income_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_operating_cash_flow_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_operating_cash_flow_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_operating_cash_flow_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_operating_cash_flow_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_operating_cash_flow_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_operating_cash_flow_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_operating_cash_flow_margin_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_operating_cash_flow_margin_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_operating_cash_flow_margin_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_operating_cash_flow_margin_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_operating_cash_flow_margin_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_operating_cash_flow_margin_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_operating_cash_flow_margin_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_operating_cash_flow_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_operating_cash_flow_to_debt_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_operating_cash_flow_to_debt_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_operating_cash_flow_to_debt_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_operating_cash_flow_to_debt_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_operating_cash_flow_to_debt_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_operating_cash_flow_to_debt_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_operating_cash_flow_to_debt_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_revenue_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_revenue_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_revenue_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_revenue_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_revenue_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_revenue_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_revenue_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_shareholders_equity_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_shareholders_equity_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_shareholders_equity_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_shareholders_equity_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_shareholders_equity_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_shareholders_equity_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_shareholders_equity_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_shares_outstanding_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_shares_outstanding_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_shares_outstanding_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_shares_outstanding_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_shares_outstanding_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_shares_outstanding_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_shares_outstanding_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_short_term_debt_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_short_term_debt_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_short_term_debt_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_short_term_debt_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_short_term_debt_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_short_term_debt_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_short_term_debt_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_total_assets_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_total_assets_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_total_assets_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_total_assets_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_total_assets_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_total_assets_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_total_assets_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_total_debt_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_total_debt_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_total_debt_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_total_debt_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_total_debt_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_total_debt_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_total_debt_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_total_liabilities_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_total_liabilities_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_total_liabilities_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_total_liabilities_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_total_liabilities_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_total_liabilities_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_total_liabilities_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_turnover_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_turnover_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_turnover_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_turnover_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_turnover_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_turnover_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_turnover_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_volume_change_1y,missing_trend,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_trend_volume_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_volume_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_volume_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_volume_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_volume_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_volume_slope_3y,missing_trend,missing indicator: 0 to 1,False,constant in training,0.0,0.0,1.0,False
+missing__missingindicator_trend_working_capital_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_working_capital_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_working_capital_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_working_capital_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_working_capital_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_working_capital_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_working_capital_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_working_capital_to_assets_change_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_working_capital_to_assets_change_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_working_capital_to_assets_change_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_working_capital_to_assets_growth_1y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_working_capital_to_assets_growth_2y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_working_capital_to_assets_growth_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+missing__missingindicator_trend_working_capital_to_assets_slope_3y,missing_trend,missing indicator: 0 to 1,True,,0.0,0.0,1.0,False
+numeric__derived_capex_to_revenue,derived,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__derived_cash_to_assets,derived,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__derived_current_ratio,derived,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__derived_debt_to_assets,derived,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__derived_debt_to_equity,derived,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__derived_ebit_margin,derived,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__derived_ebitda_margin,derived,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__derived_free_cash_flow_to_debt,derived,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__derived_interest_coverage,derived,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__derived_liabilities_to_assets,derived,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__derived_liabilities_to_equity,derived,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__derived_market_to_book,derived,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__derived_net_income_margin,derived,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__derived_operating_cash_flow_margin,derived,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__derived_operating_cash_flow_to_debt,derived,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__derived_working_capital_to_assets,derived,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_corporate_bond_total_return_index,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_corporate_bond_total_return_index_average_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_corporate_bond_total_return_index_change_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_corporate_bond_total_return_index_change_2y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_corporate_bond_total_return_index_change_3y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_corporate_bond_total_return_index_level_at_prediction_date,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_corporate_bond_total_return_index_volatility_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_federal_funds_rate,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_federal_funds_rate_average_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_federal_funds_rate_change_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_federal_funds_rate_change_2y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_federal_funds_rate_change_3y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_federal_funds_rate_level_at_prediction_date,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_federal_funds_rate_volatility_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_gdp_growth,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_gdp_growth_average_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_gdp_growth_change_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_gdp_growth_change_2y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_gdp_growth_change_3y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_gdp_growth_level_at_prediction_date,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_gdp_growth_volatility_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_inflation_average_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_inflation_change_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_inflation_change_2y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_inflation_change_3y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_inflation_level,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_inflation_level_at_prediction_date,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_inflation_volatility_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_treasury_10y_yield,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_treasury_10y_yield_average_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_treasury_10y_yield_change_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_treasury_10y_yield_change_2y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_treasury_10y_yield_change_3y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_treasury_10y_yield_level_at_prediction_date,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_treasury_10y_yield_volatility_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_treasury_3m_yield,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_treasury_3m_yield_average_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_treasury_3m_yield_change_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_treasury_3m_yield_change_2y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_treasury_3m_yield_change_3y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_treasury_3m_yield_level_at_prediction_date,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_treasury_3m_yield_volatility_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_unemployment_change_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_unemployment_rate,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_unemployment_rate_average_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_unemployment_rate_change_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_unemployment_rate_change_2y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_unemployment_rate_change_3y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_unemployment_rate_level_at_prediction_date,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_unemployment_rate_volatility_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_vix,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_vix_average_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_vix_change_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_vix_change_2y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_vix_change_3y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_vix_level_at_prediction_date,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_vix_volatility_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_yield_curve_spread,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_yield_curve_spread_average_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_yield_curve_spread_change_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_yield_curve_spread_change_2y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_yield_curve_spread_change_3y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_yield_curve_spread_level_at_prediction_date,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__macro_yield_curve_spread_volatility_1y,macro,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__market_market_cap_change_12m,market,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__market_maximum_drawdown_24m,market,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__market_maximum_drawdown_36m,market,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__market_return_12m,market,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__market_return_24m,market,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__market_return_36m,market,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__market_turnover_change_12m,market,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__market_volatility_12m,market,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__market_volatility_24m,market,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__market_volatility_36m,market,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__market_volume_change_12m,market,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_accounts_receivable,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_adjusted_price,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_capital_expenditures,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_cash_short_term_investments,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_current_assets,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_current_liabilities,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_depreciation_amortization,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_ebit,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_ebitda,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_free_cash_flow,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_interest_expense,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_inventory,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_long_term_debt,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_market_cap,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_market_monthly_price_00,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_market_monthly_price_01,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_market_monthly_price_02,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_market_monthly_price_03,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_market_monthly_price_04,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_market_monthly_price_05,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_market_monthly_price_06,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_market_monthly_price_07,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_market_monthly_price_08,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_market_monthly_price_09,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_market_monthly_price_10,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_market_monthly_price_11,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_market_monthly_price_12,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_net_income,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_operating_cash_flow,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_revenue,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_shareholders_equity,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_shares_outstanding,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_short_term_debt,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_total_assets,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_total_debt,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_total_liabilities,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_turnover,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_volume,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__original_working_capital,original,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_accounts_receivable_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_accounts_receivable_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_accounts_receivable_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_accounts_receivable_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_accounts_receivable_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_accounts_receivable_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_accounts_receivable_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_adjusted_price_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_adjusted_price_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_adjusted_price_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_adjusted_price_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_adjusted_price_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_adjusted_price_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_adjusted_price_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_capex_to_revenue_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_capex_to_revenue_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_capex_to_revenue_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_capex_to_revenue_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_capex_to_revenue_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_capex_to_revenue_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_capex_to_revenue_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_capital_expenditures_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_capital_expenditures_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_capital_expenditures_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_capital_expenditures_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_capital_expenditures_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_capital_expenditures_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_capital_expenditures_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_cash_short_term_investments_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_cash_short_term_investments_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_cash_short_term_investments_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_cash_short_term_investments_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_cash_short_term_investments_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_cash_short_term_investments_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_cash_short_term_investments_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_cash_to_assets_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_cash_to_assets_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_cash_to_assets_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_cash_to_assets_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_cash_to_assets_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_cash_to_assets_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_cash_to_assets_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_current_assets_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_current_assets_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_current_assets_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_current_assets_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_current_assets_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_current_assets_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_current_assets_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_current_liabilities_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_current_liabilities_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_current_liabilities_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_current_liabilities_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_current_liabilities_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_current_liabilities_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_current_liabilities_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_current_ratio_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_current_ratio_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_current_ratio_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_current_ratio_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_current_ratio_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_current_ratio_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_current_ratio_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_debt_to_assets_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_debt_to_assets_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_debt_to_assets_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_debt_to_assets_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_debt_to_assets_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_debt_to_assets_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_debt_to_assets_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_debt_to_equity_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_debt_to_equity_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_debt_to_equity_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_debt_to_equity_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_debt_to_equity_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_debt_to_equity_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_debt_to_equity_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_depreciation_amortization_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_depreciation_amortization_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_depreciation_amortization_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_depreciation_amortization_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_depreciation_amortization_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_depreciation_amortization_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_depreciation_amortization_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebit_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebit_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebit_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebit_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebit_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebit_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebit_margin_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebit_margin_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebit_margin_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebit_margin_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebit_margin_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebit_margin_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebit_margin_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebit_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebitda_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebitda_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebitda_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebitda_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebitda_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebitda_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebitda_margin_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebitda_margin_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebitda_margin_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebitda_margin_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebitda_margin_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebitda_margin_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebitda_margin_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_ebitda_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_free_cash_flow_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_free_cash_flow_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_free_cash_flow_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_free_cash_flow_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_free_cash_flow_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_free_cash_flow_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_free_cash_flow_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_free_cash_flow_to_debt_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_free_cash_flow_to_debt_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_free_cash_flow_to_debt_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_free_cash_flow_to_debt_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_free_cash_flow_to_debt_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_free_cash_flow_to_debt_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_free_cash_flow_to_debt_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_interest_coverage_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_interest_coverage_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_interest_coverage_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_interest_coverage_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_interest_coverage_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_interest_coverage_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_interest_coverage_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_interest_expense_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_interest_expense_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_interest_expense_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_interest_expense_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_interest_expense_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_interest_expense_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_interest_expense_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_inventory_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_inventory_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_inventory_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_inventory_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_inventory_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_inventory_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_inventory_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_liabilities_to_assets_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_liabilities_to_assets_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_liabilities_to_assets_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_liabilities_to_assets_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_liabilities_to_assets_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_liabilities_to_assets_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_liabilities_to_assets_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_liabilities_to_equity_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_liabilities_to_equity_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_liabilities_to_equity_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_liabilities_to_equity_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_liabilities_to_equity_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_liabilities_to_equity_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_liabilities_to_equity_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_long_term_debt_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_long_term_debt_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_long_term_debt_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_long_term_debt_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_long_term_debt_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_long_term_debt_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_long_term_debt_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_market_cap_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_market_cap_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_market_cap_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_market_cap_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_market_cap_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_market_cap_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_market_cap_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_market_to_book_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_market_to_book_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_market_to_book_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_market_to_book_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_market_to_book_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_market_to_book_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_market_to_book_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_net_income_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_net_income_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_net_income_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_net_income_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_net_income_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_net_income_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_net_income_margin_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_net_income_margin_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_net_income_margin_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_net_income_margin_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_net_income_margin_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_net_income_margin_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_net_income_margin_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_net_income_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_operating_cash_flow_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_operating_cash_flow_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_operating_cash_flow_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_operating_cash_flow_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_operating_cash_flow_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_operating_cash_flow_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_operating_cash_flow_margin_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_operating_cash_flow_margin_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_operating_cash_flow_margin_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_operating_cash_flow_margin_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_operating_cash_flow_margin_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_operating_cash_flow_margin_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_operating_cash_flow_margin_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_operating_cash_flow_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_operating_cash_flow_to_debt_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_operating_cash_flow_to_debt_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_operating_cash_flow_to_debt_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_operating_cash_flow_to_debt_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_operating_cash_flow_to_debt_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_operating_cash_flow_to_debt_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_operating_cash_flow_to_debt_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_revenue_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_revenue_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_revenue_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_revenue_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_revenue_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_revenue_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_revenue_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_shareholders_equity_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_shareholders_equity_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_shareholders_equity_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_shareholders_equity_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_shareholders_equity_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_shareholders_equity_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_shareholders_equity_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_shares_outstanding_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_shares_outstanding_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_shares_outstanding_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_shares_outstanding_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_shares_outstanding_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_shares_outstanding_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_shares_outstanding_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_short_term_debt_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_short_term_debt_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_short_term_debt_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_short_term_debt_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_short_term_debt_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_short_term_debt_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_short_term_debt_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_total_assets_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_total_assets_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_total_assets_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_total_assets_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_total_assets_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_total_assets_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_total_assets_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_total_debt_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_total_debt_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_total_debt_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_total_debt_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_total_debt_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_total_debt_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_total_debt_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_total_liabilities_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_total_liabilities_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_total_liabilities_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_total_liabilities_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_total_liabilities_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_total_liabilities_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_total_liabilities_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_turnover_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_turnover_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_turnover_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_turnover_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_turnover_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_turnover_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_turnover_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_volume_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_volume_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_volume_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_volume_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_volume_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_volume_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_volume_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_working_capital_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_working_capital_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_working_capital_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_working_capital_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_working_capital_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_working_capital_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_working_capital_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_working_capital_to_assets_change_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_working_capital_to_assets_change_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_working_capital_to_assets_change_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_working_capital_to_assets_growth_1y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_working_capital_to_assets_growth_2y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_working_capital_to_assets_growth_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False
+numeric__trend_working_capital_to_assets_slope_3y,trend,one training SD of median-imputed value,True,,0.0,0.0,1.0,False

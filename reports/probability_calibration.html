@@ -1,0 +1,111 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Probability calibration</title>
+<style>body{font:16px Arial,sans-serif;max-width:1050px;margin:32px auto;line-height:1.5;color:#222}
+table{border-collapse:collapse;width:100%;font-size:14px}th,td{border:1px solid #ccc;padding:7px;text-align:right}th{background:#eee}
+figure img{max-width:100%}.notice{padding:14px;background:#fff4d6;border-left:4px solid #d49a00}</style></head><body>
+<h1>Probability calibration diagnostics</h1>
+<p class="notice"><strong>Interpretation:</strong> The validation and test cohorts are constructed using matched bankrupt and non-bankrupt firms, so their observed prevalence is not a population bankruptcy rate. Treat model outputs and Platt-scaled outputs as <strong>relative bankruptcy risk scores</strong>, not true population probabilities. A representative validation sample or external prevalence information is needed for population calibration.</p>
+<h2>Calibration method</h2>
+<p>Platt scaling was fit using only the validation predictions and labels. The held-out test metrics use that fixed transformation. Validation Platt metrics are in-sample calibration diagnostics and are optimistic. No test data were used to fit the transformation.</p>
+<h2>Validation-fitted Platt parameters</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>method</th>
+      <th>regularization_C</th>
+      <th>intercept</th>
+      <th>slope</th>
+      <th>fit_rows</th>
+      <th>fit_bankruptcies</th>
+      <th>fit_prevalence</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Regularized Platt scaling on logit scores</td>
+      <td>1.0000</td>
+      <td>-0.8508</td>
+      <td>1.1043</td>
+      <td>86</td>
+      <td>26</td>
+      <td>0.3023</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Calibration and score metrics</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>split</th>
+      <th>score</th>
+      <th>evaluation_note</th>
+      <th>events</th>
+      <th>bankrupt_events</th>
+      <th>sample_prevalence</th>
+      <th>brier_score</th>
+      <th>log_loss</th>
+      <th>roc_auc</th>
+      <th>pr_auc_average_precision</th>
+      <th>calibration_intercept</th>
+      <th>calibration_slope</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>validation</td>
+      <td>raw_relative_risk_score</td>
+      <td>Raw score; validation diagnostic</td>
+      <td>86</td>
+      <td>26</td>
+      <td>0.3023</td>
+      <td>0.2448</td>
+      <td>0.6826</td>
+      <td>0.9109</td>
+      <td>0.8215</td>
+      <td>-2.6198</td>
+      <td>57.3153</td>
+    </tr>
+    <tr>
+      <td>validation</td>
+      <td>platt_score</td>
+      <td>Platt fit and evaluated on validation; optimistic diagnostic</td>
+      <td>86</td>
+      <td>26</td>
+      <td>0.3023</td>
+      <td>0.2048</td>
+      <td>0.5984</td>
+      <td>0.9109</td>
+      <td>0.8215</td>
+      <td>41.5456</td>
+      <td>51.9105</td>
+    </tr>
+    <tr>
+      <td>test</td>
+      <td>raw_relative_risk_score</td>
+      <td>Raw score; held-out test</td>
+      <td>252</td>
+      <td>64</td>
+      <td>0.2540</td>
+      <td>0.2496</td>
+      <td>0.6924</td>
+      <td>0.7086</td>
+      <td>0.3728</td>
+      <td>-1.7217</td>
+      <td>19.6936</td>
+    </tr>
+    <tr>
+      <td>test</td>
+      <td>platt_score</td>
+      <td>Platt fit on validation; held-out test</td>
+      <td>252</td>
+      <td>64</td>
+      <td>0.2540</td>
+      <td>0.1891</td>
+      <td>0.5659</td>
+      <td>0.7086</td>
+      <td>0.3728</td>
+      <td>13.6887</td>
+      <td>18.1296</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Test reliability diagram</h2><figure><img src="../figures/probability_reliability_diagram.png" alt="Test reliability diagram"></figure>
+<p>Calibration slope and intercept come from a logistic regression of the observed label on the logit of each score; ideal values are slope 1 and intercept 0. Brier score and log loss summarize score error within this matched cohort. They do not correct the cohort's prevalence shift.</p>
+</body></html>

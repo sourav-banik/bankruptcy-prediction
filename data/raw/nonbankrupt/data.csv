@@ -7,7 +7,6 @@ AAON,AAON Inc. Common Stock,Industrials,Industrial Machinery/Components
 AAP,Advance Auto Parts Inc.,Consumer Discretionary,Auto & Home Supply Stores
 AAPL,Apple Inc. Common Stock,Technology,Computer Manufacturing
 AARD,Aardvark Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
-AAT,American Assets Trust Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 ABAT,American Battery Technology Company Common Stock,Industrials,Mining & Quarrying of Nonmetallic Minerals (No Fuels)
 ABBV,AbbVie Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 ABEO,Abeona Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
@@ -15,7 +14,6 @@ ABG,Asbury Automotive Group Inc Common Stock,Consumer Discretionary,Retail-Auto 
 ABM,ABM Industries Incorporated Common Stock,Consumer Discretionary,Diversified Commercial Services
 ABNB,Airbnb Inc. Class A Common Stock,Consumer Discretionary,Diversified Commercial Services
 ABOS,Acumen Pharmaceuticals Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
-ABR,Arbor Realty Trust Common Stock,Real Estate,Real Estate Investment Trusts
 ABSI,Absci Corporation Common Stock,Health Care,Biotechnology: Commercial Physical & Biological Resarch
 ABT,Abbott Laboratories Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 ABVC,ABVC BioPharma Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
@@ -38,8 +36,6 @@ ACM,AECOM Common Stock,Consumer Discretionary,Military/Government/Technical
 ACMR,ACM Research Inc. Class A Common Stock,Technology,Industrial Machinery/Components
 ACNT,Ascent Industries Co. Common Stock,Industrials,Major Chemicals
 ACON,Aclarion Inc. Common Stock,Health Care,Medical Specialities
-ACR,ACRES Commercial Realty Corp. Common Stock,Real Estate,Real Estate Investment Trusts
-ACRE,Ares Commercial Real Estate Corporation Common Stock,Real Estate,Real Estate Investment Trusts
 ACRS,Aclaris Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 ACRV,Acrivon Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 ACTU,Actuate Therapeutics Inc. Common stock,Health Care,Biotechnology: Pharmaceutical Preparations
@@ -47,18 +43,7 @@ ACU,Acme United Corporation. Common Stock,Consumer Discretionary,Industrial Mach
 ACVA,ACV Auctions Inc. Class A Common Stock,Consumer Discretionary,Business Services
 ACXP,Acurx Pharmaceuticals Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 AD,Array Digital Infrastructure Inc. Common Shares,Telecommunications,Telecommunications Equipment
-ADAM,Adamas Trust Inc. Common Stock,Real Estate,Real Estate Investment Trusts
-ADAMG,Adamas Trust Inc. 9.125% Senior Notes Due 2030,Real Estate,Real Estate Investment Trusts
-ADAMH,Adamas Trust Inc. 9.875% Senior Notes Due 2030,Real Estate,Real Estate Investment Trusts
-ADAMI,Adamas Trust Inc. 9.125% Senior Notes Due 2029,Real Estate,Real Estate Investment Trusts
-ADAMK,Adamas Trust Inc. 9.600% Senior Notes Due 2031 ,Real Estate,Real Estate Investment Trusts
-ADAML,Adamas Trust Inc. 6.875% Series F Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock $0.01 par value per share,Real Estate,Real Estate Investment Trusts
-ADAMM,Adamas Trust Inc. 7.875% Series E Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock,Real Estate,Real Estate Investment Trusts
-ADAMN,Adamas Trust Inc. 8.00% Series D Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock,Real Estate,Real Estate Investment Trusts
-ADAMO,Adamas Trust Inc. 9.250% Senior Notes Due 2031,Real Estate,Real Estate Investment Trusts
-ADAMZ,Adamas Trust Inc. 7.000% Series G Cumulative Redeemable Preferred Stock $0.01 par value per share,Real Estate,Real Estate Investment Trusts
 ADBE,Adobe Inc. Common Stock,Technology,Computer Software: Prepackaged Software
-ADC,Agree Realty Corporation Common Stock,Real Estate,Real Estate Investment Trusts
 ADEA,Adeia Inc. Common Stock,Telecommunications,Cable & Other Pay Television Services
 ADGM,Adagio Medical Holdings Inc Common Stock,Health Care,Medical/Dental Instruments
 ADI,Analog Devices Inc. Common Stock,Technology,Semiconductors
@@ -92,19 +77,10 @@ AGEN,Agenus Inc. Common Stock,Health Care,Biotechnology: Biological Products (No
 AGIG,Abundia Global Impact Group Inc. Common stock,Energy,Oil & Gas Production
 AGIO,Agios Pharmaceuticals Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 AGL,agilon health inc. Common Stock,Health Care,Misc Health and Biotechnology Services
-AGNC,AGNC Investment Corp. Common Stock,Real Estate,Real Estate Investment Trusts
-AGNCL,AGNC Investment Corp. Depositary Shares Each Representing a 1/1000th Interest in a Share of 7.75% Series G Fixed-Rate Reset Cumulative Redeemable Preferred Stock,Real Estate,Real Estate Investment Trusts
-AGNCM,AGNC Investment Corp. Depositary Shares rep 6.875% Series D Fixed-to-Floating Cumulative Redeemable Preferred Stock,Real Estate,Real Estate Investment Trusts
-AGNCN,AGNC Investment Corp. Depositary Shares Each Representing a 1/1000th Interest in a Share of 7.00% Series C Fixed-To-Floating Rate Cumulative Redeemable Preferred Stock,Real Estate,Real Estate Investment Trusts
-AGNCO,AGNC Investment Corp. Depositary Shares each representing a 1/1000th interest in a share of 6.50% Series E Fixed-to-Floating Cumulative Redeemable Preferred Stock,Real Estate,Real Estate Investment Trusts
-AGNCP,AGNC Investment Corp. Depositary Shares Each Representing a 1/1000th Interest in a Share of 6.125% Series F Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock,Real Estate,Real Estate Investment Trusts
-AGNCZ,AGNC Investment Corp. Depositary Shares Each Representing a 1/1000th Interest in a Share of 8.75% Series H Fixed-Rate Cumulative Redeemable Preferred Stock,Real Estate,Real Estate Investment Trusts
 AGPU,Axe Compute Inc. Common Stock,Health Care,Industrial Specialties
 AGX,Argan Inc. Common Stock,Consumer Discretionary,Engineering & Construction
 AGYS,Agilysys Inc. Common Stock (DE),Technology,EDP Services
 AHCO,AdaptHealth Corp. Common Stock,Health Care,Medical/Nursing Services
-AHR,American Healthcare REIT Inc. Common Stock,Real Estate,Real Estate Investment Trusts
-AHT,Ashford Hospitality Trust Inc Common Stock,Real Estate,Real Estate Investment Trusts
 AI,C3.ai Inc. Class A Common Stock,Technology,Computer Software: Prepackaged Software
 AIAI,AIAI Holdings Corporation Class A Common Stock,Technology,EDP Services
 AIDX,20/20 Biolabs Inc. Common Stock,Health Care,Precision Instruments
@@ -127,10 +103,8 @@ AIRTP,Air T Inc. Air T Funding Alpha Income Trust Preferred Securities,Consumer 
 AISP,Airship AI Holdings Inc. Class A Common Stock,Technology,Computer Software: Prepackaged Software
 AISPW,Airship AI Holdings Inc. Warrants,Technology,Computer Software: Prepackaged Software
 AIT,Applied Industrial Technologies Inc. Common Stock,Consumer Discretionary,Industrial Specialties
-AIV,Apartment Investment and Management Company Common Stock,Real Estate,Real Estate Investment Trusts
 AKAM,Akamai Technologies Inc. Common Stock,Consumer Discretionary,Business Services
 AKBA,Akebia Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
-AKR,Acadia Realty Trust Common Stock,Real Estate,Real Estate Investment Trusts
 AKTS,Aktis Oncology Inc. Common stock,Health Care,Biotechnology: Pharmaceutical Preparations
 ALAB,Astera Labs Inc. Common Stock,Technology,Semiconductors
 ALB,Albemarle Corporation Common Stock,Industrials,Major Chemicals
@@ -161,7 +135,6 @@ ALSN,Allison Transmission Holdings Inc. Common Stock,Consumer Discretionary,Auto
 ALT,Altimmune Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 ALTG,Alta Equipment Group Inc. Class A Common Stock,Industrials,Industrial Machinery/Components
 ALTO,Alto Ingredients Inc. Common Stock,Industrials,Major Chemicals
-ALX,Alexander's Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 ALXO,ALX Oncology Holdings Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 ALZN,Alzamend Neuro Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 AM,Antero Midstream Corporation Common Stock,Utilities,Natural Gas Distribution
@@ -174,7 +147,6 @@ AMCX,AMC Global Media Inc. Class A Common Stock,Telecommunications,Cable & Other
 AMD,Advanced Micro Devices Inc. Common Stock,Technology,Semiconductors
 AME,AMETEK Inc.,Industrials,Industrial Machinery/Components
 AMGN,Amgen Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
-AMH,American Homes 4 Rent Common Shares of Beneficial Interest,Real Estate,Real Estate Investment Trusts
 AMIX,Autonomix Medical Inc. Common Stock,Health Care,Medical/Dental Instruments
 AMKR,Amkor Technology Inc. Common Stock,Technology,Semiconductors
 AMLX,Amylyx Pharmaceuticals Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
@@ -191,7 +163,6 @@ AMS,American Shared Hospital Services Common Stock,Health Care,Medical Specialit
 AMSC,American Superconductor Corporation Common Stock,Consumer Discretionary,Metal Fabrications
 AMSS,AMASS Brands Inc. Common Stock,Consumer Staples,Beverages (Production/Distribution)
 AMST,Amesite Inc. Common Stock,Technology,Computer Software: Prepackaged Software
-AMT,American Tower Corporation (REIT) Common Stock,Real Estate,Real Estate Investment Trusts
 AMTM,Amentum Holdings Inc. Common Stock,Consumer Discretionary,Business Services
 AMTX,Aemetis Inc. (DE) Common Stock,Industrials,Major Chemicals
 AMWL,American Well Corporation Class A Common Stock,Consumer Discretionary,Business Services
@@ -220,11 +191,9 @@ AP,Ampco-Pittsburgh Corporation Common Stock,Industrials,Fluid Controls
 APA,APA Corporation Common Stock,Energy,Oil & Gas Production
 APC,ARKO Petroleum Corp. Class A Common Stock,Energy,Oil Refining/Marketing
 APD,Air Products and Chemicals Inc. Common Stock,Basic Materials,Major Chemicals
-APEI,American Public Education Inc. Common Stock,Real Estate,Other Consumer Services
 APG,APi Group Corporation Common Stock,Consumer Discretionary,Diversified Commercial Services
 APH,Amphenol Corporation Common Stock,Technology,Electrical Products
 APLD,Applied Digital Corporation Common Stock,Technology,EDP Services
-APLE,Apple Hospitality REIT Inc. Common Shares,Real Estate,Real Estate Investment Trusts
 APLM,Apollomics Inc. Class A Ordinary Shares,Health Care,Biotechnology: Pharmaceutical Preparations
 APMD,Apnimed Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 APOG,Apogee Enterprises Inc. Common Stock,Consumer Discretionary,Auto Parts:O.E.M.
@@ -245,10 +214,8 @@ ARAY,Accuray Incorporated Common Stock,Health Care,Medical/Dental Instruments
 ARCB,ArcBest Corporation Common Stock,Industrials,Trucking Freight/Courier Services
 ARDT,Ardent Health Inc. Common Stock,Health Care,Hospital/Nursing Management
 ARDX,Ardelyx Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
-ARE,Alexandria Real Estate Equities Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 AREC,American Resources Corporation Class A Common Stock,Energy,Coal Mining
 ARHS,Arhaus Inc. Class A Common Stock,Consumer Discretionary,Other Specialty Stores
-ARI,Apollo Commercial Real Estate Finance Inc,Real Estate,Real Estate Investment Trusts
 ARKO,ARKO Corp. Common Stock,Consumer Staples,Food Chains
 ARKR,Ark Restaurants Corp. Common Stock,Consumer Discretionary,Restaurants
 ARLO,Arlo Technologies Inc. Common Stock,Consumer Discretionary,Diversified Commercial Services
@@ -258,7 +225,6 @@ ARMP,Armata Pharmaceuticals Inc. Common Stock,Health Care,Biotechnology: Biologi
 AROC,Archrock Inc. Common Stock,Utilities,Natural Gas Distribution
 ARQ,Arq Inc. Common Stock,Industrials,Major Chemicals
 ARQT,Arcutis Biotherapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
-ARR,ARMOUR Residential REIT Inc.,Real Estate,Real Estate Investment Trusts
 ARRY,Array Technologies Inc. Common Stock,Technology,Semiconductors
 ARTL,Artelo Biosciences Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 ARTNA,Artesian Resources Corporation Class A Common Stock,Utilities,Water Supply
@@ -337,7 +303,6 @@ AWRE,Aware Inc. Common Stock,Technology,Computer Software: Prepackaged Software
 AWX,Avalon Holdings Corporation Common Stock,Utilities,Environmental Services
 AXGN,Axogen Inc. Common Stock,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus
 AXON,Axon Enterprise Inc. Common Stock,Industrials,Ordnance And Accessories
-AXR,AMREP Corporation Common Stock,Real Estate,Homebuilding
 AXSM,Axsome Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 AXTA,Axalta Coating Systems Ltd. Common Shares,Consumer Discretionary,Paints/Coatings
 AXTI,AXT Inc Common Stock,Technology,Semiconductors
@@ -381,7 +346,6 @@ BCPC,Balchem Corporation Common Stock,Industrials,Major Chemicals
 BCRX,BioCryst Pharmaceuticals Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 BDC,Belden Inc Common Stock,Industrials,Telecommunications Equipment
 BDL,Flanigan's Enterprises Inc. Common Stock,Consumer Discretionary,Restaurants
-BDN,Brandywine Realty Trust Common Stock,Real Estate,Real Estate Investment Trusts
 BDSX,Biodesix Inc. Common Stock,Health Care,Medical Specialities
 BDTX,Black Diamond Therapeutics Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 BDX,Becton Dickinson and Company Common Stock,Health Care,Medical/Dental Instruments
@@ -398,14 +362,12 @@ BFRG,Bullfrog AI Holdings Inc. Common Stock,Health Care,Biotechnology: Pharmaceu
 BFRGW,Bullfrog AI Holdings Inc. Warrants,Health Care,Biotechnology: Pharmaceutical Preparations
 BFRI,Biofrontera Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 BFRIW,Biofrontera Inc. Warrants,Health Care,Biotechnology: Pharmaceutical Preparations
-BFS,Saul Centers Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 BG,Bunge Limited Common Shares,Consumer Staples,Packaged Foods
 BGMS,Bio Green Med Solution Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 BGS,B&G Foods Inc. Common Stock,Consumer Staples,Packaged Foods
 BGSF,BGSF Inc. Common Stock,Consumer Discretionary,Professional Services
 BH,Biglari Holdings Inc. Class B Common Stock,Consumer Discretionary,Restaurants
 BHE,Benchmark Electronics Inc. Common Stock,Technology,Electrical Products
-BHR,Braemar Hotels & Resorts Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 BHVN,Biohaven Ltd. Common Shares ,Health Care,Biotechnology: Pharmaceutical Preparations
 BIAF,bioAffinity Technologies Inc. Common Stock,Health Care,Biotechnology: Commercial Physical & Biological Resarch
 BIAFW,bioAffinity Technologies Inc. Warrant,Health Care,Biotechnology: Commercial Physical & Biological Resarch
@@ -456,7 +418,6 @@ BNCWW,CEA Industries Inc. Warrant,Consumer Staples,Farming/Seeds/Milling
 BNED,Barnes & Noble Education Inc Common Stock,Consumer Discretionary,Other Specialty Stores
 BNGO,Bionano Genomics Inc. Common Stock,Industrials,Biotechnology: Laboratory Analytical Instruments
 BNKK,Bonk Inc. Common Stock,Consumer Discretionary,Package Goods/Cosmetics
-BNL,Broadstone Net Lease Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 BNTC,Benitec Biopharma Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 BODI,The Beachbody Company Inc. Class A Common Stock,Consumer Discretionary,Other Consumer Services
 BOF,BranchOut Food Inc. Common Stock,Consumer Staples,Packaged Foods
@@ -465,7 +426,6 @@ BOLT,Bolt Biotherapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceu
 BOOM,DMC Global Inc. Common Stock,Industrials,Industrial Specialties
 BOOT,Boot Barn Holdings Inc. Common Stock,Consumer Discretionary,Clothing/Shoe/Accessory Stores
 BOX,Box Inc. Class A Common Stock,Technology,Computer Software: Prepackaged Software
-BOXL,Boxlight Corporation Class A Common Stock,Real Estate,Other Consumer Services
 BR,Broadridge Financial Solutions Inc. Common Stock,Consumer Discretionary,Business Services
 BRBR,BellRing Brands Inc. Common Stock ,Consumer Staples,Packaged Foods
 BRC,Brady Corporation Common Stock,Consumer Discretionary,Miscellaneous manufacturing industries
@@ -480,12 +440,9 @@ BRLT,Brilliant Earth Group Inc. Class A Common Stock,Consumer Discretionary,Cons
 BRN,Barnwell Industries Inc. Common Stock,Energy,Oil & Gas Production
 BROS,Dutch Bros Inc. Class A Common Stock,Consumer Discretionary,Restaurants
 BRSL,Brightstar Lottery PLC Trading under the Legal Name to begin at the market open on July 21 2025. Ordinary Shares,Consumer Discretionary,Services-Misc. Amusement & Recreation
-BRSP,BrightSpire Capital Inc. Class A Common Stock,Real Estate,Real Estate Investment Trusts
-BRT,BRT Apartments Corp. (MD) Common Stock,Real Estate,Real Estate Investment Trusts
 BRTX,BioRestorative Therapies Inc. Common Stock (NV),Health Care,Managed Health Care
 BRUN,Boost Run Inc. Class A Common Stock,Technology,EDP Services
 BRVE,Braveheart Bio Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
-BRX,Brixmor Property Group Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 BRZE,Braze Inc. Class A Common Stock,Technology,Computer Software: Prepackaged Software
 BSEM,BioStem Technologies Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 BSET,Bassett Furniture Industries Incorporated Common Stock,Consumer Discretionary,Home Furnishings
@@ -511,8 +468,6 @@ BWMN,Bowman Consulting Group Ltd. Common Stock,Consumer Discretionary,Profession
 BWXT,BWX Technologies Inc. Common Stock,Industrials,Industrial Machinery/Components
 BXBL,BOXABL Inc. Common stock,Consumer Discretionary,Homebuilding
 BXC,Bluelinx Holdings Inc. Common Stock,Consumer Discretionary,Wholesale Distributors
-BXMT,Blackstone Mortgage Trust Inc. Common Stock,Real Estate,Real Estate Investment Trusts
-BXP,BXP Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 BYD,Boyd Gaming Corporation Common Stock,Consumer Discretionary,Hotels/Resorts
 BYND,Beyond Meat Inc. Common Stock,Consumer Staples,Packaged Foods
 BYSI,BeyondSpring Inc. Ordinary Shares,Health Care,Biotechnology: Pharmaceutical Preparations
@@ -553,7 +508,6 @@ CATO,Cato Corporation (The) Class A Common Stock,Consumer Discretionary,Clothing
 CATX,Perspective Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 CAVA,CAVA Group Inc. Common Stock,Consumer Discretionary,Restaurants
 CBIO,Crescent Biopharma Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
-CBL,CBL & Associates Properties Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 CBLL,CeriBell Inc. Common Stock,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus
 CBRL,Cracker Barrel Old Country Store Inc Common Stock,Consumer Discretionary,Restaurants
 CBRS,Cerebras Systems Inc. Class A Common Stock,Technology,Semiconductors
@@ -564,7 +518,6 @@ CC,Chemours Company (The) Common Stock,Industrials,Major Chemicals
 CCC,CCC Intelligent Solutions Holdings Inc. Common Stock,Technology,Computer Software: Prepackaged Software
 CCCC,C4 Therapeutics Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 CCEL,Cryo-Cell International Inc. Common Stock,Health Care,Misc Health and Biotechnology Services
-CCI,Crown Castle Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 CCK,Crown Holdings Inc.,Industrials,Containers/Packaging
 CCL,Carnival Corporation Ltd. Common Shares,Consumer Discretionary,Marine Transportation
 CCLD,CareCloud Inc. Common Stock,Technology,Computer Software: Prepackaged Software
@@ -579,7 +532,6 @@ CDLX,Cardlytics Inc. Common Stock,Technology,Computer Software: Programming Data
 CDNA,CareDx Inc. Common Stock,Health Care,Medical Specialities
 CDNL,Cardinal Infrastructure Group Inc. Class A Common Stock,Industrials,Military/Government/Technical
 CDNS,Cadence Design Systems Inc. Common Stock,Technology,Computer Software: Prepackaged Software
-CDP,COPT Defense Properties Common Shares of Beneficial Interest,Real Estate,Real Estate Investment Trusts
 CDRE,Cadre Holdings Inc. Common Stock,Health Care,Industrial Specialties
 CDT,CDT Equity Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 CDTTW,CDT Equity Inc. Warrant,Health Care,Biotechnology: Pharmaceutical Preparations
@@ -608,13 +560,11 @@ CGEM,Cullinan Therapeutics Inc. Common Stock,Health Care,Biotechnology: Biologic
 CGNX,Cognex Corporation Common Stock,Industrials,Industrial Machinery/Components
 CGON,CG Oncology Inc. Common stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 CGTX,Cognition Therapeutics Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
-CHCT,Community Healthcare Trust Incorporated Common Stock,Real Estate,Real Estate Investment Trusts
 CHD,Church & Dwight Company Inc. Common Stock,Consumer Discretionary,Package Goods/Cosmetics
 CHDN,Churchill Downs Incorporated Common Stock,Consumer Discretionary,Services-Misc. Amusement & Recreation
 CHE,Chemed Corp,Health Care,Medical/Nursing Services
 CHEF,The Chefs' Warehouse Inc. Common Stock,Consumer Discretionary,Food Distributors
 CHGA,Change Agents Corporation Common Stock,Technology,EDP Services
-CHGG,Chegg Inc. Common Stock,Real Estate,Other Consumer Services
 CHH,Choice Hotels International Inc. Common Stock,Consumer Discretionary,Hotels/Resorts
 CHRD,Chord Energy Corporation Common Stock,Energy,Oil & Gas Production
 CHRN,ChronoScale Holdings Corporation Common Stock,Industrials,Industrial Machinery/Components
@@ -630,10 +580,6 @@ CHTRP,Charter Communications Inc. Series A Cumulative Redeemable Preferred Stock
 CHWY,Chewy Inc. Class A Common Stock,Consumer Discretionary,Catalog/Specialty Distribution
 CI,The Cigna Group Common Stock,Health Care,Medical Specialities
 CIEN,Ciena Corporation Common Stock,Utilities,Telecommunications Equipment
-CIM,Chimera Investment Corporation Common Stock,Real Estate,Real Estate Investment Trusts
-CIMN,Chimera Investment Corporation 9.000% Senior Notes due 2029,Real Estate,Real Estate Investment Trusts
-CIMO,Chimera Investment Corporation 9.250% Senior Notes due 2029,Real Estate,Real Estate Investment Trusts
-CIMP,Chimera Investment Corporation 8.875% Senior Notes due 2030,Real Estate,Real Estate Investment Trusts
 CING,Cingulate Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 CIRC,Circle8 Group Inc. Common Stock,Industrials,Biotechnology: Laboratory Analytical Instruments
 CISO,CISO Global Inc. Common Stock,Consumer Discretionary,Professional Services
@@ -642,7 +588,6 @@ CJMB,Callan JMB Inc. Common Stock,Consumer Discretionary,Business Services
 CKX,CKX Lands Inc. Common Stock,Energy,Oil & Gas Production
 CL,Colgate-Palmolive Company Common Stock,Consumer Discretionary,Package Goods/Cosmetics
 CLAR,Clarus Corporation Common Stock,Consumer Discretionary,Recreational Games/Products/Toys
-CLDT,Chatham Lodging Trust (REIT) Common Shares of Beneficial Interest,Real Estate,Real Estate Investment Trusts
 CLDX,Celldex Therapeutics Inc.,Health Care,Biotechnology: In Vitro & In Vivo Diagnostic Substances
 CLF,Cleveland-Cliffs Inc. Common Stock,Basic Materials,Metal Mining
 CLFD,Clearfield Inc. Common Stock,Utilities,Telecommunications Equipment
@@ -653,7 +598,6 @@ CLMT,Calumet Inc. Common Stock,Energy,Integrated oil Companies
 CLNE,Clean Energy Fuels Corp. Common Stock,Utilities,Natural Gas Distribution
 CLNN,Clene Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 CLOV,Clover Health Investments Corp. Class A Common Stock,Health Care,Medical Specialities
-CLPR,Clipper Realty Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 CLPT,ClearPoint Neuro Inc. Common Stock,Health Care,Medical/Dental Instruments
 CLRB,Cellectar Biosciences Inc.  Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 CLRO,ClearOne Inc. Common Stock,Utilities,Telecommunications Equipment
@@ -663,7 +607,6 @@ CLYM,Climb Bio Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Prepa
 CMC,Commercial Metals Company Common Stock,Industrials,Steel/Iron Ore
 CMCO,Columbus McKinnon Corporation Common Stock,Industrials,Construction/Ag Equipment/Trucks
 CMCSA,Comcast Corporation Class A Common Stock,Telecommunications,Cable & Other Pay Television Services
-CMCT,Creative Media & Community Trust Corporation Common stock,Real Estate,Real Estate Investment Trusts
 CMG,Chipotle Mexican Grill Inc. Common Stock,Consumer Discretionary,Restaurants
 CMI,Cummins Inc. Common Stock,Industrials,Industrial Machinery/Components
 CMP,Compass Minerals Intl Inc Common Stock,Industrials,Mining & Quarrying of Nonmetallic Minerals (No Fuels)
@@ -705,7 +648,6 @@ COGT,Cogent Biosciences Inc. Common Stock,Health Care,Biotechnology: Pharmaceuti
 COHR,Coherent Corp. Common Stock,Technology,Electronic Components
 COHU,Cohu Inc. Common Stock,Industrials,Electrical Products
 COKE,Coca-Cola Consolidated Inc. Common Stock,Consumer Staples,Beverages (Production/Distribution)
-COLD,Americold Realty Trust Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 COLL,Collegium Pharmaceutical Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 COLM,Columbia Sportswear Company Common Stock,Consumer Discretionary,Apparel
 CON,Concentra Group Holdings Parent Inc. Common Stock,Health Care,Medical Specialities
@@ -728,7 +670,6 @@ CPNG,Coupang Inc. Class A Common Stock,Consumer Discretionary,Catalog/Specialty 
 CPRT,Copart Inc. (DE) Common Stock,Consumer Discretionary,Retail-Auto Dealers and Gas Stations
 CPS,Cooper-Standard Holdings Inc. Common Stock,Consumer Discretionary,Auto Parts:O.E.M.
 CPSH,CPS Technologies Corp. Common Stock,Consumer Discretionary,Building Materials
-CPT,Camden Property Trust Common Stock,Real Estate,Real Estate Investment Trusts
 CQP,Cheniere Energy Partners LP Common Units,Utilities,Oil/Gas Transmission
 CR,Crane Company Common Stock,Industrials,Metal Fabrications
 CRAI,CRA International Inc. Common Stock,Consumer Discretionary,Other Consumer Services
@@ -763,7 +704,6 @@ CSBR,Champions Oncology Inc. Common Stock,Health Care,Biotechnology: Biological 
 CSCO,Cisco Systems Inc. Common Stock (DE),Telecommunications,Computer Communications Equipment
 CSL,Carlisle Companies Incorporated Common Stock,Industrials,Specialty Chemicals
 CSPI,CSP Inc. Common Stock,Technology,EDP Services
-CSR,D/B/A Centerspace Common Stock,Real Estate,Real Estate Investment Trusts
 CSTL,Castle Biosciences Inc. Common Stock,Health Care,Medical Specialities
 CSV,Carriage Services Inc. Common Stock,Consumer Discretionary,Other Consumer Services
 CSW,CSW Industrials Inc. Common Stock,Industrials,Home Furnishings
@@ -776,9 +716,7 @@ CTKB,Cytek Biosciences Inc. Common Stock,Industrials,Biotechnology: Laboratory A
 CTMX,CytomX Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 CTNM,Contineum Therapeutics Inc. Class A Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 CTNT,Cheetah Net Supply Chain Service Inc Class A Common Stock,Consumer Discretionary,Motor Vehicles
-CTO,CTO Realty Growth Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 CTOR,Citius Oncology Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
-CTRE,CareTrust REIT Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 CTRI,Centuri Holdings Inc. Common Stock,Utilities,Oil & Gas Production
 CTRN,Citi Trends Inc. Common Stock,Consumer Discretionary,Clothing/Shoe/Accessory Stores
 CTS,CTS Corporation Common Stock,Technology,Electrical Products
@@ -787,14 +725,12 @@ CTSO,Cytosorbents Corporation Common Stock,Health Care,Medical/Dental Instrument
 CTVA,Corteva Inc. Common Stock ,Consumer Staples,Farming/Seeds/Milling
 CTXR,Citius Pharmaceuticals Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 CUB,Lionheart Holdings Class A Ordinary Shares,Industrials,Industrial Machinery/Components
-CUBE,CubeSmart Common Shares,Real Estate,Real Estate Investment Trusts
 CUBWW,Lionheart Holdings Warrant,Industrials,Industrial Machinery/Components
 CUE,Cue Biopharma Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 CULP,Culp Inc. Common Stock,Consumer Discretionary,Textiles
 CURI,CuriosityStream Inc. Class A Common Stock,Consumer Discretionary,Movies/Entertainment
 CURV,Torrid Holdings Inc. Common Stock,Consumer Discretionary,Clothing/Shoe/Accessory Stores
 CURX,Curanex Pharmaceuticals Inc Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
-CUZ,Cousins Properties Incorporated Common Stock,Real Estate,Real Estate Investment Trusts
 CV,CapsoVision Inc. Common Stock,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus
 CVCO,Cavco Industries Inc. Common Stock When Issued,Consumer Discretionary,Homebuilding
 CVGI,Commercial Vehicle Group Inc. Common Stock,Consumer Discretionary,Auto Parts:O.E.M.
@@ -807,7 +743,6 @@ CVNA,Carvana Co. Class A Common Stock,Consumer Discretionary,Retail-Auto Dealers
 CVR,Chicago Rivet & Machine Co. Common Stock,Industrials,Industrial Machinery/Components
 CVRX,CVRx Inc. Common Stock,Health Care,Medical/Dental Instruments
 CVS,CVS Health Corporation Common Stock,Consumer Staples,Retail-Drug Stores and Proprietary Stores
-CVSA,Covista Inc. Common Shares,Real Estate,Other Consumer Services
 CVU,CPI Aerostructures Inc. Common Stock,Industrials,Military/Government/Technical
 CVV,CVD Equipment Corporation Common Stock,Technology,Industrial Machinery/Components
 CVX,Chevron Corporation Common Stock,Energy,Integrated oil Companies
@@ -821,7 +756,6 @@ CXAIW,CXApp Inc. Warrant,Technology,EDP Services
 CXDO,Crexendo Inc. Common Stock,Telecommunications,Telecommunications Equipment
 CXM,Sprinklr Inc. Class A Common Stock,Technology,Computer Software: Prepackaged Software
 CXT,Crane NXT Co. Common Stock,Industrials,Metal Fabrications
-CXW,CoreCivic Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 CYCU,Cycurion Inc. Common Stock,Technology,EDP Services
 CYCUW,Cycurion Inc. Warrant,Technology,EDP Services
 CYH,Community Health Systems Inc. Common Stock,Health Care,Hospital/Nursing Management
@@ -842,7 +776,6 @@ DARE,Dare Bioscience Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical
 DASH,DoorDash Inc. Class A Common Stock,Consumer Discretionary,Business Services
 DBGI,Digital Brands Group Inc. Common Stock,Consumer Discretionary,Clothing/Shoe/Accessory Stores
 DBI,Designer Brands Inc. Class A Common Stock,Consumer Discretionary,Clothing/Shoe/Accessory Stores
-DBRG,DigitalBridge Group Inc.,Real Estate,Real Estate Investment Trusts
 DBX,Dropbox Inc. Class A Common Stock,Technology,Computer Software: Prepackaged Software
 DC,Dakota Gold Corp. Common Stock,Basic Materials,Metal Mining
 DCGO,DocGo Inc. Common Stock,Health Care,Medical/Nursing Services
@@ -857,9 +790,7 @@ DDOG,Datadog Inc. Class A Common Stock,Technology,Computer Software: Prepackaged
 DDS,Dillard's Inc. Common Stock,Consumer Discretionary,Department/Specialty Retail Stores
 DDT,Dillard's Capital Trust I,Consumer Discretionary,Department/Specialty Retail Stores
 DE,Deere & Company Common Stock,Industrials,Industrial Machinery/Components
-DEA,Easterly Government Properties Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 DECK,Deckers Outdoor Corporation Common Stock,Consumer Discretionary,Shoe Manufacturing
-DEI,Douglas Emmett Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 DELL,Dell Technologies Inc. Class C Common Stock ,Technology,Computer Manufacturing
 DERM,Journey Medical Corporation Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 DETX,Liberty Defense Holdings Ltd. Common Shares,Industrials,Industrial Machinery/Components
@@ -872,9 +803,6 @@ DG,Dollar General Corporation Common Stock,Consumer Discretionary,Department/Spe
 DGII,Digi International Inc. Common Stock,Telecommunications,Computer Communications Equipment
 DGX,Quest Diagnostics Incorporated Common Stock,Health Care,Medical Specialities
 DH,Definitive Healthcare Corp. Class A Common Stock,Technology,Computer Software: Prepackaged Software
-DHC,Diversified Healthcare Trust Common Shares of Beneficial Interest,Real Estate,Real Estate Investment Trusts
-DHCNI,Diversified Healthcare Trust 5.625% Senior Notes due 2042,Real Estate,Real Estate Investment Trusts
-DHCNL,Diversified Healthcare Trust 6.25% Senior Notes Due 2046,Real Estate,Real Estate Investment Trusts
 DHI,D.R. Horton Inc. Common Stock,Consumer Discretionary,Homebuilding
 DHR,Danaher Corporation Common Stock,Industrials,Industrial Machinery/Components
 DHX,DHI Group Inc. Common Stock,Consumer Discretionary,Business Services
@@ -893,7 +821,6 @@ DKNG,DraftKings Inc. Class A Common Stock,Consumer Discretionary,Services-Misc. 
 DKS,Dick's Sporting Goods Inc Common Stock,Consumer Discretionary,Other Specialty Stores
 DLHC,DLH Holdings Corp.,Consumer Discretionary,Professional Services
 DLPN,Dolphin Entertainment Inc. Common Stock,Consumer Discretionary,Other Consumer Services
-DLR,Digital Realty Trust Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 DLTH,Duluth Holdings Inc. Class B Common Stock,Consumer Discretionary,Clothing/Shoe/Accessory Stores
 DLTR,Dollar Tree Inc. Common Stock,Consumer Discretionary,Department/Specialty Retail Stores
 DLX,Deluxe Corporation Common Stock,Consumer Discretionary,Publishing
@@ -905,7 +832,6 @@ DNLI,Denali Therapeutics Inc. Common Stock,Health Care,Biotechnology: Biological
 DNOW,DNOW Inc. Common Stock,Consumer Discretionary,Oil and Gas Field Machinery
 DNTH,Dianthus Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 DNUT,Krispy Kreme Inc. Common Stock,Consumer Staples,Food Chains
-DOC,Healthpeak Properties Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 DOCN,DigitalOcean Holdings Inc. Common Stock,Technology,Computer Software: Programming Data Processing
 DOCS,Doximity Inc. Class A Common Stock,Technology,EDP Services
 DOCU,DocuSign Inc. Common Stock,Technology,Computer Software: Prepackaged Software
@@ -914,7 +840,6 @@ DOV,Dover Corporation Common Stock,Industrials,Industrial Machinery/Components
 DOW,Dow Inc. Common Stock ,Industrials,Major Chemicals
 DPZ,Domino's Pizza Inc Common Stock,Consumer Discretionary,Food Distributors
 DRCT,Direct Digital Holdings Inc. Class A Common Stock,Consumer Discretionary,Advertising
-DRH,Diamondrock Hospitality Company Common Stock,Real Estate,Real Estate Investment Trusts
 DRI,Darden Restaurants Inc. Common Stock,Consumer Discretionary,Restaurants
 DRMA,Dermata Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 DRVN,Driven Brands Holdings Inc. Common Stock,Consumer Discretionary,Automotive Aftermarket
@@ -944,7 +869,6 @@ DVLT,Datavault AI Inc. Common Stock,Consumer Discretionary,Business Services
 DVN,Devon Energy Corporation Common Stock,Energy,Oil & Gas Production
 DWSN,Dawson Geophysical Company Common Stock,Energy,Oil & Gas Production
 DWTX,Dogwood Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
-DX,Dynex Capital Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 DXC,DXC Technology Company Common Stock ,Technology,EDP Services
 DXCM,DexCom Inc. Common Stock,Health Care,Medical/Dental Instruments
 DXLG,Destination XL Group Inc. Common Stock,Consumer Discretionary,Clothing/Shoe/Accessory Stores
@@ -955,7 +879,6 @@ DYAI,Dyadic International Inc. Common Stock,Health Care,Biotechnology: Biologica
 DYN,Dyne Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 EAF,GrafTech International Ltd. Common Stock,Energy,Industrial Machinery/Components
 EAI,Entergy Arkansas LLC First Mortgage Bonds 4.875% Series Due September 1 2066,Utilities,Electric Utilities: Central
-EARN,Ellington Credit Company Common Shares of Beneficial Interest,Real Estate,Real Estate Investment Trusts
 EAT,Brinker International Inc. Common Stock,Consumer Discretionary,Restaurants
 EBAY,eBay Inc. Common Stock,Consumer Discretionary,Business Services
 EBF,Ennis Inc. Common Stock,Consumer Discretionary,Office Equipment/Supplies/Services
@@ -971,12 +894,10 @@ EDIT,Editas Medicine Inc. Common Stock,Health Care,Biotechnology: Biological Pro
 EDSA,Edesa Biotech Inc. Common Shares,Health Care,Biotechnology: Pharmaceutical Preparations
 EDUC,Educational Development Corporation Common Stock,Consumer Discretionary,Consumer Specialties
 EE,Excelerate Energy Inc. Class A Common Stock,Utilities,Oil/Gas Transmission
-EEIQ,EpicQuest Education Group International Limited Common Stock,Real Estate,Other Consumer Services
 EFOI,Energy Focus Inc. Common Stock,Consumer Discretionary,Building Products
 EFOR,Everforth Inc. Common Stock,Consumer Discretionary,Professional Services
 EGAN,eGain Corporation Common Stock,Technology,Computer Software: Prepackaged Software
 EGHT,8x8 Inc Common Stock,Technology,EDP Services
-EGP,EastGroup Properties Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 EGY,VAALCO Energy Inc.  Common Stock,Energy,Oil & Gas Production
 EHC,Encompass Health Corporation Common Stock,Health Care,Hospital/Nursing Management
 EIKN,Eikon Therapeutics Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
@@ -988,12 +909,9 @@ ELAN,Elanco Animal Health Incorporated Common Stock,Health Care,Biotechnology: P
 ELC,Entergy Louisiana Inc. Collateral Trust Mortgage Bonds 4.875 % Series due September 1 2066,Utilities,Electric Utilities: Central
 ELDN,Eledon Pharmaceuticals Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 ELF,e.l.f. Beauty Inc. Common Stock,Consumer Discretionary,Package Goods/Cosmetics
-ELLA,Ellington Credit Company 8.50% Notes due 2031,Real Estate,Real Estate Investment Trusts
 ELMD,Electromed Inc. Common Stock,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus
-ELME,Elme Communities Common Stock,Real Estate,Real Estate Investment Trusts
 ELMT,The Elmet Group Co. Common Stock,Industrials,Metal Fabrications
 ELOX,Eloxx Pharmaceuticals Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
-ELS,Equity Lifestyle Properties Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 ELTX,Elicio Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 ELUT,Elutia Inc. Class A Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 ELV,Elevance Health Inc. Common Stock,Health Care,Medical Specialities
@@ -1023,11 +941,8 @@ EPAM,EPAM Systems Inc. Common Stock,Technology,EDP Services
 EPC,Edgewell Personal Care Company Common Stock,Consumer Discretionary,Package Goods/Cosmetics
 EPD,Enterprise Products Partners L.P. Common Stock,Utilities,Natural Gas Distribution
 EPM,Evolution Petroleum Corporation Inc. Common Stock,Energy,Oil & Gas Production
-EPR,EPR Properties Common Stock,Real Estate,Real Estate Investment Trusts
-EPRT,Essential Properties Realty Trust Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 EPSN,Epsilon Energy Ltd. Common Share,Energy,Oil & Gas Production
 EQ,Equillium Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
-EQIX,Equinix Inc. Common Stock REIT,Real Estate,Real Estate Investment Trusts
 EQPT,EquipmentShare.com Inc Class A Common Stock,Consumer Discretionary,Diversified Commercial Services
 EQT,EQT Corporation Common Stock,Energy,Oil & Gas Production
 ERAS,Erasca Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
@@ -1042,8 +957,6 @@ ESI,Element Solutions Inc. Common Stock,Industrials,Major Chemicals
 ESLA,Estrella Immunopharma Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 ESOA,Energy Services of America Corporation Common Stock,Industrials,Water Sewer Pipeline Comm & Power Line Construction
 ESP,Espey Mfg. & Electronics Corp. Common Stock,Technology,Industrial Machinery/Components
-ESRT,Empire State Realty Trust Inc. Class A Common Stock,Real Estate,Real Estate Investment Trusts
-ESS,Essex Property Trust Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 ESTC,Elastic N.V. Ordinary Shares,Technology,Computer Software: Prepackaged Software
 ESYN,EnerSyn Global Inc. Common Stock,Health Care,Other Pharmaceuticals
 ET,Energy Transfer LP Common Units ,Utilities,Natural Gas Distribution
@@ -1076,7 +989,6 @@ EXP,Eagle Materials Inc Common Stock,Industrials,Building Materials
 EXPD,Expeditors International of Washington Inc. Common Stock,Industrials,Integrated Freight & Logistics
 EXPE,Expedia Group Inc. Common Stock,Consumer Discretionary,Transportation Services
 EXPO,Exponent Inc. Common Stock,Consumer Discretionary,Professional Services
-EXR,Extra Space Storage Inc Common Stock,Real Estate,Real Estate Investment Trusts
 EXTR,Extreme Networks Inc. Common Stock,Telecommunications,Computer Communications Equipment
 EXYN,Exyn Technologies Inc. Common Stock,Technology,Computer Software: Prepackaged Software
 EXYNW,Exyn Technologies Inc. Warrant,Technology,Computer Software: Prepackaged Software
@@ -1095,13 +1007,11 @@ FBIN,Fortune Brands Innovations Inc. Common Stock,Basic Materials,Forest Product
 FBIO,Fortress Biotech Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 FBIOP,Fortress Biotech Inc. 9.375% Series A Cumulative Redeemable Perpetual Preferred Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 FBLG,FibroBiologics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
-FBRT,Franklin BSP Realty Trust Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 FBYD,Falcon's Beyond Global Inc. Class A Common Stock,Consumer Discretionary,Services-Misc. Amusement & Recreation
 FC,Franklin Covey Company Common Stock,Consumer Discretionary,Other Consumer Services
 FCEL,FuelCell Energy Inc. Common Stock,Energy,Industrial Machinery/Components
 FCFS,FirstCash Holdings Inc. Common Stock,Consumer Discretionary,Other Specialty Stores
 FCN,FTI Consulting Inc. Common Stock,Consumer Discretionary,Professional Services
-FCPT,Four Corners Property Trust Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 FCUV,Focus Universal Inc. Common Stock,Industrials,Industrial Machinery/Components
 FCX,Freeport-McMoRan Inc. Common Stock,Basic Materials,Metal Mining
 FDMT,4D Molecular Therapeutics Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
@@ -1160,21 +1070,16 @@ FOX,Fox Corporation Class B Common Stock,Industrials,Broadcasting
 FOXA,Fox Corporation Class A Common Stock,Industrials,Broadcasting
 FOXF,Fox Factory Holding Corp. Common Stock,Consumer Discretionary,Motor Vehicles
 FOXX,Foxx Development Holdings Inc. Common Stock,Telecommunications,Computer Communications Equipment
-FPI,Farmland Partners Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 FPS,Forgent Power Solutions Inc. Class A Common Stock,Energy,Industrial Machinery/Components
-FR,First Industrial Realty Trust Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 FRD,Friedman Industries Inc. Common Stock,Industrials,Steel/Iron Ore
 FRGT,Freight Technologies Inc. Ordinary Shares,Industrials,Integrated Freight & Logistics
-FRMI,Fermi Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 FRNM,Freenome Inc. Common stock,Health Care,Medical Specialities
 FROG,JFrog Ltd. Ordinary Shares,Technology,Computer Software: Prepackaged Software
 FRPT,Freshpet Inc. Common Stock,Consumer Staples,Packaged Foods
 FRSH,Freshworks Inc. Class A Common Stock,Technology,Computer Software: Prepackaged Software
-FRT,Federal Realty Investment Trust Common Stock,Real Estate,Real Estate Investment Trusts
 FRVO,Fervo Energy Company Class A common stock,Utilities,Electric Utilities: Central
 FSLR,First Solar Inc. Common Stock,Technology,Semiconductors
 FSLY,Fastly Inc. Class A Common Stock,Technology,Computer Software: Prepackaged Software
-FSP,Franklin Street Properties Corp. Common Stock,Real Estate,Real Estate Investment Trusts
 FSS,Federal Signal Corporation Common Stock,Industrials,Auto Manufacturing
 FSTR,L.B. Foster Company Common Stock,Industrials,Metal Fabrications
 FTAI,FTAI Aviation Ltd. Common Stock,Industrials,Misc Corporate Leasing Services
@@ -1195,7 +1100,6 @@ FULC,Fulcrum Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceu
 FUN,Six Flags Entertainment Corporation Common Stock New,Consumer Discretionary,Services-Misc. Amusement & Recreation
 FUSE,Fusemachines Inc. Common stock,Technology,EDP Services
 FUSEW,Fusemachines Inc. Warrants,Technology,EDP Services
-FVR,FrontView REIT Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 FWONA,Liberty Media Corporation Series A Common Stock,Industrials,Broadcasting
 FWONK,Liberty Media Corporation Series C Common Stock,Industrials,Broadcasting
 FWRD,Forward Air Corporation Common Stock,Industrials,Integrated Freight & Logistics
@@ -1240,13 +1144,11 @@ GFUZ,General Fusion Group Ltd. Common Shares,Utilities,Electric Utilities: Centr
 GFUZW,General Fusion Group Ltd. Warrant,Utilities,Electric Utilities: Central
 GGG,Graco Inc. Common Stock,Industrials,Fluid Controls
 GH,Guardant Health Inc. Common Stock,Health Care,Medical Specialities
-GHC,Graham Holdings Company Common Stock,Real Estate,Other Consumer Services
 GHM,Graham Corporation Common Stock,Industrials,Industrial Machinery/Components
 GIC,Global Industrial Company Common Stock,Industrials,Industrial Machinery/Components
 GIFT,Giftify Inc. Common Stock,Consumer Discretionary,Catalog/Specialty Distribution
 GIII,G-III Apparel Group LTD. Common Stock,Consumer Discretionary,Apparel
 GILD,Gilead Sciences Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
-GIPR,Generation Income Properties Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 GIS,General Mills Inc. Common Stock,Consumer Staples,Packaged Foods
 GKOS,Glaukos Corporation Common Stock,Health Care,Medical/Dental Instruments
 GLAD,Gladstone Capital Corporation Common Stock,Consumer Discretionary,Textiles
@@ -1257,7 +1159,6 @@ GLNDW,Greenland Energy Company Warrant,Energy,Oil & Gas Production
 GLOB,Globant S.A. Common Shares,Technology,EDP Services
 GLOO,Gloo Holdings Inc. Class A Common Stock,Technology,EDP Services
 GLP,Global Partners LP Common Units representing Limited Partner Interests,Energy,Oil Refining/Marketing
-GLPI,Gaming and Leisure Properties Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 GLSI,Greenwich LifeSciences Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 GLUE,Monte Rosa Therapeutics Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 GLW,Corning Incorporated Common Stock,Industrials,Telecommunications Equipment
@@ -1266,7 +1167,6 @@ GME,GameStop Corporation Common Stock,Consumer Discretionary,Electronics Distrib
 GMED,Globus Medical Inc. Class A Common Stock,Health Care,Medical/Dental Instruments
 GNE,Genie Energy Ltd. Class B Common Stock Stock,Utilities,Power Generation
 GNK,Genco Shipping & Trading Limited Ordinary Shares New (Marshall Islands),Consumer Discretionary,Marine Transportation
-GNL,Global Net Lease Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 GNLN,Greenlane Holdings Inc. Class A Common Stock,Consumer Discretionary,Durable Goods
 GNLX,Genelux Corporation Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 GNPX,Genprex Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
@@ -1278,9 +1178,6 @@ GOAI,Eva Live Inc. Common Stock,Technology,Computer Software: Programming Data P
 GOGO,Gogo Inc. Common Stock,Consumer Discretionary,Telecommunications Equipment
 GOLD,Gold.com Inc. Common Stock,Industrials,Other Specialty Stores
 GOLF,Acushnet Holdings Corp. Common Stock,Consumer Discretionary,Recreational Games/Products/Toys
-GOOD,Gladstone Commercial Corporation Real Estate Investment Trust,Real Estate,Real Estate
-GOODN,Gladstone Commercial Corporation 6.625% Series E Cumulative Redeemable Preferred Stock,Real Estate,Real Estate
-GOODO,Gladstone Commercial Corporation 6.00% Series G Cumulative Redeemable Preferred Stock par value $0.001 per share,Real Estate,Real Estate
 GOOG,Alphabet Inc. Class C Capital Stock,Technology,Computer Software: Programming Data Processing
 GOOGL,Alphabet Inc. Class A Common Stock,Technology,Computer Software: Programming Data Processing
 GOOGM,Alphabet Inc. Depositary Shares representing a 1/20th Interest in a Share of Series A Mandatory Convertible Preferred Stock,Technology,Computer Software: Programming Data Processing
@@ -1293,7 +1190,6 @@ GPCR,Structure Therapeutics Inc. American Depositary Shares,Health Care,Biotechn
 GPI,Group 1 Automotive Inc. Common Stock,Consumer Discretionary,Retail-Auto Dealers and Gas Stations
 GPJA,Georgia Power Company Series 2017A 5.00% Junior Subordinated Notes due October 1 2077,Utilities,Electric Utilities: Central
 GPK,Graphic Packaging Holding Company,Consumer Discretionary,Containers/Packaging
-GPMT,Granite Point Mortgage Trust Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 GPN,Global Payments Inc. Common Stock,Consumer Discretionary,Business Services
 GPOR,Gulfport Energy Corporation Common Shares,Energy,Oil & Gas Production
 GPRE,Green Plains Inc. Common Stock,Industrials,Major Chemicals
@@ -1328,7 +1224,6 @@ GXAI,Gaxos.ai Inc. Common Stock,Technology,Computer Software: Prepackaged Softwa
 GXO,GXO Logistics Inc. Common Stock ,Consumer Discretionary,Transportation Services
 GYGY,Game Your Game Inc. Common Stock,Technology,Computer Software: Prepackaged Software
 GYRE,Gyre Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
-GYRO,Gyrodyne LLC Common Stock,Real Estate,Building operators
 H,Hyatt Hotels Corporation Class A Common Stock,Consumer Discretionary,Hotels/Resorts
 HAE,Haemonetics Corporation Common Stock,Health Care,Medical/Dental Instruments
 HAIN,Hain Celestial Group Inc. (The) Common Stock,Consumer Staples,Packaged Foods
@@ -1357,12 +1252,10 @@ HESM,Hess Midstream LP Class A Representing Limited Partner Interests,Energy,Oil
 HFFG,HF Foods Group Inc. Common Stock,Consumer Discretionary,Food Distributors
 HGBL,Heritage Global Inc. Common Stock,Consumer Discretionary,Business Services
 HGV,Hilton Grand Vacations Inc. Common Stock ,Consumer Discretionary,Hotels/Resorts
-HHH,Howard Hughes Holdings Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 HHS,Harte Hanks Inc. Common Stock,Consumer Discretionary,Advertising
 HII,Huntington Ingalls Industries Inc. Common Stock,Industrials,Marine Transportation
 HIMS,Hims & Hers Health Inc. Class A Common Stock,Health Care,Medical/Nursing Services
 HIND,Vyome Holdings Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
-HIW,Highwoods Properties Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 HL,Hecla Mining Company Common Stock,Industrials,Mining & Quarrying of Nonmetallic Minerals (No Fuels)
 HLIO,Helios Technologies Inc. Common Stock,Industrials,Metal Fabrications
 HLIT,Harmonic Inc. Common Stock,Technology,Radio And Television Broadcasting And Communications Equipment
@@ -1393,7 +1286,6 @@ HPK,HighPeak Energy Inc. Common Stock,Energy,Oil & Gas Production
 HPQ,HP Inc. Common Stock,Technology,Computer Manufacturing
 HQI,HireQuest Inc. Common Stock (DE),Consumer Discretionary,Professional Services
 HQY,HealthEquity Inc. Common Stock,Consumer Discretionary,Business Services
-HR,Healthcare Realty Trust Incorporated Common Stock,Real Estate,Real Estate Investment Trusts
 HRB,H&R Block Inc. Common Stock,Consumer Discretionary,Other Consumer Services
 HRI,Herc Holdings Inc. Common Stock ,Industrials,Misc Corporate Leasing Services
 HRL,Hormel Foods Corporation Common Stock,Consumer Staples,Meat/Poultry/Fish
@@ -1404,7 +1296,6 @@ HSCS,HeartSciences Inc. Common Stock,Health Care,Industrial Specialties
 HSCSW,HeartSciences Inc. Warrant,Health Care,Industrial Specialties
 HSDT,Solana Company Class A Common Stock (DE),Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus
 HSIC,Henry Schein Inc. Common Stock,Health Care,Medical Specialities
-HST,Host Hotels & Resorts Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 HSTM,HealthStream Inc. Common Stock,Technology,Computer Software: Programming Data Processing
 HSY,The Hershey Company Common Stock,Consumer Staples,Specialty Foods
 HTFL,Heartflow Inc. Common Stock,Health Care,Medical/Dental Instruments
@@ -1459,15 +1350,12 @@ IESC,IES Holdings Inc. Common Stock,Industrials,Engineering & Construction
 IEX,IDEX Corporation Common Stock,Industrials,Fluid Controls
 IFF,International Flavors & Fragrances Inc. Common Stock,Industrials,Major Chemicals
 IGC,IGC Pharma Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
-IH,iHuman Inc. American depositary shares each representing five Class A ordinary shares,Real Estate,Other Consumer Services
 IHRT,iHeartMedia Inc. Class A Common Stock,Consumer Discretionary,Broadcasting
-IHT,InnSuites Hospitality Trust Shares of Beneficial Interest,Real Estate,Real Estate Investment Trusts
 III,Information Services Group Inc. Common Stock,Consumer Discretionary,Professional Services
 IIIN,Insteel Industries Inc. Common Stock,Industrials,Steel/Iron Ore
 IIIV,i3 Verticals Inc. Class A Common Stock,Technology,Computer Software: Prepackaged Software
 IKT,Inhibikase Therapeutics Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 ILMN,Illumina Inc. Common Stock,Health Care,Medical Specialities
-ILPT,Industrial Logistics Properties Trust Common Shares of Beneficial Interest,Real Estate,Real Estate Investment Trusts
 IMA,ImageneBio Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 IMDX,Insight Molecular Diagnostics Inc. Common Stock,Health Care,Biotechnology: In Vitro & In Vivo Diagnostic Substances
 IMKTA,Ingles Markets Incorporated Class A Common Stock,Consumer Staples,Food Chains
@@ -1494,7 +1382,6 @@ INGR,Ingredion Incorporated Common Stock,Consumer Staples,Packaged Foods
 INHD,Inno Holdings Inc. Common Stock,Industrials,Steel/Iron Ore
 INKT,MiNK Therapeutics Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 INMB,INmune Bio Inc. Common stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
-INN,Summit Hotel Properties Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 INNV,InnovAge Holding Corp. Common Stock,Health Care,Medical/Nursing Services
 INO,Inovio Pharmaceuticals Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 INOD,Innodata Inc. Common Stock,Technology,EDP Services
@@ -1506,7 +1393,6 @@ INSP,Inspire Medical Systems Inc. Common Stock,Health Care,Medical/Dental Instru
 INSW,International Seaways Inc. Common Stock ,Consumer Discretionary,Marine Transportation
 INTA,Intapp Inc. Common Stock,Technology,Computer Software: Prepackaged Software
 INTC,Intel Corporation Common Stock,Technology,Semiconductors
-INTG,Intergroup Corporation (The) Common Stock,Real Estate,Building operators
 INTS,Intensity Therapeutics Inc. Common stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 INTT,inTest Corporation Common Stock,Industrials,Electrical Products
 INTU,Intuit Inc. Common Stock,Technology,Computer Software: Prepackaged Software
@@ -1517,7 +1403,6 @@ INVE,INVE Technologies Inc. Common Stock,Technology,Computer peripheral equipmen
 INVX,Innovex International Inc. Common Stock,Consumer Discretionary,Oil and Gas Field Machinery
 IONQ,IonQ Inc. Common Stock,Technology,EDP Services
 IONS,Ionis Pharmaceuticals Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
-IOR,Income Opportunity Realty Investors Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 IOSP,Innospec Inc. Common Stock,Industrials,Major Chemicals
 IOT,Samsara Inc. Class A Common Stock,Technology,EDP Services
 IOVA,Iovance Biotherapeutics Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
@@ -1539,10 +1424,8 @@ IR,Ingersoll Rand Inc. Common Stock,Industrials,Industrial Machinery/Components
 IRD,Opus Genetics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 IRDM,Iridium Communications Inc Common Stock,Consumer Discretionary,Telecommunications Equipment
 IRIX,IRIDEX Corporation Common Stock,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus
-IRM,Iron Mountain Incorporated (Delaware)Common Stock REIT,Real Estate,Real Estate Investment Trusts
 IRMD,iRadimed Corporation Common Stock,Health Care,Medical/Dental Instruments
 IRON,Disc Medicine Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
-IRT,Independence Realty Trust Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 IRTC,iRhythm Holdings Inc. Common Stock,Health Care,Medical/Dental Instruments
 IRWD,Ironwood Pharmaceuticals Inc. Class A Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 ISPC,iSpecimen Inc. Common Stock,Health Care,Biotechnology: Commercial Physical & Biological Resarch
@@ -1557,8 +1440,6 @@ ITW,Illinois Tool Works Inc. Common Stock,Industrials,Industrial Machinery/Compo
 IVDA,Iveda Solutions Inc. Common Stock,Technology,Computer Software: Prepackaged Software
 IVDAW,Iveda Solutions Inc. Warrant,Technology,Computer Software: Prepackaged Software
 IVF,INVO Fertility Inc. Common Stock,Health Care,Medical/Dental Instruments
-IVR,INVESCO MORTGAGE CAPITAL INC Common Stock,Real Estate,Real Estate Investment Trusts
-IVT,InvenTrust Properties Corp. Common Stock,Real Estate,Real Estate Investment Trusts
 IVVD,Invivyd Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 IZEA,IZEA Worldwide Inc. Common Stock,Consumer Discretionary,Advertising
 J,Jacobs Solutions Inc. Common Stock,Industrials,Military/Government/Technical
@@ -1566,7 +1447,6 @@ JACK,Jack In The Box Inc. Common Stock,Consumer Discretionary,Restaurants
 JAGX,Jaguar Health Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 JAKK,JAKKS Pacific Inc. Common Stock,Consumer Discretionary,Recreational Games/Products/Toys
 JANX,Janux Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
-JBGS,JBG SMITH Properties Common Shares ,Real Estate,Real Estate Investment Trusts
 JBHT,J.B. Hunt Transport Services Inc. Common Stock,Industrials,Trucking Freight/Courier Services
 JBI,Janus International Group Inc. Common Stock,Industrials,Building Products
 JBIO,Jade Biosciences Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
@@ -1582,7 +1462,6 @@ JKHY,Jack Henry & Associates Inc. Common Stock,Technology,EDP Services
 JNJ,Johnson & Johnson Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 JOB,GEE Group Inc. Common Stock,Consumer Discretionary,Diversified Commercial Services
 JOBY,Joby Aviation Inc. Common Stock,Industrials,Aerospace
-JOE,St. Joe Company (The) Common Stock,Real Estate,Homebuilding
 JOUT,Johnson Outdoors Inc. Class A Common Stock,Consumer Discretionary,Recreational Games/Products/Toys
 JRSH,Jerash Holdings (US) Inc. Common Stock,Consumer Discretionary,Apparel
 JSPR,Jasper Therapeutics Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
@@ -1611,9 +1490,6 @@ KGEI,Kolibri Global Energy Inc. Common stock,Energy,Oil & Gas Production
 KGS,Kodiak Gas Services Inc. Common Stock,Utilities,Natural Gas Distribution
 KHC,The Kraft Heinz Company Common Stock,Consumer Staples,Packaged Foods
 KIDS,OrthoPediatrics Corp. Common Stock,Health Care,Medical/Dental Instruments
-KIDZ,KIDZ AI Inc. Class B Common Stock,Real Estate,Other Consumer Services
-KIDZW,KIDZ AI Inc. Warrants,Real Estate,Other Consumer Services
-KIM,Kimco Realty Corporation (HC) Common Stock,Real Estate,Real Estate Investment Trusts
 KITT,Nauticus Robotics Inc. Common stock,Industrials,Industrial Machinery/Components
 KITTW,Nauticus Robotics Inc. Warrant,Industrials,Industrial Machinery/Components
 KLAC,KLA Corporation Common Stock,Technology,Electronic Components
@@ -1642,9 +1518,6 @@ KPLT,Katapult Holdings Inc. Common Stock,Consumer Discretionary,Diversified Comm
 KPRX,Kiora Pharmaceuticals Inc.  Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 KPTI,Karyopharm Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 KR,Kroger Company (The) Common Stock,Consumer Staples,Food Chains
-KRC,Kilroy Realty Corporation Common Stock,Real Estate,Real Estate Investment Trusts
-KREF,KKR Real Estate Finance Trust Inc. Common Stock,Real Estate,Real Estate Investment Trusts
-KRG,Kite Realty Group Trust Common Stock,Real Estate,Real Estate Investment Trusts
 KRMD,KORU Medical Systems Inc. Common Stock (DE),Health Care,Medical/Dental Instruments
 KRMN,Karman Holdings Inc. Common Stock,Industrials,Military/Government/Technical
 KRO,Kronos Worldwide Inc Common Stock,Basic Materials,Major Chemicals
@@ -1674,14 +1547,8 @@ KYTX,Kyverna Therapeutics Inc. Common Stock,Health Care,Biotechnology: Biologica
 LAB,Standard BioTools Inc. Common Stock,Industrials,Biotechnology: Laboratory Analytical Instruments
 LABT,Lakewood-Amedex Biotherapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 LAD,Lithia Motors Inc. Common Stock,Consumer Discretionary,Retail-Auto Dealers and Gas Stations
-LADR,Ladder Capital Corp Class A Common Stock,Real Estate,Real Estate Investment Trusts
 LAKE,Lakeland Industries Inc. Common Stock,Health Care,Industrial Specialties
-LAMR,Lamar Advertising Company Class A Common Stock,Real Estate,Real Estate Investment Trusts
-LAND,Gladstone Land Corporation Common Stock,Real Estate,Real Estate Investment Trusts
-LANDO,Gladstone Land Corporation 6.00% Series B Cumulative Redeemable Preferred Stock,Real Estate,Real Estate Investment Trusts
-LANDP,Gladstone Land Corporation 6.00% Series C Cumulative Redeemable Preferred Stock,Real Estate,Real Estate Investment Trusts
 LASR,nLIGHT Inc. Common Stock,Technology,Semiconductors
-LAUR,Laureate Education Inc. Common Stock,Real Estate,Other Consumer Services
 LAW,CS Disco Inc. Common Stock,Technology,Computer Software: Prepackaged Software
 LBRT,Liberty Energy Inc. Class A common stock,Energy,Oilfield Services/Equipment
 LBRX,LB Pharmaceuticals Inc Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
@@ -1705,7 +1572,6 @@ LFCR,Lifecore Biomedical Inc. Common Stock,Health Care,Biotechnology: Pharmaceut
 LFMD,LifeMD Inc. Common Stock,Health Care,Medical/Nursing Services
 LFMDP,LifeMD Inc. 8.875% Series A Cumulative Perpetual Preferred Stock,Health Care,Medical/Nursing Services
 LFST,LifeStance Health Group Inc. Common Stock,Health Care,Medical/Nursing Services
-LFT,Lument Finance Trust Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 LFTO,Liftoff Mobile Inc. Common Stock,Technology,EDP Services
 LFUS,Littelfuse Inc. Common Stock,Energy,Electrical Products
 LFVN,Lifevantage Corporation Common Stock (Delaware),Health Care,Biotechnology: Pharmaceutical Preparations
@@ -1725,9 +1591,7 @@ LILAP,Liberty Latin America Ltd. 9.0% Fixed Rate Cumulative Perpetual Redeemable
 LIME,Neutron Holdings Inc. Common Stock,Technology,Computer Software: Prepackaged Software
 LIMN,Liminatus Pharma Inc. Class A Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 LIN,Linde plc Ordinary Shares,Basic Materials,Major Chemicals
-LINC,Lincoln Educational Services Corporation Common Stock,Real Estate,Other Consumer Services
 LIND,Lindblad Expeditions Holdings Inc. Common Stock,Consumer Discretionary,Transportation Services
-LINE,Lineage Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 LINK,Interlink Electronics Inc. Common Stock,Technology,Computer peripheral equipment
 LITE,Lumentum Holdings Inc. Common Stock,Telecommunications,Telecommunications Equipment
 LITS,Lite Strategy Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
@@ -1748,14 +1612,12 @@ LNSR,LENSAR Inc. Common Stock,Health Care,Medical/Dental Instruments
 LNT,Alliant Energy Corporation Common Stock,Utilities,Power Generation
 LNTH,Lantheus Holdings Inc. Common Stock,Health Care,Biotechnology: In Vitro & In Vivo Diagnostic Substances
 LNZA,LanzaTech Global Inc. Common Stock,Industrials,Major Chemicals
-LOAN,Manhattan Bridge Capital Inc,Real Estate,Real Estate Investment Trusts
 LOAR,Loar Holdings Inc. Common Stock,Industrials,Military/Government/Technical
 LOCL,Local Bounti Corporation Common Stock,Consumer Staples,Farming/Seeds/Milling
 LOCO,El Pollo Loco Holdings Inc. Common Stock,Consumer Discretionary,Restaurants
 LODE,Comstock Inc. Common Stock,Industrials,Major Chemicals
 LOGI,Logitech International S.A. Ordinary Shares,Technology,Computer peripheral equipment
 LONA,LeonaBio Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
-LOPE,Grand Canyon Education Inc. Common Stock,Real Estate,Other Consumer Services
 LOVE,The Lovesac Company Common Stock,Consumer Discretionary,Other Specialty Stores
 LOW,Lowe's Companies Inc. Common Stock,Consumer Discretionary,RETAIL: Building Materials
 LPCN,Lipocine Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
@@ -1766,12 +1628,10 @@ LQDA,Liquidia Corporation Common Stock,Health Care,Biotechnology: Pharmaceutical
 LQDT,Liquidity Services Inc. Common Stock,Consumer Discretionary,Business Services
 LRCX,Lam Research Corporation Common Stock,Technology,Industrial Machinery/Components
 LRMR,Larimar Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
-LRN,Stride Inc. Common Stock,Real Estate,Other Consumer Services
 LSCC,Lattice Semiconductor Corporation Common Stock,Technology,Semiconductors
 LSTA,Lisata Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 LSTR,Landstar System Inc. Common Stock,Industrials,Trucking Freight/Courier Services
 LTBR,Lightbridge Corporation Common Stock,Basic Materials,Major Chemicals
-LTC,LTC Properties Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 LTGO,Latigo Biotherapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 LTH,Life Time Group Holdings Inc. Common Stock,Consumer Discretionary,Hotels/Resorts
 LTRN,Lantern Pharma Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
@@ -1793,7 +1653,6 @@ LW,Lamb Weston Holdings Inc. Common Stock ,Consumer Staples,Packaged Foods
 LWAY,Lifeway Foods Inc. Common Stock,Consumer Staples,Packaged Foods
 LWLG,Lightwave Logic Inc. Common Stock,Industrials,Containers/Packaging
 LXEO,Lexeo Therapeutics Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
-LXP,LXP Industrial Trust Common Stock (Maryland REIT),Real Estate,Real Estate Investment Trusts
 LXRX,Lexicon Pharmaceuticals Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 LXU,LSB Industries Inc. Common Stock,Basic Materials,Major Chemicals
 LYEL,Lyell Immunopharma Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
@@ -1804,8 +1663,6 @@ LZ,LegalZoom.com Inc. Common Stock,Technology,EDP Services
 LZB,La-Z-Boy Incorporated Common Stock,Consumer Discretionary,Home Furnishings
 M,Macy's Inc Common Stock,Consumer Discretionary,Department/Specialty Retail Stores
 MA,Mastercard Incorporated Common Stock,Consumer Discretionary,Business Services
-MAA,Mid-America Apartment Communities Inc. Common Stock,Real Estate,Real Estate Investment Trusts
-MAC,Macerich Company (The) Common Stock,Real Estate,Real Estate Investment Trusts
 MAGN,Magnera Corporation Common Stock,Basic Materials,Paper
 MAMA,Mama's Creations Inc. Common Stock,Consumer Staples,Specialty Foods
 MAMO,Massimo Group Common Stock,Consumer Discretionary,Industrial Specialties
@@ -1820,7 +1677,6 @@ MATV,Mativ Holdings Inc. Common Stock,Basic Materials,Paper
 MATW,Matthews International Corporation Class A Common Stock,Telecommunications,Metal Fabrications
 MATX,Matson Inc. Common Stock,Consumer Discretionary,Marine Transportation
 MAX,MediaAlpha Inc. Class A Common Stock,Consumer Discretionary,Business Services
-MAYS,J. W. Mays Inc. Common Stock,Real Estate,Building operators
 MAZE,Maze Therapeutics Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 MBC,MasterBrand Inc. Common Stock,Consumer Discretionary,Home Furnishings
 MBGL,Mobility Global Inc. Common Stock,Consumer Discretionary,Business Services
@@ -1846,7 +1702,6 @@ MDGL,Madrigal Pharmaceuticals Inc. Common Stock,Health Care,Biotechnology: Pharm
 MDIA,Mediaco Holding Inc. Class A Common Stock ,Consumer Discretionary,Broadcasting
 MDLN,Medline Inc. Class A Common Stock,Health Care,Medical/Dental Instruments
 MDLZ,Mondelez International Inc. Class A Common Stock,Consumer Staples,Packaged Foods
-MDRR,Medalist Diversified Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 MDT,Medtronic plc. Ordinary Shares,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus
 MDU,MDU Resources Group Inc. Common Stock (Holding Company),Industrials,Mining & Quarrying of Nonmetallic Minerals (No Fuels)
 MDXG,MiMedx Group Inc Common Stock,Health Care,Medical/Dental Instruments
@@ -1860,9 +1715,6 @@ METC,Ramaco Resources Inc. Class A Common Stock,Energy,Coal Mining
 METCB,Ramaco Resources Inc. Class B Common Stock,Energy,Coal Mining
 METCI,Ramaco Resources Inc. 8.250% Senior Notes due 2030,Energy,Coal Mining
 METCZ,Ramaco Resources Inc. 8.375% Senior Notes due 2029,Energy,Coal Mining
-MFA,MFA Financial Inc.,Real Estate,Real Estate Investment Trusts
-MFAN,MFA Financial Inc. 8.875% Senior Notes due 2029,Real Estate,Real Estate Investment Trusts
-MFAO,MFA Financial Inc. 9.000% Senior Notes due 2029,Real Estate,Real Estate Investment Trusts
 MFP,Midera Food Processing Inc. Common Stock,Industrials,Industrial Machinery/Components
 MG,Mistras Group Inc Common Stock,Consumer Discretionary,Military/Government/Technical
 MGEE,MGE Energy Inc,Energy,Electric Utilities: Central
@@ -1884,14 +1736,10 @@ MIR,Mirion Technologies Inc. Class A Common Stock,Industrials,Industrial Machine
 MIRA,MIRA Pharmaceuticals Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 MIRM,Mirum Pharmaceuticals Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 MITK,Mitek Systems Inc. Common Stock,Technology,Computer peripheral equipment
-MITN,TPG Mortgage Investment Trust Inc. 9.500% Senior Notes due 2029,Real Estate,Real Estate Investment Trusts
-MITP,TPG Mortgage Investment Trust Inc. 9.500% Senior Notes due 2029,Real Estate,Real Estate Investment Trusts
 MITQ,Moving iMage Technologies Inc. Common Stock,Consumer Discretionary,Industrial Machinery/Components
-MITT,TPG Mortgage Investment Trust Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 MKC,McCormick & Company Incorporated Common Stock,Consumer Staples,Packaged Foods
 MKSI,MKS Inc. Common Stock,Industrials,Industrial Machinery/Components
 MKTW,MarketWise Inc. Class A Common Stock,Technology,Computer Software: Prepackaged Software
-MKZR,MacKenzie Realty Capital Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 MLAB,Mesa Laboratories Inc. Common Stock,Industrials,Industrial Machinery/Components
 MLGO,MicroAlgo Inc. Class A Ordinary Shares,Technology,EDP Services
 MLI,Mueller Industries Inc. Common Stock,Industrials,Metal Fabrications
@@ -1930,7 +1778,6 @@ MPAA,Motorcar Parts  of America Inc. Common Stock,Consumer Discretionary,Auto Pa
 MPC,Marathon Petroleum Corporation Common Stock,Energy,Integrated oil Companies
 MPLT,MapLight Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 MPLX,MPLX LP Common Units Representing Limited Partner Interests,Energy,Natural Gas Distribution
-MPT,Medical Properties Trust Inc. common stock,Real Estate,Real Estate Investment Trusts
 MPTI,M-tron Industries Inc. Common Stock,Technology,Industrial Machinery/Components
 MPU,Mega Matrix Inc. Class A Ordinary Shares,Consumer Discretionary,Movies/Entertainment
 MPWR,Monolithic Power Systems Inc. Common Stock,Technology,Semiconductors
@@ -2012,7 +1859,6 @@ NDSN,Nordson Corporation Common Stock,Industrials,Industrial Machinery/Component
 NE,Noble Corporation plc A Ordinary Shares,Energy,Oil & Gas Production
 NEE,NextEra Energy Inc. Common Stock,Utilities,Electric Utilities: Central
 NEM,Newmont Corporation,Basic Materials,Precious Metals
-NEN,New England Realty Associates Limited Partnership Class A Depositary Receipts Evidencing Units of Limited Partnership,Real Estate,Building operators
 NEO,NeoGenomics Inc. Common Stock,Health Care,Precision Instruments
 NEOG,Neogen Corporation Common Stock,Health Care,Biotechnology: In Vitro & In Vivo Diagnostic Substances
 NEPH,Nephros Inc. Common Stock,Health Care,Medical/Dental Instruments
@@ -2031,9 +1877,6 @@ NGS,Natural Gas Services Group Inc. Common Stock,Energy,Oilfield Services/Equipm
 NGVC,Natural Grocers by Vitamin Cottage Inc. Common Stock,Consumer Staples,Food Chains
 NGVT,Ingevity Corporation Common Stock ,Industrials,Major Chemicals
 NHC,National HealthCare Corporation Common Stock,Health Care,Hospital/Nursing Management
-NHI,National Health Investors Inc. Common Stock,Real Estate,Real Estate Investment Trusts
-NHP,National Healthcare Properties Inc. Class A Common Stock,Real Estate,Real Estate Investment Trusts
-NHPBP,National Healthcare Properties Inc. 7.125% Series B Cumulative Redeemable Perpetual Preferred Stock,Real Estate,Real Estate Investment Trusts
 NHTC,Natural Health Trends Corp. Common Stock,Consumer Discretionary,Consumer Specialties
 NI,NiSource Inc Common Stock,Utilities,Power Generation
 NIO,NIO Inc. American depositary shares each  representing one Class A ordinary share,Industrials,Auto Manufacturing
@@ -2045,8 +1888,6 @@ NKE,Nike Inc. Common Stock,Consumer Discretionary,Shoe Manufacturing
 NKTR,Nektar Therapeutics  Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 NKTX,Nkarta Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 NL,NLI Holdings Inc. Common Stock,Basic Materials,Major Chemicals
-NLOP,Net Lease Office Properties Common Shares of Beneficial Interest,Real Estate,Real Estate Investment Trusts
-NLY,Annaly Capital Management Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 NMAD,Nomad Power Solutions Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 NMAX,Newsmax Inc. Class B Common Stock,Industrials,Broadcasting
 NMRA,Neumora Therapeutics Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
@@ -2054,7 +1895,6 @@ NMTC,NeuroOne Medical Technologies Corporation Common Stock,Health Care,Medical/
 NN,NextNav Inc. Common Stock,Industrials,Industrial Machinery/Components
 NNBR,NN Inc. Common Stock,Industrials,Industrial Machinery/Components
 NNE,Nano Nuclear Energy Inc. Common Stock,Utilities,Electric Utilities: Central
-NNN,NNN REIT Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 NNVC,NanoViricides Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 NOC,Northrop Grumman Corporation Common Stock,Industrials,Industrial Machinery/Components
 NOG,Northern Oil and Gas Inc. Common Stock,Energy,Oil & Gas Production
@@ -2068,8 +1908,6 @@ NPO,Enpro Inc. Common Stock,Industrials,Metal Fabrications
 NPWR,NET Power Inc. Class A Common Stock,Energy,Industrial Machinery/Components
 NRC,NRC Health Common Stock,Health Care,Biotechnology: Commercial Physical & Biological Resarch
 NRDS,NerdWallet Inc. Class A Common Stock,Technology,EDP Services
-NRDY,Nerdy Inc. Class A Common Stock,Real Estate,Other Consumer Services
-NREF,NexPoint Real Estate Finance Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 NRG,NRG Energy Inc. Common Stock,Utilities,Electric Utilities: Central
 NRIX,Nurix Therapeutics Inc. Common stock,Health Care,Biotechnology: Pharmaceutical Preparations
 NRP,Natural Resource Partners LP Limited Partnership,Energy,Coal Mining
@@ -2093,7 +1931,6 @@ NTRB,Nutriband Inc. Common Stock,Health Care,Industrial Specialties
 NTRBW,Nutriband Inc. Warrant,Health Care,Industrial Specialties
 NTRP,NextTrip Inc. Common Stock,Consumer Discretionary,Transportation Services
 NTSK,Netskope Inc. Class A Common Stock,Technology,Computer Software: Prepackaged Software
-NTST,NetSTREIT Corp. Common Stock,Real Estate,Real Estate Investment Trusts
 NTWK,NetSol Technologies Inc. Common  Stock,Technology,Computer Software: Prepackaged Software
 NUAI,New Era Energy & Digital Inc. Common Stock,Energy,Oil & Gas Production
 NUAIW,New Era Energy & Digital Inc. Warrants,Energy,Oil & Gas Production
@@ -2121,19 +1958,16 @@ NWSA,News Corporation Class A Common Stock,Consumer Discretionary,Newspapers/Mag
 NWTG,Newton Golf Company Inc. Common Stock,Consumer Discretionary,Recreational Games/Products/Toys
 NX,Quanex Building Products Corporation Common Stock,Industrials,Metal Fabrications
 NXDR,Nextdoor Holdings Inc. Class A Common Stock,Technology,Computer Software: Programming Data Processing
-NXDT,NexPoint Diversified Real Estate Trust Common Stock,Real Estate,Real Estate Investment Trusts
 NXGL,NexGel Inc Common Stock,Health Care,Medical/Dental Instruments
 NXGLW,NexGel Inc Warrant,Health Care,Medical/Dental Instruments
 NXH,Neighborhood Intelligence Inc. Common Stock,Consumer Discretionary,Catalog/Specialty Distribution
 NXL,Nexalin Technology Inc. Common Stock,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus
 NXPL,NextPlat Corp Common Stock,Telecommunications,Telecommunications Equipment
-NXRT,NexPoint Residential Trust Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 NXST,Nexstar Media Group Inc. Common Stock,Industrials,Broadcasting
 NXT,Nextpower Inc. Common Stock,Technology,Semiconductors
 NXTC,NextCure Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 NXXT,NextNRG Inc. Common Stock,Consumer Discretionary,Retail-Auto Dealers and Gas Stations
 NYT,New York Times Company (The) Common Stock,Consumer Discretionary,Newspapers/Magazines
-O,Realty Income Corporation Common Stock,Real Estate,Real Estate Investment Trusts
 OABI,OmniAb Inc. Common Stock,Health Care,Biotechnology: Commercial Physical & Biological Resarch
 OABIW,OmniAb Inc. Warrant,Health Care,Biotechnology: Commercial Physical & Biological Resarch
 OBAI,Our Bond Inc. Common Stock,Consumer Discretionary,Telecommunications Equipment
@@ -2153,7 +1987,6 @@ OGE,OGE Energy Corp Common Stock,Utilities,Electric Utilities: Central
 OGEN,Oragenics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 OGN,Organon & Co. Common Stock ,Health Care,Biotechnology: Pharmaceutical Preparations
 OGS,ONE Gas Inc. Common Stock,Utilities,Oil/Gas Transmission
-OHI,Omega Healthcare Investors Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 OI,O-I Glass Inc. Common Stock,Consumer Discretionary,Containers/Packaging
 OII,Oceaneering International Inc. Common Stock,Energy,Oilfield Services/Equipment
 OIS,Oil States International Inc. Common Stock,Consumer Discretionary,Oil and Gas Field Machinery
@@ -2167,7 +2000,6 @@ OLLI,Ollie's Bargain Outlet Holdings Inc. Common Stock,Consumer Discretionary,De
 OLMA,Olema Pharmaceuticals Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 OLN,Olin Corporation Common Stock,Industrials,Major Chemicals
 OLOX,Olenox Industries Inc. Common Stock,Consumer Discretionary,RETAIL: Building Materials
-OLP,One Liberty Properties Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 OM,Outset Medical Inc. Common Stock,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus
 OMC,Omnicom Group Inc. Common Stock,Consumer Discretionary,Advertising
 OMCL,Omnicell Inc. Common Stock ($0.001 par value),Technology,Computer Manufacturing
@@ -2180,7 +2012,6 @@ ONDS,Ondas Inc. Common Stock,Technology,Radio And Television Broadcasting And Co
 ONEW,OneWater Marine Inc. Class A Common Stock,Consumer Discretionary,Auto & Home Supply Stores
 ONFO,Onfolio Holdings Inc. Common Stock,Technology,EDP Services
 ONFOW,Onfolio Holdings Inc. Warrant,Technology,EDP Services
-ONL,Orion Properties Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 ONT,Onterris Inc. Common Stock,Consumer Discretionary,Professional Services
 ONTO,Onto Innovation Inc. Common Stock,Industrials,Industrial Machinery/Components
 OOMA,Ooma Inc. Common Stock,Technology,EDP Services
@@ -2195,7 +2026,6 @@ OPTX,Syntec Optics Holdings Inc. Class A Common Stock,Technology,Electronic Comp
 OPTXW,Syntec Optics Holdings Inc. Warrant,Technology,Electronic Components
 OPXS,Optex Systems Holdings Inc. Common Stock,Technology,Electronic Components
 ORA,Ormat Technologies Inc. Common Stock,Utilities,Electric Utilities: Central
-ORC,Orchid Island Capital Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 ORCL,Oracle Corporation Common Stock,Technology,Computer Software: Prepackaged Software
 ORGO,Organogenesis Holdings Inc. Class A Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 ORIC,Oric Pharmaceuticals Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
@@ -2212,7 +2042,6 @@ OTIS,Otis Worldwide Corporation Common Stock ,Technology,Consumer Electronics/Ap
 OTLK,Outlook Therapeutics Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 OTTR,Otter Tail Corporation Common Stock,Utilities,Electric Utilities: Central
 OUST,Ouster Inc. Common Stock,Industrials,Industrial Machinery/Components
-OUT,OUTFRONT Media Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 OVID,Ovid Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 OWLT,Owlet Inc. Class A Common Stock,Industrials,Industrial Machinery/Components
 OXM,Oxford Industries Inc. Common Stock,Industrials,Garments and Clothing
@@ -2264,12 +2093,9 @@ PCYO,Pure Cycle Corporation Common Stock,Utilities,Water Supply
 PD,PagerDuty Inc. Common Stock,Technology,Computer Software: Prepackaged Software
 PDEX,Pro-Dex Inc. Common Stock,Health Care,Medical/Dental Instruments
 PDFS,PDF Solutions Inc. Common Stock,Technology,Computer Software: Prepackaged Software
-PDM,Piedmont Realty Trust Inc. Class A Common Stock,Real Estate,Building operators
 PDSB,PDS Biotechnology Corporation Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 PDYN,Palladyne AI Corp. Common Stock,Technology,Computer Software: Prepackaged Software
 PDYNW,Palladyne AI Corp Warrants,Technology,Computer Software: Prepackaged Software
-PEB,Pebblebrook Hotel Trust Common Shares of Beneficial Interest,Real Estate,Real Estate Investment Trusts
-PECO,Phillips Edison & Company Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 PED,Pedevco Corp. Common Stock,Energy,Oil & Gas Production
 PEG,Public Service Enterprise Group Incorporated Common Stock,Utilities,Power Generation
 PEGA,Pegasystems Inc. Common Stock,Technology,EDP Services
@@ -2296,7 +2122,6 @@ PI,Impinj Inc. Common Stock,Technology,Industrial Machinery/Components
 PII,Polaris Inc. Common Stock,Consumer Discretionary,Industrial Specialties
 PIII,P3 Health Partners Inc. Class A Common Stock,Health Care,Medical/Nursing Services
 PIIIW,P3 Health Partners Inc. Warrant,Health Care,Medical/Nursing Services
-PINE,Alpine Income Property Trust Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 PINS,Pinterest Inc. Class A Common Stock,Technology,Computer Software: Programming Data Processing
 PK,Park Hotels & Resorts Inc. Common Stock ,Consumer Discretionary,Hotels/Resorts
 PKE,Park Aerospace Corp. Common Stock,Industrials,Military/Government/Technical
@@ -2307,7 +2132,6 @@ PLAB,Photronics Inc. Common Stock,Technology,Semiconductors
 PLAY,Dave & Buster's Entertainment Inc. Common Stock,Consumer Discretionary,Restaurants
 PLBY,Playboy Inc. Common Stock,Consumer Discretionary,Other Specialty Stores
 PLCE,Children's Place Inc. (The) Common Stock,Consumer Discretionary,Clothing/Shoe/Accessory Stores
-PLD,Prologis Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 PLNT,Planet Fitness Inc. Common Stock,Consumer Discretionary,Hotels/Resorts
 PLOW,Douglas Dynamics Inc. Common Stock,Industrials,Construction/Ag Equipment/Trucks
 PLPC,Preformed Line Products Company Common Stock,Industrials,Water Sewer Pipeline Comm & Power Line Construction
@@ -2320,11 +2144,7 @@ PLXS,Plexus Corp. Common Stock,Technology,Electrical Products
 PLYX,Polaryx Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 PM,Philip Morris International Inc Common Stock,Health Care, Medicinal Chemicals and Botanical Products 
 PMCB,PharmaCyte  Biotech Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
-PMT,PennyMac Mortgage Investment Trust Common Shares of Beneficial Interest,Real Estate,Real Estate Investment Trusts
 PMTS,CPI Card Group Inc. Common Stock,Consumer Discretionary,Publishing
-PMTU,PennyMac Mortgage Investment Trust 8.50% Senior Notes due 2028,Real Estate,Real Estate Investment Trusts
-PMTV,PennyMac Mortgage Investment Trust 9.00% Senior Notes due 2030,Real Estate,Real Estate Investment Trusts
-PMTW,PennyMac Mortgage Investment Trust 9.00% Senior Notes due 2030,Real Estate,Real Estate Investment Trusts
 PMVP,PMV Pharmaceuticals Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 PNRG,PrimeEnergy Resources Corporation Common Stock,Energy,Oil & Gas Production
 PNTG,The Pennant Group Inc. Common Stock ,Health Care,Medical/Nursing Services
@@ -2349,7 +2169,6 @@ PR,Permian Resources Corporation Class A Common Stock,Energy,Oil & Gas Productio
 PRAX,Praxis Precision Medicines Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 PRCH,Porch Group Inc. Common Stock,Technology,Computer Software: Prepackaged Software
 PRCT,PROCEPT BioRobotics Corporation Common Stock,Health Care,Medical/Dental Instruments
-PRDO,Perdoceo Education Corporation Common Stock,Real Estate,Other Consumer Services
 PRG,PROG Holdings Inc. Common Stock,Consumer Discretionary,Diversified Commercial Services
 PRGO,Perrigo Company plc Ordinary Shares,Health Care,Biotechnology: Pharmaceutical Preparations
 PRGS,Progress Software Corporation Common Stock (DE),Technology,Computer Software: Prepackaged Software
@@ -2370,13 +2189,11 @@ PRTA,Prothena Corporation plc Ordinary Shares,Health Care,Biotechnology: Pharmac
 PRTH,Priority Technology Holdings Inc. Common Stock,Consumer Discretionary,Business Services
 PRTS,CarParts.com Inc. Common Stock,Consumer Discretionary,Auto & Home Supply Stores
 PRVA,Privia Health Group Inc. Common Stock,Health Care,Medical/Nursing Services
-PSA,Public Storage Common Stock,Real Estate,Real Estate Investment Trusts
 PSIX,Power Solutions International Inc. Common Stock,Industrials,Industrial Machinery/Components
 PSKY,Paramount Skydance Corporation Class B Common Stock,Industrials,Broadcasting
 PSMT,PriceSmart Inc. Common Stock,Consumer Discretionary,Department/Specialty Retail Stores
 PSN,Parsons Corporation Common Stock,Technology,EDP Services
 PSNL,Personalis Inc. Common Stock,Health Care,Medical Specialities
-PSTL,Postal Realty Trust Inc. Class A Common Stock,Real Estate,Real Estate Investment Trusts
 PSX,Phillips 66 Common Stock,Energy,Integrated oil Companies
 PTC,PTC Inc. Common Stock,Technology,Computer Software: Prepackaged Software
 PTCT,PTC Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
@@ -2393,7 +2210,6 @@ PUSA,Aureus Greenway Holdings Inc. Common Stock,Consumer Discretionary,Hotels/Re
 PVH,PVH Corp. Common Stock,Industrials,Garments and Clothing
 PVL,Permianville Royalty Trust Units of Beneficial Interest,Energy,Oil & Gas Production
 PVLA,Palvella Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
-PW,Power REIT (MD) Common Stock,Real Estate,Real Estate Investment Trusts
 PWR,Quanta Services Inc. Common Stock,Industrials,Engineering & Construction
 PXLW,Pixelworks Inc.  Common Stock,Technology,Computer Software: Prepackaged Software
 PYPL,PayPal Holdings Inc. Common Stock,Industrials,Diversified Commercial Services
@@ -2437,9 +2253,7 @@ RBBN,Ribbon Communications Inc. Common Stock,Technology,EDP Services
 RBC,RBC Bearings Incorporated Common Stock,Industrials,Metal Fabrications
 RBLX,Roblox Corporation Class A Common Stock,Technology,Computer Software: Prepackaged Software
 RBRK,Rubrik Inc. Class A Common Stock,Technology,Computer Software: Prepackaged Software
-RC,Ready Capital Corporation Common Stock,Real Estate,Real Estate Investment Trusts
 RCAT,Red Cat Holdings Inc. Common Stock,Technology,Computer Software: Prepackaged Software
-RCD,Ready Capital Corporation 9.00% Senior Notes due 2029,Real Estate,Real Estate Investment Trusts
 RCEL,Avita Medical Inc. Common Stock,Health Care,Medical/Dental Instruments
 RCKT,Rocket Pharmaceuticals Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 RCKY,Rocky Brands Inc. Common Stock,Consumer Discretionary,Shoe Manufacturing
@@ -2455,10 +2269,6 @@ RDVT,Red Violet Inc. Common Stock ,Technology,Computer Software: Prepackaged Sof
 RDW,Redwire Corporation Common Stock,Industrials,Military/Government/Technical
 REAL,The RealReal Inc. Common Stock,Consumer Discretionary,Other Specialty Stores
 REBN,Reborn Coffee Inc. Common Stock,Consumer Discretionary,Restaurants
-REFI,Chicago Atlantic Real Estate Finance Inc. Common Stock,Real Estate,Real Estate Investment Trusts
-REG,Regency Centers Corporation Common Stock,Real Estate,Real Estate Investment Trusts
-REGCO,Regency Centers Corporation 5.875% Series B Cumulative Redeemable Preferred Stock,Real Estate,Real Estate Investment Trusts
-REGCP,Regency Centers Corporation 6.25% Series A Cumulative Redeemable Preferred Stock,Real Estate,Real Estate Investment Trusts
 REGN,Regeneron Pharmaceuticals Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 REI,Ring Energy Inc. Common Stock,Energy,Oil & Gas Production
 REKR,Rekor Systems Inc. Common Stock,Telecommunications,Telecommunications Equipment
@@ -2472,7 +2282,6 @@ RES,RPC Inc. Common Stock,Energy,Oilfield Services/Equipment
 REVB,Revelation Biosciences Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 REVBW,Revelation Biosciences Inc. Warrant,Health Care,Biotechnology: Pharmaceutical Preparations
 REX,REX American Resources Corporation,Industrials,Major Chemicals
-REXR,Rexford Industrial Realty Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 REYN,Reynolds Consumer Products Inc. Common Stock,Consumer Discretionary,Containers/Packaging
 REZI,Resideo Technologies Inc. Common Stock ,Industrials,Wholesale Distributors
 RFIL,RF Industries Ltd. Common Stock,Technology,Electrical Products
@@ -2488,11 +2297,9 @@ RGTI,Rigetti Computing Inc. Common Stock,Technology,EDP Services
 RGTIW,Rigetti Computing Inc. Warrants,Technology,EDP Services
 RH,RH Common Stock,Consumer Discretionary,Other Specialty Stores
 RHI,Robert Half Inc. Common Stock,Consumer Discretionary,Professional Services
-RHP,Ryman Hospitality Properties Inc. (REIT),Real Estate,Real Estate Investment Trusts
 RICK,RCI Hospitality Holdings Inc. Common Stock,Consumer Discretionary,Restaurants
 RIGL,Rigel Pharmaceuticals Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 RIME,Algorhythm Holdings Inc. Common Stock,Technology,EDP Services
-RITM,Rithm Capital Corp. Common Stock,Real Estate,Real Estate Investment Trusts
 RIVN,Rivian Automotive Inc. Class A Common Stock,Industrials,Auto Manufacturing
 RJET,Republic Airways Holdings Inc. Common Stock,Consumer Discretionary,Air Freight/Delivery Services
 RKDA,Arcadia Biosciences Inc. Common Stock,Energy,Oil & Gas Production
@@ -2501,7 +2308,6 @@ RKTO,Rocket One Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Prep
 RL,Ralph Lauren Corporation Common Stock,Industrials,Garments and Clothing
 RLAY,Relay Therapeutics Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 RLGT,Radiant Logistics Inc. Common Stock,Industrials,Integrated Freight & Logistics
-RLJ,RLJ Lodging Trust Common Shares of Beneficial Interest $0.01 par value,Real Estate,Real Estate Investment Trusts
 RLMD,Relmada Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 RLYB,Rallybio Corporation Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 RMBS,Rambus Inc. Common Stock,Technology,Semiconductors
@@ -2534,7 +2340,6 @@ RPD,Rapid7 Inc. Common Stock,Technology,Computer Software: Prepackaged Software
 RPID,Rapid Micro Biosystems Inc. Class A Common Stock,Industrials,Biotechnology: Laboratory Analytical Instruments
 RPM,RPM International Inc. Common Stock,Consumer Discretionary,Paints/Coatings
 RPRX,Royalty Pharma plc Class A Ordinary Shares ,Health Care,Biotechnology: Pharmaceutical Preparations
-RPT,Rithm Property Trust Inc. Common stock,Real Estate,Real Estate Investment Trusts
 RR,Richtech Robotics Inc. Class B Common Stock,Industrials,Industrial Machinery/Components
 RRC,Range Resources Corporation Common Stock,Energy,Oil & Gas Production
 RRGB,Red Robin Gourmet Burgers Inc. Common Stock,Consumer Discretionary,Restaurants
@@ -2557,19 +2362,12 @@ RVMD,Revolution Medicines Inc. Common Stock,Health Care,Biotechnology: Biologica
 RVMDW,Revolution Medicines Inc. Warrant,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 RVP,Retractable Technologies Inc. Common Stock,Health Care,Medical/Dental Instruments
 RVTY,Revvity Inc. Common Stock,Industrials,Biotechnology: Laboratory Analytical Instruments
-RWT,Redwood Trust Inc. Common Stock,Real Estate,Real Estate Investment Trusts
-RWTN,Redwood Trust Inc. 9.125% Senior Notes Due 2029,Real Estate,Real Estate Investment Trusts
-RWTO,Redwood Trust Inc. 9.00% Senior Notes Due 2029,Real Estate,Real Estate Investment Trusts
-RWTP,Redwood Trust Inc. 9.125% Senior Notes Due 2030,Real Estate,Real Estate Investment Trusts
-RWTQ,Redwood Trust Inc. 9.500% Senior Notes Due 2030,Real Estate,Real Estate Investment Trusts
-RWTS,Redwood Trust Inc. 9.75% Senior Notes Due 2031,Real Estate,Real Estate Investment Trusts
 RXO,RXO Inc. Common Stock,Consumer Discretionary,Transportation Services
 RXRX,Recursion Pharmaceuticals Inc. Class A Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 RXST,RxSight Inc. Common Stock,Health Care,Ophthalmic Goods
 RXT,Rackspace Technology Inc. Common Stock,Technology,Computer Software: Programming Data Processing
 RYAM,Rayonier Advanced Materials Inc. Common Stock,Basic Materials,Paper
 RYM,RYTHM Inc. Common Stock,Consumer Staples,Farming/Seeds/Milling
-RYN,Rayonier Inc. REIT Common Stock,Real Estate,Real Estate Investment Trusts
 RYTM,Rhythm Pharmaceuticals Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 RYZ,Ryerson Holding Corporation Common Stock,Industrials,Metal Fabrications
 RZLT,Rezolute Inc. Common Stock (NV),Health Care,Biotechnology: Pharmaceutical Preparations
@@ -2577,8 +2375,6 @@ S,SentinelOne Inc. Class A Common Stock,Technology,Computer Software: Prepackage
 SABR,Sabre Corporation Common Stock,Technology,Computer Software: Programming Data Processing
 SABS,SAB Biotherapeutics Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 SABSW,SAB Biotherapeutics Inc. Warrant,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
-SACH,Sachem Capital Corp. Common Shares,Real Estate,Real Estate Investment Trusts
-SAFE,Safehold Inc. New Common Stock ,Real Estate,Real Estate Investment Trusts
 SAFX,XCF Global Inc. Class A Common Stock,Industrials,Major Chemicals
 SAH,Sonic Automotive Inc. Common Stock,Consumer Discretionary,Retail-Auto Dealers and Gas Stations
 SAIA,Saia Inc. Common Stock,Industrials,Trucking Freight/Courier Services
@@ -2588,18 +2384,12 @@ SAM,Boston Beer Company Inc. (The) Common Stock,Consumer Staples,Beverages (Prod
 SANA,Sana Biotechnology Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 SANM,Sanmina Corporation Common Stock,Technology,Electrical Products
 SARO,StandardAero Inc. Common Stock,Industrials,Aerospace
-SBAC,SBA Communications Corporation Class A Common Stock,Real Estate,Real Estate Investment Trusts
 SBC,SBC Medical Group Holdings Incorporated Common Stock,Health Care,Medical/Nursing Services
 SBET,Sharplink Inc. Common Stock,Technology,Computer Software: Prepackaged Software
 SBGI,Sinclair Inc. Class A Common Stock,Industrials,Broadcasting
 SBH,Sally Beauty Holdings Inc. (Name to be changed from Sally Holdings Inc.) Common Stock,Consumer Discretionary,Other Specialty Stores
 SBR,Sabine Royalty Trust Common Stock,Energy,Oil & Gas Production
-SBRA,Sabra Health Care REIT Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 SBUX,Starbucks Corporation Common Stock,Consumer Discretionary,Restaurants
-SCCD,Sachem Capital Corp. 6.00% Notes due 2026,Real Estate,Real Estate Investment Trusts
-SCCE,Sachem Capital Corp. 6.00% Notes due 2027,Real Estate,Real Estate Investment Trusts
-SCCF,Sachem Capital Corp. 7.125% Notes due 2027,Real Estate,Real Estate Investment Trusts
-SCCG,Sachem Capital Corp. 8.00% Notes due 2027,Real Estate,Real Estate Investment Trusts
 SCCO,Southern Copper Corporation Common Stock,Basic Materials,Metal Mining
 SCHL,Scholastic Corporation Common Stock,Consumer Discretionary,Books
 SCI,Service Corporation International Common Stock,Consumer Discretionary,Other Consumer Services
@@ -2627,7 +2417,6 @@ SEER,Seer Inc. Class A Common Stock,Industrials,Biotechnology: Laboratory Analyt
 SEG,Seaport Entertainment Group Inc. Common Stock,Consumer Discretionary,Services-Misc. Amusement & Recreation
 SEGG,Sports Entertainment Gaming Global Corporation Common Stock,Technology,Computer Software: Prepackaged Software
 SEI,Solaris Energy Infrastructure Inc. Class A Common Stock,Consumer Discretionary,Oil and Gas Field Machinery
-SELF,Global Self Storage Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 SENEA,Seneca Foods Corp. Class A Common Stock,Consumer Staples,Packaged Foods
 SENEB,Seneca Foods Corp. Class B Common Stock,Consumer Staples,Packaged Foods
 SENS,Senseonics Holdings Inc. Common Stock,Health Care,Medical/Dental Instruments
@@ -2636,7 +2425,6 @@ SER,Serina Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceuti
 SERA,Sera Prognostics Inc. Class A Common Stock,Health Care,Medical Specialities
 SERV,Serve Robotics Inc. Common Stock,Industrials,Industrial Machinery/Components
 SEV,Aptera Motors Corp. Class B Common Stock,Industrials,Auto Manufacturing
-SEVN,Seven Hills Realty Trust Common Stock,Real Estate,Real Estate Investment Trusts
 SFD,Smithfield Foods Inc. Common Stock,Consumer Staples,Meat/Poultry/Fish
 SFIX,Stitch Fix Inc. Class A Common Stock,Consumer Discretionary,Catalog/Specialty Distribution
 SFM,Sprouts Farmers Market Inc. Common Stock,Consumer Staples,Food Chains
@@ -2670,14 +2458,12 @@ SILO,Silo Pharma Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Pre
 SINT,SiNtx Technologies Inc. Common Stock,Health Care,Medical/Dental Instruments
 SION,Sionna Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 SIRI,SiriusXM Holdings Inc. Common Stock,Consumer Discretionary,Broadcasting
-SITC,SITE Centers Corp. Common Stock,Real Estate,Real Estate Investment Trusts
 SITE,SiteOne Landscape Supply Inc. Common Stock,Consumer Discretionary,Professional and commerical equipment
 SITM,SiTime Corporation Common Stock,Technology,Semiconductors
 SJM,The J.M. Smucker Company Common Stock,Consumer Staples,Packaged Foods
 SJT,San Juan Basin Royalty Trust Common Stock,Energy,Oil & Gas Production
 SKIL,Skillsoft Corp. Class A Common Stock,Technology,Computer Software: Prepackaged Software
 SKIN,SkinHealth Systems Inc. Class A Common Stock,Health Care,Medical/Dental Instruments
-SKT,Tanger Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 SKY,Champion Homes Inc. Common Stock,Consumer Discretionary,Homebuilding
 SKYA,SkyAI Inc. Common Stock,Health Care,Medical/Dental Instruments
 SKYAW,SkyAI Inc. Warrant,Technology,EDP Services
@@ -2688,7 +2474,6 @@ SKYX,SKYX Platforms Corp. Common Stock,Consumer Discretionary,Building Products
 SLAB,Silicon Laboratories Inc. Common Stock,Technology,Semiconductors
 SLDB,Solid Biosciences Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 SLE,Super League Enterprise Inc. Common Stock,Technology,EDP Services
-SLG,SL Green Realty Corp Common Stock,Real Estate,Real Estate Investment Trusts
 SLGN,Silgan Holdings Inc. Common Stock,Industrials,Containers/Packaging
 SLND,Southland Holdings Inc. Common Stock,Industrials,Military/Government/Technical
 SLNG,Stabilis Solutions Inc. Common Stock,Utilities,Oil/Gas Transmission
@@ -2699,7 +2484,6 @@ SLS,SELLAS Life Sciences Group Inc. Common Stock,Health Care,Biotechnology: Phar
 SLSN,Solesence Inc. Common Stock,Consumer Discretionary,Package Goods/Cosmetics
 SLVM,Sylvamo Corporation Common Stock,Basic Materials,Paper
 SM,SM Energy Company Common Stock,Energy,Oil & Gas Production
-SMA,SmartStop Self Storage REIT Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 SMC,Summit Midstream Corporation Common Stock,Utilities,Natural Gas Distribution
 SMCI,Super Micro Computer Inc. Common Stock,Technology,Computer Manufacturing
 SMCIP,Super Micro Computer Inc. Depositary Shares representing a 1/20th Interest in a Share of 7% Series A Mandatory Convertible Preferred Stock,Technology,Computer Manufacturing
@@ -2752,7 +2536,6 @@ SOWG,Sow Good Inc. Common Stock,Consumer Staples,Packaged Foods
 SPAI,Safe Pro Group Inc. Common Stock,Technology,Computer Software: Prepackaged Software
 SPCE,Virgin Galactic Holdings Inc. Common Stock,Consumer Discretionary,Transportation Services
 SPCX,Space Exploration Technologies Corp. Class A Common Stock,Technology,Computer Software: Programming Data Processing
-SPG,Simon Property Group Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 SPH,Suburban Propane Partners L.P. Common Stock,Consumer Discretionary,Other Specialty Stores
 SPHR,Sphere Entertainment Co. Class A Common Stock,Consumer Discretionary,Services-Misc. Amusement & Recreation
 SPIR,Spire Global Inc. Class A Common Stock,Consumer Discretionary,Telecommunications Equipment
@@ -2768,9 +2551,6 @@ SPWH,Sportsman's Warehouse Holdings Inc. Common Stock,Consumer Discretionary,Oth
 SPWR,SunPower Inc. Common Stock,Technology,Semiconductors
 SPWRW,SunPower Inc. Warrants,Technology,Semiconductors
 SPXC,SPX Technologies Inc. Common Stock,Industrials,Industrial Machinery/Components
-SQFT,Presidio Property Trust Inc. Class A Common Stock,Real Estate,Real Estate Investment Trusts
-SQFTP,Presidio Property Trust Inc. 9.375% Series D Cumulative Redeemable Perpetual Preferred Stock $0.01 par value per share,Real Estate,Real Estate Investment Trusts
-SQFTW,Presidio Property Trust Inc. Series A Common Stock Purchase Warrants,Real Estate,Real Estate Investment Trusts
 SR,Spire Inc. Common Stock,Utilities,Oil/Gas Transmission
 SRE,DBA Sempra Common Stock,Utilities,Natural Gas Distribution
 SREA,DBA Sempra 5.750% Junior Subordinated Notes due 2079,Utilities,Natural Gas Distribution
@@ -2790,17 +2570,14 @@ SSTI,SoundThinking Inc. Common Stock,Technology,Computer Software: Prepackaged S
 SSTK,Shutterstock Inc. Common Stock,Technology,EDP Services
 SSYS,Stratasys Ltd. Ordinary Shares (Israel),Technology,Computer peripheral equipment
 STAA,STAAR Surgical Company Common Stock,Health Care,Ophthalmic Goods
-STAG,Stag Industrial Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 STE,STERIS plc (Ireland) Ordinary Shares,Health Care,Industrial Specialties
 STEM,Stem Inc. Class A Common Stock,Technology,EDP Services
-STHO,Star Holdings Shares of Beneficial Interest,Real Estate,Real Estate
 STIM,Neuronetics Inc. Common Stock,Health Care,Medical/Dental Instruments
 STKS,The ONE Group Hospitality Inc. Common Stock,Consumer Discretionary,Restaurants
 STLD,Steel Dynamics Inc.,Industrials,Steel/Iron Ore
 STLN,Starling Oncology Inc. Common Stock,Health Care,Medical/Nursing Services
 STLNW,Starling Oncology Inc. Warrant,Health Care,Medical/Nursing Services
 STOK,Stoke Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
-STRA,Strategic Education Inc. Common Stock,Real Estate,Other Consumer Services
 STRC,Strategy Inc Variable Rate Series A Perpetual Stretch Preferred Stock,Technology,Computer Software: Prepackaged Software
 STRD,Strategy Inc 10.00% Series A Perpetual Stride Preferred Stock,Technology,Computer Software: Prepackaged Software
 STRF,Strategy Inc 10.00% Series A Perpetual Strife Preferred Stock,Technology,Computer Software: Prepackaged Software
@@ -2810,21 +2587,16 @@ STRO,Sutro Biopharma Inc. Common Stock,Health Care,Biotechnology: Biological Pro
 STRR,Star Equity Holdings Inc. Common Stock,Consumer Discretionary,Professional Services
 STRRP,Star Equity Holdings Inc. 10% Series A Cumulative Perpetual Preferred Stock,Consumer Discretionary,Professional Services
 STRT,STRATTEC SECURITY CORPORATION Common Stock,Consumer Discretionary,Auto Parts:O.E.M.
-STRW,Strawberry Fields REIT Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 STRZ,Starz Entertainment Corp. Common Shares,Consumer Discretionary,Movies/Entertainment
 STTK,Shattuck Labs Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 STUB,StubHub Holdings Inc. Class A Common Stock,Consumer Discretionary,Services-Misc. Amusement & Recreation
-STWD,STARWOOD PROPERTY TRUST INC. Starwood Property Trust Inc.,Real Estate,Real Estate Investment Trusts
 STXS,Stereotaxis Inc. Common Stock,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus
 STZ,Constellation Brands Inc. Common Stock,Consumer Staples,Beverages (Production/Distribution)
-SUI,Sun Communities Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 SUJA,Suja Life Inc. Class A Common Stock,Consumer Staples,Beverages (Production/Distribution)
 SUN,Sunoco LP Common Units representing limited partner interests,Energy,Integrated oil Companies
 SUNE,SUNation Energy Inc. Common Stock,Consumer Discretionary,Engineering & Construction
-SUNS,Sunrise Realty Trust Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 SUPN,Supernus Pharmaceuticals Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 SURG,SurgePays Inc. Common Stock,Consumer Discretionary,Advertising
-SVC,Service Properties Trust Common Shares of Beneficial Interest,Real Estate,Real Estate Investment Trusts
 SVCO,Silvaco Group Inc. Common Stock,Technology,Computer Software: Prepackaged Software
 SVRA,Savara Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 SVV,Savers Value Village Inc. Common Stock,Consumer Discretionary,Other Specialty Stores
@@ -2857,7 +2629,6 @@ TAYD,Taylor Devices Inc. Common Stock,Industrials,Industrial Machinery/Component
 TBB,AT&T Inc. 5.350% Global Notes due 2066,Telecommunications,Telecommunications Equipment
 TBCH,Turtle Beach Corporation Common Stock,Telecommunications,Telecommunications Equipment
 TBI,TrueBlue Inc. Common Stock,Consumer Discretionary,Professional Services
-TCI,Transcontinental Realty Investors Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 TCMD,Tactile Systems Technology Inc. Common Stock,Health Care,Medical/Dental Instruments
 TCRT,Alaunos Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 TCRX,TScan Therapeutics Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
@@ -2951,7 +2722,6 @@ TRNR,Interactive Strength Inc. Common Stock,Technology,Consumer Electronics/Appl
 TRNS,Transcat Inc. Common Stock,Industrials,Electrical Products
 TROX,Tronox Holdings plc Ordinary Shares (UK),Basic Materials,Major Chemicals
 TRS,TriMas Corporation Common Stock,Industrials,Industrial Specialties
-TRTX,TPG RE Finance Trust Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 TRUG,TruGolf Holdings Inc. Class A Common Stock,Consumer Discretionary,Recreational Games/Products/Toys
 TRUP,Trupanion Inc. Common Stock,Health Care,Medical Specialities
 TRVI,Trevi Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
@@ -2984,7 +2754,6 @@ TWAV,TaoWeave Inc. Common Stock,Technology,Computer Software: Programming Data P
 TWI,Titan International Inc. (DE) Common Stock,Industrials,Steel/Iron Ore
 TWIN,Twin Disc Incorporated Common Stock,Industrials,Industrial Machinery/Components
 TWLO,Twilio Inc. Class A Common Stock,Technology,Computer Software: Prepackaged Software
-TWOD,Two Harbors Investments Corp 9.375% Senior Notes due 2030,Real Estate,Real Estate Investment Trusts
 TWST,Twist Bioscience Corporation Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 TXG,10x Genomics Inc. Class A Common Stock,Industrials,Biotechnology: Laboratory Analytical Instruments
 TXMD,TherapeuticsMD Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
@@ -3006,7 +2775,6 @@ UAN,CVR Partners LP Common Units representing Limited Partner Interests,Industri
 UAVS,AgEagle Aerial Systems Inc. Common Stock,Industrials,Aerospace
 UBER,Uber Technologies Inc. Common Stock,Consumer Discretionary,Business Services
 UCTT,Ultra Clean Holdings Inc. Common Stock,Technology,Semiconductors
-UDR,UDR Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 UEIC,Universal Electronics Inc. Common Stock,Consumer Staples,Consumer Electronics/Appliances
 UFI,Unifi Inc. New Common Stock,Consumer Discretionary,Textiles
 UFPI,UFP Industries Inc. Common Stock,Basic Materials,Forest Products
@@ -3015,7 +2783,6 @@ UG,United-Guardian Inc. Common Stock,Consumer Discretionary,Package Goods/Cosmet
 UGI,UGI Corporation Common Stock,Utilities,Natural Gas Distribution
 UHAL,U-Haul Holding Company Common Stock,Consumer Discretionary,Rental/Leasing Companies
 UHS,Universal Health Services Inc. Common Stock,Health Care,Hospital/Nursing Management
-UHT,Universal Health Realty Income Trust Common Stock,Real Estate,Real Estate Investment Trusts
 UI,Ubiquiti Inc. Common Stock,Technology,Radio And Television Broadcasting And Communications Equipment
 UIS,Unisys Corporation New Common Stock,Technology,EDP Services
 UK,Ucommune International Ltd Class A Ordinary Shares,Consumer Discretionary,Business Services
@@ -3024,12 +2791,10 @@ ULH,Universal Logistics Holdings Inc. Common Stock,Industrials,Trucking Freight/
 ULS,UL Solutions Inc. Class A Common Stock,Health Care,Precision Instruments
 ULTA,Ulta Beauty Inc. Common Stock,Consumer Discretionary,Other Specialty Stores
 UMAC,Unusual Machines Inc. Common Stock,Technology,Radio And Television Broadcasting And Communications Equipment
-UMH,UMH Properties Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 UNCY,Unicycive Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 UNF,Unifirst Corporation Common Stock,Consumer Discretionary,Other Consumer Services
 UNFI,United Natural Foods Inc. Common Stock,Consumer Discretionary,Food Distributors
 UNH,UnitedHealth Group Incorporated Common Stock (DE),Health Care,Medical Specialities
-UNIT,Uniti Group Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 UNP,Union Pacific Corporation Common Stock,Industrials,Railroads
 UONE,Urban One Inc. Class A Common Stock,Consumer Discretionary,Broadcasting
 UONEK,Urban One Inc. Class D Common Stock,Consumer Discretionary,Broadcasting
@@ -3049,7 +2814,6 @@ USLM,United States Lime & Minerals Inc. Common Stock,Industrials,Mining & Quarry
 USNA,USANA Health Sciences Inc. Common Stock,Health Care, Medicinal Chemicals and Botanical Products 
 USPH,U.S. Physical Therapy Inc. Common Stock,Health Care,Medical/Nursing Services
 UTHR,United Therapeutics Corporation Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
-UTI,Universal Technical Institute Inc Common Stock,Real Estate,Other Consumer Services
 UTL,UNITIL Corporation Common Stock,Utilities,Power Generation
 UTMD,Utah Medical Products Inc. Common Stock,Health Care,Medical/Dental Instruments
 UTZ,Utz Brands Inc Class A Common Stock ,Consumer Staples,Packaged Foods
@@ -3086,7 +2850,6 @@ VHI,Valhi Inc. Common Stock,Basic Materials,Major Chemicals
 VHUB,VenHub Global Inc. Common Stock,Technology,Industrial Machinery/Components
 VIA,Via Transportation Inc. Class A Common Stock,Technology,Computer Software: Prepackaged Software
 VIAV,Viavi Solutions Inc. Common Stock,Technology,Semiconductors
-VICI,VICI Properties Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 VICR,Vicor Corporation Common Stock,Technology,Industrial Machinery/Components
 VIK,Viking Holdings Ltd Ordinary Shares,Consumer Discretionary,Marine Transportation
 VIR,Vir Biotechnology Inc. Common Stock,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
@@ -3102,10 +2865,8 @@ VLTO,Veralto Corp Common Stock ,Industrials,Electrical Products
 VMC,Vulcan Materials Company (Holding Company) Common Stock,Industrials,Mining & Quarrying of Nonmetallic Minerals (No Fuels)
 VMD,Viemed Healthcare Inc. Common Shares,Health Care,Misc Health and Biotechnology Services
 VMI,Valmont Industries Inc. Common Stock,Industrials,Metal Fabrications
-VMRK,Vivmark Residential Common Shares of Beneficial Interest,Real Estate,Real Estate Investment Trusts
 VNCE,Vince Holding Corp. Common Stock,Consumer Discretionary,Clothing/Shoe/Accessory Stores
 VNDA,Vanda Pharmaceuticals Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
-VNO,Vornado Realty Trust Common Stock,Real Estate,Real Estate Investment Trusts
 VNOM,Viper Energy Inc. Class A Common Stock,Energy,Oil & Gas Production
 VNT,Vontier Corporation Common Stock ,Industrials,Industrial Machinery/Components
 VOC,VOC Energy Trust Units of Beneficial Interest,Energy,Oil & Gas Production
@@ -3136,7 +2897,6 @@ VSXY,Victorias Secret & Co. Common Stock ,Consumer Discretionary,Clothing/Shoe/A
 VTGN,Vistagen Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 VTIX,Virtuix Holdings Inc. Class A Common Stock,Technology,Computer peripheral equipment
 VTOL,Bristow Group Inc. Common Stock,Consumer Discretionary,Transportation Services
-VTR,Ventas Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 VTRS,Viatris Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 VTS,Vitesse Energy Inc. Common Stock,Energy,Oil & Gas Production
 VTSI,VirTra Inc. Common Stock,Consumer Discretionary,Miscellaneous manufacturing industries
@@ -3164,7 +2924,6 @@ WDC,Western Digital Corporation Common Stock,Technology,Electronic Components
 WDFC,WD-40 Company Common Stock,Industrials,Major Chemicals
 WEAV,Weave Communications Inc. Common Stock,Technology,Computer Software: Prepackaged Software
 WEC,WEC Energy Group Inc. Common Stock,Utilities,Power Generation
-WELL,Welltower Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 WEN,Wendy's Company (The) Common Stock,Consumer Discretionary,Restaurants
 WERN,Werner Enterprises Inc. Common Stock,Industrials,Trucking Freight/Courier Services
 WES,Western Midstream Partners LP Common Units Representing Limited Partner Interests,Utilities,Natural Gas Distribution
@@ -3177,9 +2936,6 @@ WGO,Winnebago Industries Inc. Common Stock,Industrials,Homebuilding
 WGS,GeneDx Holdings Corp. Class A Common Stock,Health Care,Medical/Nursing Services
 WH,Wyndham Hotels & Resorts Inc. Common Stock ,Consumer Discretionary,Hotels/Resorts
 WHD,Cactus Inc. Class A Common Stock,Consumer Discretionary,Oil and Gas Field Machinery
-WHLR,Wheeler Real Estate Investment Trust Inc. Common Stock,Real Estate,Real Estate Investment Trusts
-WHLRD,Wheeler Real Estate Investment Trust Inc. Series D Cumulative Preferred Stock,Real Estate,Real Estate Investment Trusts
-WHLRP,Wheeler Real Estate Investment Trust Inc. Class B Preferred Stock,Real Estate,Real Estate Investment Trusts
 WHR,Whirlpool Corporation Common Stock,Consumer Discretionary,Consumer Electronics/Appliances
 WHWK,Whitehawk Therapeutics Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 WINA,Winmark Corporation Common Stock,Consumer Discretionary,Other Specialty Stores
@@ -3203,7 +2959,6 @@ WNC,Wabash National Corporation Common Stock,Industrials,Construction/Ag Equipme
 WOLF,Wolfspeed Inc. Common Stock New,Technology,Semiconductors
 WOOF,Petco Health and Wellness Company Inc. Class A Common Stock,Consumer Discretionary,Other Specialty Stores
 WOR,Worthington Enterprises Inc. Common Shares,Industrials,Steel/Iron Ore
-WPC,W. P. Carey Inc. REIT,Real Estate,Real Estate Investment Trusts
 WRAP,Wrap Technologies Inc. Common Stock,Industrials,Ordnance And Accessories
 WRBY,Warby Parker Inc. Class A Common Stock,Health Care,Ophthalmic Goods
 WS,Worthington Steel Inc. Common Shares,Industrials,Steel/Iron Ore
@@ -3222,7 +2977,6 @@ WW,WW International Inc.  Common Stock,Consumer Discretionary,Other Consumer Ser
 WWD,Woodward Inc. Common Stock,Energy,Industrial Machinery/Components
 WWR,Westwater Resources Inc. Common Stock,Basic Materials,Metal Mining
 WWW,Wolverine World Wide Inc. Common Stock,Consumer Discretionary,Shoe Manufacturing
-WY,Weyerhaeuser Company Common Stock,Real Estate,Real Estate Investment Trusts
 WYNN,Wynn Resorts Limited Common stock,Consumer Discretionary,Hotels/Resorts
 WYY,WidePoint Corporation Common Stock,Technology,EDP Services
 XAIR,Beyond Air Inc. Common Stock,Health Care,Medical/Dental Instruments
@@ -3253,7 +3007,6 @@ XPL,Solitario Resources Corp. Common Stock,Basic Materials,Precious Metals
 XPO,XPO Inc. Common Stock,Consumer Discretionary,Transportation Services
 XPOF,Xponential Fitness Inc. Class A Common Stock,Consumer Discretionary,Services-Misc. Amusement & Recreation
 XRAY,DENTSPLY SIRONA Inc. Common Stock,Health Care,Medical/Dental Instruments
-XRN,Chiron Real Estate Inc. Common Stock,Real Estate,Real Estate Investment Trusts
 XRX,Xerox Holdings Corporation Common Stock,Technology,Computer peripheral equipment
 XRXDW,Xerox Holdings Corporation Warrants,Technology,Computer peripheral equipment
 XTIA,XTI Aerospace Inc. Common Stock,Technology,EDP Services
@@ -3286,7 +3039,6 @@ ZETA,Zeta Global Holdings Corp. Class A Common Stock,Technology,Computer Softwar
 ZG,Zillow Group Inc. Class A Common Stock,Consumer Discretionary,Business Services
 ZIP,ZipRecruiter Inc. Class A Common Stock,Technology,Computer Software: Programming Data Processing
 ZM,Zoom Communications Inc. Class A Common Stock,Technology,Computer Software: Programming Data Processing
-ZNB,Zeta Network Group Class A Ordinary Shares,Real Estate,Other Consumer Services
 ZNTL,Zentalis Pharmaceuticals Inc. Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations
 ZS,Zscaler Inc. Common Stock,Technology,EDP Services
 ZTS,Zoetis Inc. Class A Common Stock,Health Care,Biotechnology: Pharmaceutical Preparations

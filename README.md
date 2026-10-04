@@ -216,15 +216,24 @@ team3-bankruptcy-prediction/
 │   ├── 03_feature_engineering.py
 │   ├── 04_modeling.py
 │   └── 05_evaluation.py
-├── outputs/
-│   ├── figures/
-│   ├── tables/
-│   └── model_results/
+├── artifacts/
+│   ├── 04_profile_and_visualize_clean_data/
+│   ├── 14_validate_modeling_dataset/
+│   ├── 15_visualize_event_aligned_data/
+│   ├── 18_feature_independence_and_selection/
+│   ├── 19_model_elastic_net_logistic/
+│   └── 20_model_random_forest/
+├── models/
+└── data/processed/
 ├── report/
 ├── presentation/
 ├── requirements.txt
 └── .gitignore
 ```
+
+## Notebook Artifacts
+
+Generated reports, analysis tables, and figures are grouped by notebook under `artifacts/<notebook_name>/`. Model pipelines remain in `models/`, and sequential data products remain in `data/processed/` so later notebooks can use the same paths.
 
 ## Reproducibility Guidelines
 
