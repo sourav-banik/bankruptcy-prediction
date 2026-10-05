@@ -1,8 +1,8 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><title>Elastic Net walk-forward benchmark</title><style>
-body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-width:1200px;color:#203142}h1,h2{color:#17425e}.wrap{overflow:auto;max-height:600px;margin:14px 0}table{border-collapse:collapse;width:100%;font-size:12px}th,td{padding:7px;border-bottom:1px solid #d9e1e8;text-align:left;white-space:nowrap}th{background:#edf3f7;position:sticky;top:0}tr:nth-child(even){background:#f8fafb}img{max-width:100%;height:auto}figure{margin:22px 0}figcaption{font-size:13px;color:#52636e}.note{padding:12px 15px;background:#edf6ef;border-left:4px solid #398253}
-</style></head><body><h1>Elastic Net logistic regression benchmark</h1>
-<p class="note">Hyperparameters are selected by mean average precision (PR-AUC) across walk-forward validation folds. The operating threshold is selected from pooled out-of-fold validation predictions by balanced accuracy, with sensitivity and specificity tie-breakers. The chronological test is opened only after both decisions are fixed. This matched sample supports relative-risk scores, not population prevalence.</p>
-<h2>Selected settings</h2><div class="wrap"><table class="dataframe">
+    body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-width:1200px;color:#203142}h1,h2{color:#17425e}.wrap{overflow:auto;max-height:600px;margin:14px 0}table{border-collapse:collapse;width:100%;font-size:12px}th,td{padding:7px;border-bottom:1px solid #d9e1e8;text-align:left;white-space:nowrap}th{background:#edf3f7;position:sticky;top:0}tr:nth-child(even){background:#f8fafb}img{max-width:100%;height:auto}figure{margin:22px 0}figcaption{font-size:13px;color:#52636e}.note{padding:12px 15px;background:#edf6ef;border-left:4px solid #398253}
+    </style></head><body><h1>Elastic Net logistic regression benchmark</h1>
+    <p class="note">Hyperparameters are selected by mean average precision (PR-AUC) across walk-forward validation folds. The operating threshold is selected from pooled out-of-fold validation predictions by balanced accuracy, with sensitivity and specificity tie-breakers. The chronological test is opened only after both decisions are fixed. This matched sample supports relative-risk scores, not population prevalence.</p>
+    <h2>Selected settings</h2><div class="wrap"><table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>selected_candidate</th>
@@ -48,8 +48,8 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
     </tr>
   </tbody>
 </table></div>
-<p>Selected mean validation PR-AUC: 0.8471; frozen threshold: 0.534292; folds: fold_1, fold_2, fold_3, fold_4.</p>
-<h2>Performance at frozen threshold</h2><div class="wrap"><table class="dataframe">
+    <p>Selected mean validation PR-AUC: 0.8471; frozen threshold: 0.534292; folds: fold_1, fold_2, fold_3, fold_4.</p>
+    <h2>Performance at frozen threshold</h2><div class="wrap"><table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>split</th>
@@ -163,10 +163,10 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
     </tr>
   </tbody>
 </table></div>
-<p>Top-risk capture is the share of bankrupt events in the top-scored 1%, 5%, or 10% of rows. Calibration slope and intercept are from logistic recalibration on the logit scores; calibration is descriptive only.</p>
-<figure><img src="elastic_net_walk_forward_performance.png" alt="ROC and precision-recall curves"><figcaption>Walk-forward OOF validation and final test discrimination.</figcaption></figure>
-<figure><img src="elastic_net_walk_forward_calibration.png" alt="Reliability diagram"><figcaption>Reliability by quantile bins; small bins are noisy.</figcaption></figure>
-<h2>Hyperparameter results</h2><div class="wrap"><table class="dataframe">
+    <p>Top-risk capture is the share of bankrupt events in the top-scored 1%, 5%, or 10% of rows. Calibration slope and intercept are from logistic recalibration on the logit scores; calibration is descriptive only.</p>
+    <figure><img src="../../figures/05_elastic_net_reporting/elastic_net_walk_forward_performance.png" alt="ROC and precision-recall curves"><figcaption>Walk-forward OOF validation and final test discrimination.</figcaption></figure>
+    <figure><img src="../../figures/05_elastic_net_reporting/elastic_net_walk_forward_calibration.png" alt="Reliability diagram"><figcaption>Reliability by quantile bins; small bins are noisy.</figcaption></figure>
+    <h2>Hyperparameter results</h2><div class="wrap"><table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>candidate_id</th>
@@ -572,7 +572,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.33333</td>
       <td>0.5</td>
       <td>0.24951</td>
-      <td>0.0088936</td>
+      <td>0.01123</td>
       <td></td>
     </tr>
     <tr>
@@ -586,7 +586,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.34375</td>
       <td>0.5</td>
       <td>0.24966</td>
-      <td>0.0076888</td>
+      <td>0.006683</td>
       <td></td>
     </tr>
     <tr>
@@ -600,7 +600,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.33333</td>
       <td>0.5</td>
       <td>0.24959</td>
-      <td>0.015165</td>
+      <td>0.0082989</td>
       <td></td>
     </tr>
     <tr>
@@ -614,7 +614,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.33929</td>
       <td>0.5</td>
       <td>0.24961</td>
-      <td>0.011327</td>
+      <td>0.011367</td>
       <td></td>
     </tr>
     <tr>
@@ -628,7 +628,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.58259</td>
       <td>0.81065</td>
       <td>0.25014</td>
-      <td>0.095881</td>
+      <td>0.10011</td>
       <td></td>
     </tr>
     <tr>
@@ -642,7 +642,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.96333</td>
       <td>0.97403</td>
       <td>0.11693</td>
-      <td>0.15901</td>
+      <td>0.17364</td>
       <td></td>
     </tr>
     <tr>
@@ -656,7 +656,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.73098</td>
       <td>0.90889</td>
       <td>0.14058</td>
-      <td>0.19191</td>
+      <td>0.19954</td>
       <td></td>
     </tr>
     <tr>
@@ -670,7 +670,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.8784</td>
       <td>0.94168</td>
       <td>0.1439</td>
-      <td>0.26204</td>
+      <td>0.22783</td>
       <td></td>
     </tr>
     <tr>
@@ -684,7 +684,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.51937</td>
       <td>0.73817</td>
       <td>0.24217</td>
-      <td>0.46255</td>
+      <td>0.46701</td>
       <td></td>
     </tr>
     <tr>
@@ -698,7 +698,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.87683</td>
       <td>0.88312</td>
       <td>0.10491</td>
-      <td>0.82148</td>
+      <td>0.74377</td>
       <td></td>
     </tr>
     <tr>
@@ -712,7 +712,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.58725</td>
       <td>0.76889</td>
       <td>0.17734</td>
-      <td>0.89851</td>
+      <td>0.80448</td>
       <td></td>
     </tr>
     <tr>
@@ -726,7 +726,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.87381</td>
       <td>0.90327</td>
       <td>0.12984</td>
-      <td>1.2432</td>
+      <td>0.92094</td>
       <td></td>
     </tr>
     <tr>
@@ -740,7 +740,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.54897</td>
       <td>0.7574</td>
       <td>0.22322</td>
-      <td>0.95096</td>
+      <td>0.85517</td>
       <td></td>
     </tr>
     <tr>
@@ -754,7 +754,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.87522</td>
       <td>0.88312</td>
       <td>0.10254</td>
-      <td>1.3249</td>
+      <td>1.1965</td>
       <td></td>
     </tr>
     <tr>
@@ -768,7 +768,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.6035</td>
       <td>0.76</td>
       <td>0.17618</td>
-      <td>1.6538</td>
+      <td>1.501</td>
       <td></td>
     </tr>
     <tr>
@@ -782,7 +782,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.90379</td>
       <td>0.91607</td>
       <td>0.10908</td>
-      <td>2.0727</td>
+      <td>1.8447</td>
       <td></td>
     </tr>
     <tr>
@@ -796,7 +796,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.51331</td>
       <td>0.75148</td>
       <td>0.22723</td>
-      <td>1.3298</td>
+      <td>1.2405</td>
       <td></td>
     </tr>
     <tr>
@@ -810,7 +810,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.87522</td>
       <td>0.88312</td>
       <td>0.10231</td>
-      <td>1.8859</td>
+      <td>1.6917</td>
       <td></td>
     </tr>
     <tr>
@@ -824,7 +824,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.64481</td>
       <td>0.76889</td>
       <td>0.1737</td>
-      <td>2.3941</td>
+      <td>2.1569</td>
       <td></td>
     </tr>
     <tr>
@@ -838,7 +838,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.90273</td>
       <td>0.91607</td>
       <td>0.10842</td>
-      <td>2.9081</td>
+      <td>2.5775</td>
       <td></td>
     </tr>
     <tr>
@@ -852,7 +852,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.33333</td>
       <td>0.5</td>
       <td>0.24956</td>
-      <td>0.0041477</td>
+      <td>0.0043268</td>
       <td></td>
     </tr>
     <tr>
@@ -866,7 +866,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.34375</td>
       <td>0.5</td>
       <td>0.24979</td>
-      <td>0.0037659</td>
+      <td>0.0037872</td>
       <td></td>
     </tr>
     <tr>
@@ -880,7 +880,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.33333</td>
       <td>0.5</td>
       <td>0.24976</td>
-      <td>0.0038062</td>
+      <td>0.0038809</td>
       <td></td>
     </tr>
     <tr>
@@ -894,7 +894,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.33929</td>
       <td>0.5</td>
       <td>0.2496</td>
-      <td>0.0056989</td>
+      <td>0.0060416</td>
       <td></td>
     </tr>
     <tr>
@@ -908,7 +908,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.60098</td>
       <td>0.78698</td>
       <td>0.23732</td>
-      <td>0.10208</td>
+      <td>0.10123</td>
       <td></td>
     </tr>
     <tr>
@@ -922,7 +922,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.90715</td>
       <td>0.90043</td>
       <td>0.2234</td>
-      <td>0.19327</td>
+      <td>0.17772</td>
       <td></td>
     </tr>
     <tr>
@@ -936,7 +936,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.94946</td>
       <td>0.97556</td>
       <td>0.20635</td>
-      <td>0.27405</td>
+      <td>0.25049</td>
       <td></td>
     </tr>
     <tr>
@@ -950,7 +950,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.88268</td>
       <td>0.94595</td>
       <td>0.19929</td>
-      <td>0.31942</td>
+      <td>0.29201</td>
       <td></td>
     </tr>
     <tr>
@@ -964,7 +964,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.41132</td>
       <td>0.6213</td>
       <td>0.31277</td>
-      <td>0.48169</td>
+      <td>0.45252</td>
       <td></td>
     </tr>
     <tr>
@@ -978,7 +978,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.96333</td>
       <td>0.97403</td>
       <td>0.071922</td>
-      <td>0.82444</td>
+      <td>0.71366</td>
       <td></td>
     </tr>
     <tr>
@@ -992,7 +992,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.73242</td>
       <td>0.81333</td>
       <td>0.15776</td>
-      <td>1.0316</td>
+      <td>0.91383</td>
       <td></td>
     </tr>
     <tr>
@@ -1006,7 +1006,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.8574</td>
       <td>0.90754</td>
       <td>0.12378</td>
-      <td>1.1514</td>
+      <td>1.0292</td>
       <td></td>
     </tr>
     <tr>
@@ -1020,7 +1020,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.50167</td>
       <td>0.70118</td>
       <td>0.27695</td>
-      <td>1.5766</td>
+      <td>1.4928</td>
       <td></td>
     </tr>
     <tr>
@@ -1034,7 +1034,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.85387</td>
       <td>0.8658</td>
       <td>0.11766</td>
-      <td>2.3757</td>
+      <td>2.0549</td>
       <td></td>
     </tr>
     <tr>
@@ -1048,7 +1048,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.58512</td>
       <td>0.75556</td>
       <td>0.18455</td>
-      <td>2.1898</td>
+      <td>2.1648</td>
       <td></td>
     </tr>
     <tr>
@@ -1062,7 +1062,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.90564</td>
       <td>0.91892</td>
       <td>0.12084</td>
-      <td>2.3739</td>
+      <td>2.4077</td>
       <td></td>
     </tr>
     <tr>
@@ -1076,7 +1076,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.51224</td>
       <td>0.75148</td>
       <td>0.22353</td>
-      <td>1.3548</td>
+      <td>1.3814</td>
       <td></td>
     </tr>
     <tr>
@@ -1090,7 +1090,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.87522</td>
       <td>0.88312</td>
       <td>0.10396</td>
-      <td>1.6568</td>
+      <td>1.6764</td>
       <td></td>
     </tr>
     <tr>
@@ -1104,7 +1104,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.6333</td>
       <td>0.76667</td>
       <td>0.17282</td>
-      <td>2.2641</td>
+      <td>2.097</td>
       <td></td>
     </tr>
     <tr>
@@ -1118,7 +1118,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.90315</td>
       <td>0.91607</td>
       <td>0.10733</td>
-      <td>2.6104</td>
+      <td>2.4706</td>
       <td></td>
     </tr>
     <tr>
@@ -1132,7 +1132,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.33333</td>
       <td>0.5</td>
       <td>0.24945</td>
-      <td>0.0039093</td>
+      <td>0.0042649</td>
       <td></td>
     </tr>
     <tr>
@@ -1146,7 +1146,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.34375</td>
       <td>0.5</td>
       <td>0.24976</td>
-      <td>0.004569</td>
+      <td>0.0044324</td>
       <td></td>
     </tr>
     <tr>
@@ -1160,7 +1160,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.33333</td>
       <td>0.5</td>
       <td>0.24972</td>
-      <td>0.0037964</td>
+      <td>0.004817</td>
       <td></td>
     </tr>
     <tr>
@@ -1174,7 +1174,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.33929</td>
       <td>0.5</td>
       <td>0.24971</td>
-      <td>0.0039223</td>
+      <td>0.0043114</td>
       <td></td>
     </tr>
     <tr>
@@ -1188,7 +1188,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.33333</td>
       <td>0.5</td>
       <td>0.24927</td>
-      <td>0.0058969</td>
+      <td>0.0060732</td>
       <td></td>
     </tr>
     <tr>
@@ -1202,7 +1202,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.34375</td>
       <td>0.5</td>
       <td>0.24955</td>
-      <td>0.0057557</td>
+      <td>0.0060277</td>
       <td></td>
     </tr>
     <tr>
@@ -1216,7 +1216,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.33333</td>
       <td>0.5</td>
       <td>0.24947</td>
-      <td>0.0070306</td>
+      <td>0.0066138</td>
       <td></td>
     </tr>
     <tr>
@@ -1230,7 +1230,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.33929</td>
       <td>0.5</td>
       <td>0.24947</td>
-      <td>0.013451</td>
+      <td>0.012697</td>
       <td></td>
     </tr>
     <tr>
@@ -1244,7 +1244,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.43188</td>
       <td>0.66568</td>
       <td>0.30192</td>
-      <td>0.51099</td>
+      <td>0.48337</td>
       <td></td>
     </tr>
     <tr>
@@ -1258,7 +1258,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.9584</td>
       <td>0.97403</td>
       <td>0.080839</td>
-      <td>1.1164</td>
+      <td>1.0433</td>
       <td></td>
     </tr>
     <tr>
@@ -1272,7 +1272,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.80179</td>
       <td>0.85556</td>
       <td>0.13707</td>
-      <td>0.90663</td>
+      <td>0.84822</td>
       <td></td>
     </tr>
     <tr>
@@ -1286,7 +1286,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.88696</td>
       <td>0.95448</td>
       <td>0.13445</td>
-      <td>0.99236</td>
+      <td>0.94892</td>
       <td></td>
     </tr>
     <tr>
@@ -1300,7 +1300,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.46479</td>
       <td>0.67308</td>
       <td>0.30099</td>
-      <td>1.5786</td>
+      <td>1.4983</td>
       <td></td>
     </tr>
     <tr>
@@ -1314,7 +1314,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.89458</td>
       <td>0.93506</td>
       <td>0.10534</td>
-      <td>2.1304</td>
+      <td>2.1881</td>
       <td></td>
     </tr>
     <tr>
@@ -1328,7 +1328,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.58392</td>
       <td>0.78889</td>
       <td>0.18592</td>
-      <td>2.7663</td>
+      <td>3.7831</td>
       <td></td>
     </tr>
     <tr>
@@ -1342,7 +1342,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.89374</td>
       <td>0.93172</td>
       <td>0.12261</td>
-      <td>2.7878</td>
+      <td>3.9157</td>
       <td></td>
     </tr>
     <tr>
@@ -1356,7 +1356,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.50941</td>
       <td>0.74852</td>
       <td>0.22425</td>
-      <td>1.4405</td>
+      <td>2.0676</td>
       <td></td>
     </tr>
     <tr>
@@ -1370,7 +1370,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.86939</td>
       <td>0.87879</td>
       <td>0.10835</td>
-      <td>1.7033</td>
+      <td>2.4993</td>
       <td></td>
     </tr>
     <tr>
@@ -1384,7 +1384,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.60584</td>
       <td>0.76</td>
       <td>0.17269</td>
-      <td>2.1402</td>
+      <td>3.2723</td>
       <td></td>
     </tr>
     <tr>
@@ -1398,7 +1398,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.90573</td>
       <td>0.9175</td>
       <td>0.10459</td>
-      <td>2.5678</td>
+      <td>4.0893</td>
       <td></td>
     </tr>
     <tr>
@@ -1412,7 +1412,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.33333</td>
       <td>0.5</td>
       <td>0.25001</td>
-      <td>0.010329</td>
+      <td>0.0067004</td>
       <td></td>
     </tr>
     <tr>
@@ -1426,7 +1426,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.34375</td>
       <td>0.5</td>
       <td>0.24998</td>
-      <td>0.0058087</td>
+      <td>0.01166</td>
       <td></td>
     </tr>
     <tr>
@@ -1440,7 +1440,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.33333</td>
       <td>0.5</td>
       <td>0.24999</td>
-      <td>0.0070366</td>
+      <td>0.021992</td>
       <td></td>
     </tr>
     <tr>
@@ -1454,7 +1454,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.33929</td>
       <td>0.5</td>
       <td>0.25</td>
-      <td>0.010021</td>
+      <td>0.030769</td>
       <td></td>
     </tr>
     <tr>
@@ -1468,7 +1468,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.5884</td>
       <td>0.81657</td>
       <td>0.25751</td>
-      <td>0.084331</td>
+      <td>0.15522</td>
       <td></td>
     </tr>
     <tr>
@@ -1482,7 +1482,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.95965</td>
       <td>0.9697</td>
       <td>0.11595</td>
-      <td>0.14277</td>
+      <td>0.21627</td>
       <td></td>
     </tr>
     <tr>
@@ -1496,7 +1496,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.81346</td>
       <td>0.94</td>
       <td>0.12519</td>
-      <td>0.15926</td>
+      <td>0.24744</td>
       <td></td>
     </tr>
     <tr>
@@ -1510,7 +1510,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.88256</td>
       <td>0.94452</td>
       <td>0.14429</td>
-      <td>0.19706</td>
+      <td>0.30099</td>
       <td></td>
     </tr>
     <tr>
@@ -1524,7 +1524,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.51937</td>
       <td>0.73817</td>
       <td>0.24247</td>
-      <td>0.38303</td>
+      <td>0.57395</td>
       <td></td>
     </tr>
     <tr>
@@ -1538,7 +1538,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.87683</td>
       <td>0.88312</td>
       <td>0.10638</td>
-      <td>0.6211</td>
+      <td>1.0516</td>
       <td></td>
     </tr>
     <tr>
@@ -1552,7 +1552,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.60768</td>
       <td>0.77778</td>
       <td>0.17834</td>
-      <td>0.72419</td>
+      <td>1.0517</td>
       <td></td>
     </tr>
     <tr>
@@ -1566,7 +1566,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.87414</td>
       <td>0.90043</td>
       <td>0.14153</td>
-      <td>0.86304</td>
+      <td>1.2392</td>
       <td></td>
     </tr>
     <tr>
@@ -1580,7 +1580,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.53359</td>
       <td>0.75444</td>
       <td>0.2248</td>
-      <td>0.84567</td>
+      <td>1.2798</td>
       <td></td>
     </tr>
     <tr>
@@ -1594,7 +1594,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.88265</td>
       <td>0.88745</td>
       <td>0.097292</td>
-      <td>1.2554</td>
+      <td>1.8691</td>
       <td></td>
     </tr>
     <tr>
@@ -1608,7 +1608,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.60885</td>
       <td>0.76</td>
       <td>0.1824</td>
-      <td>1.5369</td>
+      <td>2.3038</td>
       <td></td>
     </tr>
     <tr>
@@ -1622,7 +1622,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.9019</td>
       <td>0.91323</td>
       <td>0.1157</td>
-      <td>1.8937</td>
+      <td>1.9237</td>
       <td></td>
     </tr>
     <tr>
@@ -1636,7 +1636,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.51111</td>
       <td>0.74852</td>
       <td>0.22924</td>
-      <td>1.2533</td>
+      <td>1.2821</td>
       <td></td>
     </tr>
     <tr>
@@ -1650,7 +1650,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.87522</td>
       <td>0.88312</td>
       <td>0.095206</td>
-      <td>1.6328</td>
+      <td>1.6428</td>
       <td></td>
     </tr>
     <tr>
@@ -1664,7 +1664,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.60885</td>
       <td>0.76</td>
       <td>0.1794</td>
-      <td>2.255</td>
+      <td>2.1151</td>
       <td></td>
     </tr>
     <tr>
@@ -1678,7 +1678,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.90151</td>
       <td>0.91323</td>
       <td>0.10983</td>
-      <td>2.589</td>
+      <td>2.6443</td>
       <td></td>
     </tr>
     <tr>
@@ -1692,7 +1692,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.33333</td>
       <td>0.5</td>
       <td>0.2499</td>
-      <td>0.0044687</td>
+      <td>0.0045199</td>
       <td></td>
     </tr>
     <tr>
@@ -1706,7 +1706,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.34375</td>
       <td>0.5</td>
       <td>0.25</td>
-      <td>0.0042992</td>
+      <td>0.0052072</td>
       <td></td>
     </tr>
     <tr>
@@ -1720,7 +1720,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.33333</td>
       <td>0.5</td>
       <td>0.25005</td>
-      <td>0.0046139</td>
+      <td>0.0046806</td>
       <td></td>
     </tr>
     <tr>
@@ -1734,7 +1734,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.33929</td>
       <td>0.5</td>
       <td>0.25</td>
-      <td>0.0045135</td>
+      <td>0.0045778</td>
       <td></td>
     </tr>
     <tr>
@@ -1748,7 +1748,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.64408</td>
       <td>0.80769</td>
       <td>0.2363</td>
-      <td>0.12502</td>
+      <td>0.12647</td>
       <td></td>
     </tr>
     <tr>
@@ -1762,7 +1762,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.92312</td>
       <td>0.92208</td>
       <td>0.20965</td>
-      <td>0.2106</td>
+      <td>0.20536</td>
       <td></td>
     </tr>
     <tr>
@@ -1776,7 +1776,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.94331</td>
       <td>0.97333</td>
       <td>0.19302</td>
-      <td>0.24476</td>
+      <td>0.30582</td>
       <td></td>
     </tr>
     <tr>
@@ -1790,7 +1790,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.87792</td>
       <td>0.94595</td>
       <td>0.19393</td>
-      <td>0.28606</td>
+      <td>0.41676</td>
       <td></td>
     </tr>
     <tr>
@@ -1804,7 +1804,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.4124</td>
       <td>0.63018</td>
       <td>0.31588</td>
-      <td>0.45576</td>
+      <td>0.70139</td>
       <td></td>
     </tr>
     <tr>
@@ -1818,7 +1818,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.96333</td>
       <td>0.97403</td>
       <td>0.076848</td>
-      <td>0.69894</td>
+      <td>1.1087</td>
       <td></td>
     </tr>
     <tr>
@@ -1832,7 +1832,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.78707</td>
       <td>0.86</td>
       <td>0.15036</td>
-      <td>0.94505</td>
+      <td>1.3304</td>
       <td></td>
     </tr>
     <tr>
@@ -1846,7 +1846,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.86861</td>
       <td>0.90896</td>
       <td>0.12956</td>
-      <td>1.0519</td>
+      <td>1.5242</td>
       <td></td>
     </tr>
     <tr>
@@ -1860,7 +1860,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.47899</td>
       <td>0.70118</td>
       <td>0.27502</td>
-      <td>1.3684</td>
+      <td>2.1798</td>
       <td></td>
     </tr>
     <tr>
@@ -1874,7 +1874,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.85387</td>
       <td>0.8658</td>
       <td>0.12031</td>
-      <td>1.8878</td>
+      <td>2.7482</td>
       <td></td>
     </tr>
     <tr>
@@ -1888,7 +1888,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.58956</td>
       <td>0.76</td>
       <td>0.18364</td>
-      <td>2.1318</td>
+      <td>2.5705</td>
       <td></td>
     </tr>
     <tr>
@@ -1902,7 +1902,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.90455</td>
       <td>0.9175</td>
       <td>0.12945</td>
-      <td>2.3895</td>
+      <td>2.8846</td>
       <td></td>
     </tr>
     <tr>
@@ -1916,7 +1916,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.51224</td>
       <td>0.75148</td>
       <td>0.22555</td>
-      <td>1.3269</td>
+      <td>1.7964</td>
       <td></td>
     </tr>
     <tr>
@@ -1930,7 +1930,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.87522</td>
       <td>0.88312</td>
       <td>0.097612</td>
-      <td>1.6828</td>
+      <td>2.2398</td>
       <td></td>
     </tr>
     <tr>
@@ -1944,7 +1944,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.61219</td>
       <td>0.76222</td>
       <td>0.17833</td>
-      <td>2.0648</td>
+      <td>2.6132</td>
       <td></td>
     </tr>
     <tr>
@@ -1958,7 +1958,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.90076</td>
       <td>0.91181</td>
       <td>0.11021</td>
-      <td>2.6422</td>
+      <td>3.3522</td>
       <td></td>
     </tr>
     <tr>
@@ -1972,7 +1972,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.33333</td>
       <td>0.5</td>
       <td>0.24988</td>
-      <td>0.0046813</td>
+      <td>0.012011</td>
       <td></td>
     </tr>
     <tr>
@@ -1986,7 +1986,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.34375</td>
       <td>0.5</td>
       <td>0.25</td>
-      <td>0.004312</td>
+      <td>0.012142</td>
       <td></td>
     </tr>
     <tr>
@@ -2000,7 +2000,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.33333</td>
       <td>0.5</td>
       <td>0.25005</td>
-      <td>0.0044025</td>
+      <td>0.013203</td>
       <td></td>
     </tr>
     <tr>
@@ -2014,7 +2014,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.33929</td>
       <td>0.5</td>
       <td>0.25</td>
-      <td>0.004602</td>
+      <td>0.007577</td>
       <td></td>
     </tr>
     <tr>
@@ -2028,7 +2028,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.33333</td>
       <td>0.5</td>
       <td>0.25002</td>
-      <td>0.0064161</td>
+      <td>0.016178</td>
       <td></td>
     </tr>
     <tr>
@@ -2042,7 +2042,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.34375</td>
       <td>0.5</td>
       <td>0.24996</td>
-      <td>0.0069343</td>
+      <td>0.016375</td>
       <td></td>
     </tr>
     <tr>
@@ -2056,7 +2056,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.33333</td>
       <td>0.5</td>
       <td>0.25</td>
-      <td>0.010268</td>
+      <td>0.0095404</td>
       <td></td>
     </tr>
     <tr>
@@ -2070,7 +2070,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.78639</td>
       <td>0.86486</td>
       <td>0.24973</td>
-      <td>0.37254</td>
+      <td>0.48397</td>
       <td></td>
     </tr>
     <tr>
@@ -2084,7 +2084,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.4659</td>
       <td>0.7071</td>
       <td>0.27878</td>
-      <td>0.46847</td>
+      <td>0.67492</td>
       <td></td>
     </tr>
     <tr>
@@ -2098,7 +2098,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.95056</td>
       <td>0.96537</td>
       <td>0.086038</td>
-      <td>1.2682</td>
+      <td>1.5997</td>
       <td></td>
     </tr>
     <tr>
@@ -2112,7 +2112,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.81157</td>
       <td>0.86889</td>
       <td>0.13291</td>
-      <td>1.1561</td>
+      <td>1.5686</td>
       <td></td>
     </tr>
     <tr>
@@ -2126,7 +2126,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.89398</td>
       <td>0.95306</td>
       <td>0.1378</td>
-      <td>1.276</td>
+      <td>1.6721</td>
       <td></td>
     </tr>
     <tr>
@@ -2140,7 +2140,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.46032</td>
       <td>0.67308</td>
       <td>0.29945</td>
-      <td>1.5071</td>
+      <td>1.9319</td>
       <td></td>
     </tr>
     <tr>
@@ -2154,7 +2154,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.89458</td>
       <td>0.93506</td>
       <td>0.10602</td>
-      <td>1.9435</td>
+      <td>2.4945</td>
       <td></td>
     </tr>
     <tr>
@@ -2168,7 +2168,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.57979</td>
       <td>0.78667</td>
       <td>0.18614</td>
-      <td>2.5489</td>
+      <td>3.7344</td>
       <td></td>
     </tr>
     <tr>
@@ -2182,7 +2182,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.90037</td>
       <td>0.92603</td>
       <td>0.12818</td>
-      <td>2.9265</td>
+      <td>4.1669</td>
       <td></td>
     </tr>
     <tr>
@@ -2196,7 +2196,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.51224</td>
       <td>0.75148</td>
       <td>0.22459</td>
-      <td>1.4867</td>
+      <td>2.0105</td>
       <td></td>
     </tr>
     <tr>
@@ -2210,7 +2210,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.88265</td>
       <td>0.88745</td>
       <td>0.10283</td>
-      <td>1.7511</td>
+      <td>2.3094</td>
       <td></td>
     </tr>
     <tr>
@@ -2224,7 +2224,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.61219</td>
       <td>0.76222</td>
       <td>0.17817</td>
-      <td>2.225</td>
+      <td>3.1453</td>
       <td></td>
     </tr>
     <tr>
@@ -2238,12 +2238,12 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
       <td>0.90334</td>
       <td>0.91323</td>
       <td>0.10939</td>
-      <td>2.6112</td>
+      <td>3.4766</td>
       <td></td>
     </tr>
   </tbody>
 </table></div>
-<h2>Calibration bins</h2><div class="wrap"><table class="dataframe">
+    <h2>Calibration bins</h2><div class="wrap"><table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>bin</th>
@@ -2368,4 +2368,4 @@ body{font:15px/1.55 system-ui,sans-serif;margin:30px auto;padding:0 22px;max-wid
     </tr>
   </tbody>
 </table></div>
-<p>Each fold used its own training-fitted preprocessing and variance filter. The final model was fitted on the static training split. Test results were not used for feature handling, hyperparameter selection, or threshold choice.</p></body></html>
+    <p>Each fold used its own training-fitted preprocessing and variance filter. The final model was fitted on the static training split. Test results were not used for feature handling, hyperparameter selection, or threshold choice.</p></body></html>

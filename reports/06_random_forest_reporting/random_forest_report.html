@@ -1,8 +1,8 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><title>Regularized Random Forest</title><style>
-body{font:15px/1.55 system-ui,sans-serif;margin:28px auto;padding:0 22px;max-width:1200px;color:#203142}h1,h2{color:#17425e}.wrap{overflow:auto;max-height:600px;margin:14px 0}table{border-collapse:collapse;width:100%;font-size:12px}th,td{padding:7px;border-bottom:1px solid #d9e1e8;text-align:left;white-space:nowrap}th{background:#edf3f7;position:sticky;top:0}tr:nth-child(even){background:#f8fafb}img{max-width:100%;height:auto}figure{margin:22px 0}figcaption{font-size:13px;color:#52636e}.note{padding:12px 15px;background:#edf6ef;border-left:4px solid #398253}
-</style></head><body><h1>Regularized Random Forest benchmark</h1>
-<p class="note">Tree complexity, leaf/split sizes, feature subsampling, row subsampling, and class weights were selected using mean walk-forward validation PR-AUC. The classification threshold was selected from pooled OOF validation predictions. The test set was opened after all settings were frozen. Random Forest is a nonlinear sensitivity benchmark; Elastic Net remains primary.</p>
-<h2>Selected Random Forest configuration</h2><div class="wrap"><table class="dataframe">
+    body{font:15px/1.55 system-ui,sans-serif;margin:28px auto;padding:0 22px;max-width:1200px;color:#203142}h1,h2{color:#17425e}.wrap{overflow:auto;max-height:600px;margin:14px 0}table{border-collapse:collapse;width:100%;font-size:12px}th,td{padding:7px;border-bottom:1px solid #d9e1e8;text-align:left;white-space:nowrap}th{background:#edf3f7;position:sticky;top:0}tr:nth-child(even){background:#f8fafb}img{max-width:100%;height:auto}figure{margin:22px 0}figcaption{font-size:13px;color:#52636e}.note{padding:12px 15px;background:#edf6ef;border-left:4px solid #398253}
+    </style></head><body><h1>Regularized Random Forest benchmark</h1>
+    <p class="note">Tree complexity, leaf/split sizes, feature subsampling, row subsampling, and class weights were selected using mean walk-forward validation PR-AUC. The classification threshold was selected from pooled OOF validation predictions. The test set was opened after all settings were frozen. Random Forest is a nonlinear sensitivity benchmark; Elastic Net remains primary.</p>
+    <h2>Selected Random Forest configuration</h2><div class="wrap"><table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>selected_candidate</th>
@@ -52,7 +52,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:28px auto;padding:0 22px;max-wid
     </tr>
   </tbody>
 </table></div>
-<h2>Performance on validation and final test</h2><div class="wrap"><table class="dataframe">
+    <h2>Performance on validation and final test</h2><div class="wrap"><table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>model</th>
@@ -219,7 +219,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:28px auto;padding:0 22px;max-wid
     </tr>
   </tbody>
 </table></div>
-<h2>Training fit diagnostic</h2><div class="wrap"><table class="dataframe">
+    <h2>Training fit diagnostic</h2><div class="wrap"><table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>model</th>
@@ -271,10 +271,10 @@ body{font:15px/1.55 system-ui,sans-serif;margin:28px auto;padding:0 22px;max-wid
     </tr>
   </tbody>
 </table></div><p>Training performance is in-sample and is reported only to diagnose overfitting. It is not used to select hyperparameters, threshold, or features.</p>
-<p>Top-risk capture is the fraction of bankrupt observations in the highest-risk 1%, 5%, or 10%. Importance is measured as validation average-precision decrease after feature permutation. Bootstrap summaries resample validation cases and controls within fold; top-10 frequency describes ranking stability, not causal importance.</p>
-<figure><img src="random_forest_vs_elastic_net.png" alt="Random Forest and Elastic Net validation and test curves"><figcaption>OOF validation and final test performance.</figcaption></figure>
-<figure><img src="random_forest_validation_permutation_importance.png" alt="Validation permutation importance"><figcaption>Top validation permutation importance. No training impurity importance is used.</figcaption></figure>
-<h2>Importance and bootstrap stability</h2><div class="wrap"><table class="dataframe">
+    <p>Top-risk capture is the fraction of bankrupt observations in the highest-risk 1%, 5%, or 10%. Importance is measured as validation average-precision decrease after feature permutation. Bootstrap summaries resample validation cases and controls within fold; top-10 frequency describes ranking stability, not causal importance.</p>
+    <figure><img src="../../figures/06_random_forest_reporting/random_forest_vs_elastic_net.png" alt="Random Forest and Elastic Net validation and test curves"><figcaption>OOF validation and final test performance.</figcaption></figure>
+    <figure><img src="../../figures/06_random_forest_reporting/random_forest_validation_permutation_importance.png" alt="Validation permutation importance"><figcaption>Top validation permutation importance. No training impurity importance is used.</figcaption></figure>
+    <h2>Importance and bootstrap stability</h2><div class="wrap"><table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>feature</th>
@@ -1391,7 +1391,7 @@ body{font:15px/1.55 system-ui,sans-serif;margin:28px auto;padding:0 22px;max-wid
     </tr>
   </tbody>
 </table></div>
-<h2>Walk-forward tuning</h2><div class="wrap"><table class="dataframe">
+    <h2>Walk-forward tuning</h2><div class="wrap"><table class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>candidate_id</th>
@@ -1892,4 +1892,4 @@ body{font:15px/1.55 system-ui,sans-serif;margin:28px auto;padding:0 22px;max-wid
     </tr>
   </tbody>
 </table></div>
-<p>Hyperparameter ranking uses mean validation PR-AUC; validation ROC-AUC and Brier are tie-breakers only. No test metric influenced tuning, the threshold, or importance analysis. The sampled matched cohort does not estimate population bankruptcy prevalence.</p></body></html>
+    <p>Hyperparameter ranking uses mean validation PR-AUC; validation ROC-AUC and Brier are tie-breakers only. No test metric influenced tuning, the threshold, or importance analysis. The sampled matched cohort does not estimate population bankruptcy prevalence.</p></body></html>

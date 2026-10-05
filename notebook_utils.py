@@ -15,6 +15,8 @@ import pandas as pd
 
 @dataclass(frozen=True)
 class ProjectPaths:
+    """Standard filesystem locations used by notebooks and analysis scripts."""
+
     root: Path
     raw: Path
     intermediate: Path

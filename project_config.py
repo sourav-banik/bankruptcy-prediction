@@ -1,5 +1,6 @@
 """Central project configuration for Bloomberg data and field selections."""
 
+# Annual financial statement fields requested for each company.
 ANNUAL_FIELDS = {'total_assets': 'BS_TOT_ASSET',
  'total_liabilities': 'BS_TOT_LIAB2',
  'total_debt': 'SHORT_AND_LONG_TERM_DEBT',
@@ -22,14 +23,17 @@ ANNUAL_FIELDS = {'total_assets': 'BS_TOT_ASSET',
  'capital_expenditures': 'CAPITAL_EXPEND',
  'free_cash_flow': 'CF_FREE_CASH_FLOW'}
 
+# Company market fields used to construct price, size, and trading features.
 MARKET_FIELDS = {'adjusted_price': 'PX_LAST',
  'market_cap': 'CUR_MKT_CAP',
  'shares_outstanding': 'EQY_SH_OUT',
  'volume': 'PX_VOLUME',
  'turnover': 'TURNOVER'}
 
+# Bloomberg classifications used to describe and match companies.
 REFERENCE_FIELDS = {'bloomberg_sector': 'BICS_LEVEL_1_SECTOR_NAME', 'bloomberg_industry': 'BICS_LEVEL_3_INDUSTRY_NAME'}
 
+# Macro series are mapped to their Bloomberg source security and frequency.
 MACRO_FIELDS = {'inflation_cpi_yoy': {'security': 'CPI YOY Index', 'field': 'PX_LAST', 'periodicity': 'M'},
  'real_gdp_growth': {'security': 'GDP CQOQ Index', 'field': 'PX_LAST', 'periodicity': 'Q'},
  'unemployment_rate': {'security': 'USURTOT Index', 'field': 'PX_LAST', 'periodicity': 'M'},
@@ -41,6 +45,7 @@ MACRO_FIELDS = {'inflation_cpi_yoy': {'security': 'CPI YOY Index', 'field': 'PX_
  'credit_spread': {'security': 'LUACTRUU Index', 'field': 'PX_LAST', 'periodicity': 'M'},
  'vix': {'security': 'VIX Index', 'field': 'PX_LAST', 'periodicity': 'D'}}
 
+# Reusable field sets and cleaning rules shared by the data-preparation notebooks.
 FINANCIAL_FIELDS = set(ANNUAL_FIELDS)
 MARKET_FIELD_NAMES = set(MARKET_FIELDS)
 
@@ -75,6 +80,7 @@ MAJOR_FINANCIAL_FIELDS = ['total_assets',
  'shareholders_equity',
  'operating_cash_flow']
 
+# Fields used for descriptive distribution plots in the analysis stage.
 DISTRIBUTION_FIELDS = ['total_assets',
  'total_liabilities',
  'total_debt',
@@ -86,6 +92,7 @@ DISTRIBUTION_FIELDS = ['total_assets',
  'operating_cash_flow',
  'market_cap']
 
+# Raw market fields needed to compute the configured market features.
 MARKET_FEATURE_SOURCE_FIELDS = ['adjusted_price', 'market_cap', 'volume', 'turnover', 'bid_ask_spread']
 
 
@@ -119,6 +126,7 @@ RATIO_FORMULAS.update({
 })
 RATIO_COLUMNS = list(RATIO_FORMULAS)
 
+# Trend and market feature names are generated from shared horizon definitions.
 TREND_YEARS = (1, 2, 3)
 TREND_CHANGE_TYPES = ("change", "growth")
 TREND_SOURCE_COLUMNS = ORIGINAL_COLUMNS + RATIO_COLUMNS
