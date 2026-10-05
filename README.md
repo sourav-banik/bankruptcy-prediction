@@ -1,294 +1,90 @@
 # Bankruptcy Early-Warning Prediction Model
 
-## Team 3
+## Project overview
 
-Yutong Chen · Shuyi Chen · Sourav Banik · Hao Yang · Khizer Shabbir
+This repository contains a 22-notebook workflow for building and evaluating an event-based bankruptcy early-warning model for publicly traded U.S. companies. It combines bankruptcy filing records with Bloomberg company, market, and macroeconomic data.
 
-## Project Overview
+Each observation is one company at one prediction date. Bankrupt-company prediction dates are set 90 days before filing. Non-bankrupt firms receive candidate pseudo-event dates based on bankrupt-company prediction dates and are retained as negative examples only when their full 12-month outcome window ends on or before the verified bankruptcy-label cutoff of **2022-12-31**. Bloomberg market-data availability is used to establish historical feature coverage before a prediction date; it is not evidence that a company avoided bankruptcy.
 
-This project develops an early-warning screening model that estimates the probability that a publicly traded U.S. non-financial company will file for Chapter 7 or Chapter 11 bankruptcy within the following 12 months.
+The matched case-control sample is designed for comparing relative risk. Its class balance does not represent real-world bankruptcy prevalence, so model scores should not be interpreted as population bankruptcy probabilities.
 
-The model is intended to help investors, creditors, and analysts prioritize companies for additional review. It is a screening and research-prioritization tool, not an automatic investment recommendation and not a replacement for analyst judgment.
+## Workflow
 
-## Business Problem
+Run notebooks in numerical order. Notebooks 01 and 02 prepare Bloomberg requests; the Bloomberg Excel Add-In must populate the generated workbooks before cleaning begins. The populated workbooks are read from `data/processed/` by notebook 03.
 
-Investors and credit analysts must monitor a large universe of companies using financial statements, market data, and other publicly available information. Reviewing every company with the same level of attention is inefficient. A probability-based risk score can help identify firms with elevated financial-distress risk and direct limited research time toward the companies most likely to require deeper analysis.
-
-Potential use cases include:
-
-- Corporate-bond screening before investment
-- Monitoring existing portfolio holdings
-- Credit-watch-list construction
-- Prioritizing analyst research
-- Identifying potential distressed-investment opportunities
-- Supporting analysis of capital structure, asset values, restructuring options, and potential recovery
-
-## Research Question
-
-Can publicly disclosed financial information and market data predict whether a publicly traded U.S. non-financial company will file for bankruptcy within the next 12 months?
-
-## Data and Unit of Observation
-
-The unit of observation is a **company-year**. Each row represents one eligible company observed at a specific annual prediction date.
-
-### Primary data sources
-
-1. **Florida-UCLA-LoPucki Bankruptcy Research Database (BRD)**
-   - Provides bankruptcy filing information and identifiable filing dates.
-   - Chapter 7 and Chapter 11 filings are used to define positive events.
-
-2. **Bloomberg historical company and market data**
-   - Provides financial-statement fundamentals, market capitalization, stock returns, volatility, and other market variables.
-
-### Company matching
-
-The data sources will be linked using company identifiers in the following order where available:
-
-1. CIK
-2. CUSIP
-3. Carefully reviewed company-name matching
-
-Uncertain matches will be flagged and reviewed rather than accepted automatically.
-
-## Target Variable
-
-The primary target is:
-
-```text
-bankruptcy_12m = 1
-```
-
-when a company files Chapter 7 or Chapter 11 bankruptcy within the 12 months following the prediction date, and:
-
-```text
-bankruptcy_12m = 0
-```
-
-when no qualifying filing is observed during that period.
-
-The project will use only information available before each prediction date. Observations after bankruptcy and information that would not have been available at the prediction date will be excluded.
-
-## Candidate Features
-
-The feature set will focus on indicators that can be compared across non-financial industries.
-
-### Profitability
-
-- Return on assets (ROA)
-- Operating margin
-- EBIT/assets
-- Net income/assets
-
-### Leverage
-
-- Total liabilities/assets
-- Debt/assets
-- Debt/equity
-
-### Liquidity
-
-- Current ratio
-- Quick ratio
-- Cash/assets
-- Working capital/assets
-
-### Debt-service capacity
-
-- Interest coverage
-- Debt/EBITDA
-
-### Cash flow
-
-- Operating cash flow/assets
-- Free cash flow/assets
-
-### Growth and firm characteristics
-
-- Revenue growth
-- Asset growth
-- Earnings growth
-- Total assets
-- Log market capitalization
-- Company age, where available
-
-### Market indicators
-
-- Prior-year stock return
-- Stock-price volatility
-- Market-to-book ratio
-- Drawdown measures
-
-### Industry controls
-
-- Broad industry or sector indicators
-- Industry-year-relative financial ratios
-
-Lagged and trend features will be constructed only from prior observations. Industry-relative features may measure how far a company’s leverage, liquidity, or profitability differs from the median for comparable firms in the same industry and year.
-
-## Methodology
-
-The project follows the CRISP-DM process and includes two related data-science tasks.
-
-### 1. Exploratory and visual analysis
-
-The analysis will examine:
-
-- Bankruptcy counts and rates over time
-- Differences between bankrupt and non-bankrupt companies
-- Industry-level differences
-- Missingness and data coverage
-- Financial-ratio distributions
-- Risk segments and predicted-probability distributions
-
-### 2. Predictive modeling
-
-Candidate models include:
-
-- Majority-class or simple-ratio benchmark
-- Weighted logistic regression
-- Regularized logistic regression
-- Tree-based model, such as random forest or gradient boosting, if appropriate
-
-The final model will be selected based on predictive performance, probability calibration, interpretability, and usefulness for screening.
-
-## Validation Strategy
-
-Validation will be time-based rather than randomly split across all years:
-
-- Earlier years: training data
-- Subsequent years: validation data
-- Later years: out-of-time test data
-
-This design better reflects how the model would be used in practice and helps reduce look-ahead bias.
-
-Class imbalance will be addressed using model weights where possible. If the full panel is too large, stratified negative sampling may be used by calendar year, industry, and potentially firm size. Because sampling can distort predicted probabilities, probabilities will be recalibrated using an appropriate validation procedure.
-
-## Evaluation Metrics
-
-The project will report metrics that are appropriate for a rare-event screening problem, including:
-
-- ROC-AUC
-- Precision-recall AUC
-- Recall for bankruptcy cases
-- Precision among high-risk companies
-- F1 score, where useful
-- Probability calibration
-- Confusion matrix at a validation-selected threshold
-- Lift and capture rate among the highest-risk companies
-
-The business-value analysis will include a screening simulation measuring how many future bankruptcy cases are captured when analysts review the highest-risk group, such as the top 1%, 5%, or 10% of companies.
-
-## Business Value and Limitations
-
-A high predicted probability identifies a company for additional investigation. It does not automatically mean that the company should be avoided or that its securities should be sold. Analysts should review liquidity, debt structure, maturity schedules, restructuring options, asset values, and potential recovery value before making an investment or credit decision.
-
-The project will report scenario-based benefits rather than claiming a precise return on investment because portfolio exposures, research costs, recovery rates, and transaction outcomes may not be available.
-
-Important limitations may include:
-
-- Incomplete or inconsistent historical data
-- Limited number of bankruptcy events
-- Selection limitations in the bankruptcy database
-- Imperfect company matching across sources
-- Missing data that may not be random
-- Differences in accounting practices across industries
-- Potential changes in market conditions over time
-- False positives and false negatives
-- Reduced generalizability to financial institutions or private companies
-
-## Repository Structure
-
-```text
-team3-bankruptcy-prediction/
-├── README.md
-├── data/
-│   ├── raw/                  # Original files; do not modify
-│   ├── interim/              # Intermediate cleaned and matched files
-│   ├── processed/            # Final model-ready data
-│   └── data_dictionary.csv
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_feature_analysis.ipynb
-│   └── 03_model_results.ipynb
-├── src/
-│   ├── 01_clean_data.py
-│   ├── 02_create_labels.py
-│   ├── 03_feature_engineering.py
-│   ├── 04_modeling.py
-│   └── 05_evaluation.py
-├── artifacts/
-│   ├── 04_profile_and_visualize_clean_data/
-│   ├── 14_validate_modeling_dataset/
-│   ├── 15_visualize_event_aligned_data/
-│   ├── 18_feature_independence_and_selection/
-│   ├── 19_model_elastic_net_logistic/
-│   └── 20_model_random_forest/
-├── models/
-└── data/processed/
-├── report/
-├── presentation/
-├── requirements.txt
-└── .gitignore
-```
-
-## Notebook Artifacts
-
-Generated reports, analysis tables, and figures are grouped by notebook under `artifacts/<notebook_name>/`. Model pipelines remain in `models/`, and sequential data products remain in `data/processed/` so later notebooks can use the same paths.
-
-## Reproducibility Guidelines
-
-1. Keep raw data unchanged and store it outside the public repository when access or licensing restrictions apply.
-2. Use scripts for repeatable cleaning, label construction, feature engineering, modeling, and evaluation.
-3. Keep exploratory notebooks in the `notebooks/` folder and document their purpose.
-4. Record data dates, variable definitions, transformations, and exclusions in the data dictionary.
-5. Do not use future information when constructing features or labels.
-6. Do not use the final test period to select features, tune models, or choose thresholds.
-7. Save random seeds and model settings where applicable.
-8. Verify that another team member can run the pipeline and reproduce the main tables and figures.
-9. Use branches and pull requests for code changes; review changes before merging them into the main branch.
-
-## Team Work Allocation
-
-| Member | Primary responsibility |
-|---|---|
-| Yutong Chen | Data acquisition, company matching, bankruptcy labels, and reproducibility audit |
-| Shuyi Chen | Exploratory analysis, visualizations, charts, and tables |
-| Sourav Banik | Data cleaning, feature engineering, and look-ahead-bias review |
-| Hao Yang | Predictive modeling, model comparison, and evaluation metrics |
-| Khizer Shabbir | Business interpretation, deployment, report integration, and presentation coordination |
-
-All team members contribute to the analysis, final write-up, code review, and presentation.
-
-## Project Timeline
-
-| Period | Focus | Main output |
+| Notebooks | Purpose | Main outputs |
 |---|---|---|
-| 09/15/2026–09/27/2026 | Data integration, initial cleaning, exploratory analysis, baseline model | Project Update / Deliverable #2 |
-| 09/28/2026–10/04/2026 | Final feature engineering, predictive modeling, evaluation, and business-value simulation | Complete report draft |
-| 10/05/2026–10/08/2026 | Reproducibility checks, report editing, slides, and rehearsal | Final report, data, code, slides, and presentation |
+| 01–02 | Create the Bloomberg security list and request workbooks. Security requests are split into sheets of up to 250 companies; macro requests are separate. | `data/intermediate/bloomberg_security_list.csv`, `data/intermediate/security/`, `data/intermediate/macro/` |
+| 03–04 | Clean Bloomberg exports and inspect company coverage, missingness, distributions, and macro data. | `clean_company_long.csv`, `clean_macro_long.csv`, `company_availability.csv`; reports and figures under `artifacts/04_profile_and_visualize_clean_data/` |
+| 05–06 | Create bankruptcy and eligible non-bankrupt candidate events, then match controls by year, Bloomberg industry, size, and sector preference. | Event CSVs and matched samples in `data/processed/` (1:2 primary; 1:1 and 1:3 robustness) |
+| 07–12 | Align information to each prediction date and create original, derived, trend, market, and macro features. | Stage-specific CSVs in `data/processed/` |
+| 13–15 | Combine the feature families, validate the modeling dataset, and visualize event-aligned data. | `modeling_dataset_unprocessed.csv`; validation reports and visualization figures under `artifacts/` |
+| 16–18 | Create chronological grouped splits, fit preprocessing on training data, and produce training-only feature diagnostics. | Split IDs and matrices in `data/processed/`; pipeline in `models/`; diagnostics under `artifacts/18_feature_independence_and_selection/` |
+| 19–20 | Tune and evaluate Elastic Net logistic regression and Random Forest using the same time-based test sample. | Models in `models/`; metrics, predictions, tuning results, and reports under `artifacts/19_model_elastic_net_logistic/` and `artifacts/20_model_random_forest/` |
+| 21–22 | Run robustness analyses and calibrate scores using validation predictions. | Robustness results in `reports/`; calibration report and metrics in `reports/`; comparison and calibration figures in `figures/` |
 
-## Final Deliverables
+Notebook 02 creates formula-based workbooks for use in Excel with the Bloomberg Add-In. After retrieval, place the populated company and macro workbooks under `data/processed/` so notebook 03 can clean them. Bloomberg data use must comply with the applicable license; do not redistribute raw exports unless permitted.
 
-### Deliverable #2 — Project Update
+## Event and feature design
 
-The update will summarize data-cleaning progress, preliminary results, issues encountered, selected industry, and next steps.
+- A bankrupt event uses `prediction_date = bankruptcy_date - 90 days` and a 12-month outcome window.
+- A non-bankrupt candidate uses a bankrupt-company prediction date as its pseudo-event date. Its outcome window must end by the verified label cutoff, and known filings within that window disqualify it.
+- Matching exports include a pre-specified 1:2 primary sample and 1:1/1:3 robustness samples, with control-company reuse capped at three. Matching-variable balance is reported with standardized mean differences.
+- Financial statements use the latest observation at least 90 days before prediction. Market and macro observations are aligned as of each event date. Market-history eligibility requires 13 monthly prices to form 12 monthly returns.
+- Feature generation includes original financial and market fields, financial ratios, historical changes and trends, market measures, and macroeconomic measures. Missing values are not imputed until notebook 17; preprocessing is fit using training data only.
+- Notebook 16 uses chronological splits, purges outcome windows that cross split boundaries, and keeps company/security groups together. Cutoffs adjust to meet configured event-count minimums; random splitting is not the primary design.
+- Elastic Net logistic regression is the primary benchmark; Random Forest is the nonlinear comparison. Model selection uses validation data, with the held-out test period reserved for final evaluation.
 
-### Deliverable #3 — Final Submission
+## Repository layout
 
-The final submission will include:
+```text
+.
+├── data/
+│   ├── raw/                  # Supplied bankrupt and non-bankrupt company files
+│   ├── intermediate/         # Security list and Bloomberg request workbooks
+│   └── processed/            # Clean, event, feature, split, and matrix CSVs
+├── notebooks/                # Ordered workflow notebooks 01–22
+├── artifacts/                # Reports and figures grouped by notebook/stage
+├── reports/                  # Robustness and calibration reports
+├── figures/                  # Robustness and calibration figures
+├── models/                   # Saved preprocessing and model objects
+├── docs/                     # Project documentation
+├── notebook_utils.py         # Shared notebook helpers and project paths
+├── project_config.py         # Bloomberg mappings and shared feature schemas
+├── requirements.txt          # Python dependencies
+└── README.md
+```
 
-- Final write-up of no more than 10 double-spaced pages
-- Data or documented data extract
-- Well-documented code
-- Presentation slides in PPT or PDF format
-- Citations and bibliography
-- Appendix describing each team member’s contribution
+Shared field mappings and feature schemas—including financial and market columns, ratio formulas, trend columns, and macro definitions—are maintained in `project_config.py`. Common functions for file hashing, date/security normalization, safe division, and evaluation are in `notebook_utils.py`. Notebooks import these modules instead of installing packages individually.
 
-### Deliverable #4 — Presentation
+## Setup and execution
 
-The presentation will communicate the project as an executive or investor pitch. It will cover the business problem, data, key patterns, modeling approach, performance, screening value, limitations, and recommended use.
+From the project root, install the declared dependencies and launch Jupyter:
 
-## Academic Context
+```bash
+python -m pip install -r requirements.txt
+jupyter lab
+```
 
-This project is structured using the CRISP-DM data-mining process and is being completed for the team term project. The proposal and term-project instructions define the business problem, required analytical tasks, report structure, and submission requirements.
+Open the notebooks from this repository. Run them in order, pausing after notebook 02 to retrieve Bloomberg data and place the completed workbooks in `data/processed/`. Later notebooks consume outputs from earlier stages. Re-run upstream notebooks after changing their inputs or configuration so downstream tables stay consistent.
 
+## Main generated files
+
+The principal processed tables include:
+
+- `data/processed/clean_company_long.csv`
+- `data/processed/clean_macro_long.csv`
+- `data/processed/company_availability.csv`
+- `data/processed/bankruptcy_events.csv`
+- `data/processed/nonbankruptcy_candidate_events.csv`
+- `data/processed/matched_event_sample_1to1.csv` (robustness), `matched_event_sample_1to2.csv` (primary), and `matched_event_sample_1to3.csv` (robustness)
+- `data/processed/event_aligned_company_data.csv` and `event_aligned_macro_data.csv`
+- `data/processed/original_features.csv`, `derived_features.csv`, `trend_features.csv`, `market_features.csv`, and `macro_features.csv`
+- `data/processed/modeling_dataset_unprocessed.csv`
+- `data/processed/train_matrix.csv`, `validation_matrix.csv`, and `test_matrix.csv`
+
+Generated reports and figures are grouped under `artifacts/<notebook_name>/` where the notebook defines a stage-specific directory. Notebooks 21 and 22 currently write their report files to `reports/` and figures to `figures/`.
+
+## Limitations and interpretation
+
+The matched sample is not population-representative, and therefore its raw scores and calibration do not establish real-world bankruptcy probabilities. Bloomberg coverage, company identifiers, and bankruptcy records may be incomplete. A company with no known filing in the verified observation window is labeled non-bankrupt for that window only; it is not a claim that the company never failed or remained solvent afterward. Results are research and screening outputs, not investment recommendations.

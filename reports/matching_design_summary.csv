@@ -1,0 +1,4 @@
+ratio,sample_role,bankrupt_events,matched_pairs,control_companies,incomplete_bankrupt_events,zero_control_events,stage_1_pairs,stage_2_pairs,stage_3_pairs,stage_4_pairs
+1:1,robustness,148,148,125,74,74,147,0,1,0
+1:2,primary,148,296,210,74,74,294,0,2,0
+1:3,robustness,148,444,277,74,74,440,1,3,0

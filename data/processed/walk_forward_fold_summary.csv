@@ -1,0 +1,6 @@
+fold,train_start_year,train_end_year,validation_start_year,validation_end_year,train_rows,train_bankruptcies,train_controls,train_company_groups,validation_rows,validation_bankruptcies,validation_controls,validation_company_groups,overlapping_company_groups,train_last_outcome_date,test_start_year,test_end_year,test_rows,test_bankruptcies,test_controls
+fold_1,1998,2007,2008.0,2009.0,175,62,113,150,39.0,13.0,26.0,37.0,0.0,2007-12-21,,,,,
+fold_2,1998,2009,2010.0,2012.0,200,70,130,173,32.0,11.0,21.0,32.0,0.0,2009-12-31,,,,,
+fold_3,1998,2012,2013.0,2015.0,234,83,151,201,45.0,15.0,30.0,43.0,0.0,2012-11-16,,,,,
+fold_4,1998,2015,2016.0,2018.0,267,96,171,227,56.0,19.0,37.0,52.0,0.0,2015-12-17,,,,,
+final_test,1998,2014,,,249,91,158,215,,,,,,2014-12-23,2019.0,2026.0,76.0,25.0,51.0

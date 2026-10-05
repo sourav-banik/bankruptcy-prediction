@@ -1,0 +1,21 @@
+{
+  "role": "optional sensitivity model",
+  "selected_candidate": "trees100_lr0.1_depth2_leaf20",
+  "selection_metric": "mean walk-forward validation PR-AUC",
+  "mean_validation_pr_auc": 0.8966496740094698,
+  "operating_threshold": 0.4403457549710653,
+  "threshold_source": "pooled out-of-fold validation predictions",
+  "n_estimators": 100,
+  "learning_rate": 0.1,
+  "max_depth": 2,
+  "min_samples_leaf": 20,
+  "max_features": 0.25,
+  "subsample": 0.8,
+  "class_weight": "balanced sample weights",
+  "walk_forward_folds": [
+    "fold_1",
+    "fold_2",
+    "fold_3",
+    "fold_4"
+  ]
+}

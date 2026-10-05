@@ -1,0 +1,35 @@
+{
+  "selected_candidate": "balanced_l1_0.5_C_0.01",
+  "C": 0.01,
+  "l1_ratio": 0.5,
+  "class_weight": "balanced",
+  "mean_validation_pr_auc": 0.8471056271687629,
+  "walk_forward_folds": [
+    "fold_1",
+    "fold_2",
+    "fold_3",
+    "fold_4"
+  ],
+  "selection_metric": "mean validation PR-AUC",
+  "operating_threshold": 0.5342924787555884,
+  "threshold_source": "pooled out-of-fold validation predictions",
+  "threshold_metric": "balanced accuracy with sensitivity/specificity tie-breaks",
+  "fit_split": "static training only",
+  "solver": "saga",
+  "max_iter": 12000,
+  "tol": 0.0001,
+  "seed": 42,
+  "preprocessing_sha256": "000e23bc08f846bada2b1f1ea56e253de0215024a6916a5a9a3de9512f9639e7",
+  "active_predictors": 538,
+  "training_constant_predictors": [
+    "categorical__sector___MISSING__",
+    "categorical__industry___MISSING__"
+  ],
+  "versions": {
+    "python": "3.12.5",
+    "sklearn": "1.9.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "joblib": "1.6.0"
+  }
+}

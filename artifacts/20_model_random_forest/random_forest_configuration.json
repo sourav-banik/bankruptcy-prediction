@@ -1,0 +1,32 @@
+{
+  "selected_candidate": "balanced_subsample_d4_leaf10_split20_mf0.25_ms0.75",
+  "selection_metric": "mean walk-forward validation PR-AUC",
+  "mean_validation_pr_auc": 0.886446923122752,
+  "operating_threshold": 0.4979300513698773,
+  "threshold_source": "pooled out-of-fold validation predictions",
+  "threshold_metric": "balanced accuracy with sensitivity/specificity tie-breaks",
+  "n_estimators": 200,
+  "max_depth": 4,
+  "min_samples_leaf": 10,
+  "min_samples_split": 20,
+  "max_features": "0.25",
+  "max_samples": 0.75,
+  "class_weight": "balanced_subsample",
+  "walk_forward_folds": [
+    "fold_1",
+    "fold_2",
+    "fold_3",
+    "fold_4"
+  ],
+  "seed": 42,
+  "bootstrap": true,
+  "preprocessing_sha256": "000e23bc08f846bada2b1f1ea56e253de0215024a6916a5a9a3de9512f9639e7",
+  "fit_split": "static training only",
+  "active_predictors": 538,
+  "versions": {
+    "python": "3.12.5",
+    "sklearn": "1.9.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6"
+  }
+}

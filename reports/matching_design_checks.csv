@@ -1,0 +1,13 @@
+ratio,sample_role,check,passed
+1:1,robustness,complete_control_sets,True
+1:1,robustness,unique_controls_per_event,True
+1:1,robustness,match_stage_consistency,True
+1:1,robustness,maximum_control_reuse,True
+1:2,primary,complete_control_sets,True
+1:2,primary,unique_controls_per_event,True
+1:2,primary,match_stage_consistency,True
+1:2,primary,maximum_control_reuse,True
+1:3,robustness,complete_control_sets,True
+1:3,robustness,unique_controls_per_event,True
+1:3,robustness,match_stage_consistency,True
+1:3,robustness,maximum_control_reuse,True

@@ -1,0 +1,8 @@
+{
+  "selected_primary_scenario": "compact_features",
+  "selection_basis": "pooled out-of-fold validation PR-AUC",
+  "compact_pooled_oof_pr_auc": 0.7280329374576555,
+  "full_pooled_oof_pr_auc": 0.724638368352362,
+  "selected_C": 1.0,
+  "test_used_for_selection": false
+}

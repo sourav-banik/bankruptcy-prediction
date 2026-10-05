@@ -1,0 +1,2 @@
+model,n,bankrupt_n,prevalence,threshold,roc_auc,pr_auc_average_precision,pr_auc_trapezoidal,balanced_accuracy,sensitivity,specificity,f1,brier_score,tn,fp,fn,tp,recall,precision,calibration_intercept,calibration_slope
+Random Forest training diagnostic,249,91,0.3654618473895582,0.4979300513698773,0.9937404367784115,0.9893222224285213,0.9892632639555496,0.9596953679232161,0.989010989010989,0.930379746835443,0.9375,0.04578889608579626,147,11,1,90,0.989010989010989,0.8910891089108911,-1.4645243073000096,3.089592757204109

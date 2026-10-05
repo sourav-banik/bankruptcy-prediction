@@ -112,6 +112,11 @@ RATIO_FORMULAS = {
     "capex_to_revenue": ("capital_expenditures", "revenue"),
     "market_to_book": ("market_cap", "shareholders_equity"),
 }
+RATIO_FORMULAS.update({
+    "ebit_to_assets": ("ebit", "total_assets"),
+    "ebitda_to_assets": ("ebitda", "total_assets"),
+    "operating_cash_flow_to_assets": ("operating_cash_flow", "total_assets"),
+})
 RATIO_COLUMNS = list(RATIO_FORMULAS)
 
 TREND_YEARS = (1, 2, 3)
@@ -124,6 +129,7 @@ TREND_FEATURE_COLUMNS = [
     for kind in TREND_CHANGE_TYPES
 ]
 TREND_FEATURE_COLUMNS += [f"{field}_slope_3y" for field in TREND_SOURCE_COLUMNS]
+TREND_FEATURE_COLUMNS += ["asset_growth_1y", "debt_growth_1y"]
 
 MARKET_HORIZONS_MONTHS = (12, 24, 36)
 MARKET_FEATURE_COLUMNS = [
@@ -136,6 +142,24 @@ MARKET_FEATURE_COLUMNS += [
     "volume_change_12m",
     "turnover_change_12m",
     "bid_ask_spread_average_12m",
+    "stock_return_12m",
+]
+
+SIGNED_LOG_FIELDS = [
+    "working_capital", "ebit", "ebitda", "net_income", "interest_expense",
+    "operating_cash_flow", "capital_expenditures", "free_cash_flow",
+]
+
+# Final prefixed column names in modeling_dataset_unprocessed.csv.
+COMPACT_FEATURE_COLUMNS = [
+    "original_log_total_assets", "original_log_market_cap",
+    "derived_debt_to_assets", "derived_liabilities_to_assets", "derived_cash_to_assets",
+    "derived_current_ratio", "derived_ebit_to_assets", "derived_ebitda_to_assets",
+    "derived_operating_cash_flow_to_assets", "derived_interest_coverage",
+    "derived_free_cash_flow_to_debt", "derived_market_to_book",
+    "trend_revenue_growth_1y", "trend_asset_growth_1y", "trend_debt_growth_1y",
+    "market_stock_return_12m", "market_volatility_12m", "market_maximum_drawdown_12m",
+    "macro_inflation", "macro_unemployment", "macro_interest_rate", "macro_credit_spread",
 ]
 
 # Split membership columns shared by split export and preprocessing.

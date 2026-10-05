@@ -1,0 +1,9 @@
+fold,specification,train_rows,train_bankruptcies,validation_rows,validation_bankruptcies,retained_numeric_features,indicator_features,transformed_features,pipeline_path
+fold_1,A,175,62,39,13,465,0,503,models\walk_forward\fold_1_spec_a_preprocessing_pipeline.joblib
+fold_1,B,175,62,39,13,465,26,529,models\walk_forward\fold_1_spec_b_preprocessing_pipeline.joblib
+fold_2,A,200,70,32,11,465,0,507,models\walk_forward\fold_2_spec_a_preprocessing_pipeline.joblib
+fold_2,B,200,70,32,11,465,26,533,models\walk_forward\fold_2_spec_b_preprocessing_pipeline.joblib
+fold_3,A,234,83,45,15,465,0,509,models\walk_forward\fold_3_spec_a_preprocessing_pipeline.joblib
+fold_3,B,234,83,45,15,465,26,535,models\walk_forward\fold_3_spec_b_preprocessing_pipeline.joblib
+fold_4,A,267,96,56,19,465,0,512,models\walk_forward\fold_4_spec_a_preprocessing_pipeline.joblib
+fold_4,B,267,96,56,19,465,30,542,models\walk_forward\fold_4_spec_b_preprocessing_pipeline.joblib
