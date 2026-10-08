@@ -73,7 +73,9 @@ Outputs are grouped under matching stage directories in `reports/` and `figures/
 
 ## Interactive project page
 
-The Streamlit page in `app/streamlit_app.py` has two tabs: Project and Explore companies. Visitors can select a company and historical prediction date from `data/processed/modeling_dataset_unprocessed.csv`; the app displays the event's financial, market, and macro metrics, summarizes one-, two-, and three-year trends, and scores the selected row with Elastic Net, Random Forest, or the Gradient Boosting sensitivity model. The Project tab includes phase-based report and figure selectors, with HTML reports rendered inline. Each displayed estimate is specific to the constructed matched sample and is not a real-world calibrated probability. The app does not require raw Bloomberg workbooks. Confirm that publishing the processed dataset and fitted models is allowed by the applicable Bloomberg data license before deploying the public demo.
+**Live demo:** [bankruptcy-lab.streamlit.app](https://bankruptcy-lab.streamlit.app)
+
+The Streamlit page in `app/streamlit_app.py` has two tabs: Project and Explore companies. Visitors can select a company and historical prediction date from `data/processed/modeling_dataset_unprocessed.csv`; the app displays the event's financial, market, and macro metrics, summarizes one-, two-, and three-year trends, and scores the selected row with Elastic Net, Random Forest, or the Gradient Boosting sensitivity model. The Project tab includes phase-based report and figure selectors, with HTML reports rendered inline. Each displayed estimate is specific to the constructed matched sample and is not a real-world calibrated probability. The app does not require raw Bloomberg workbooks. Confirm that publishing the processed dataset and fitted models is allowed by the applicable Bloomberg data license.
 
 Run it locally from the repository root:
 
@@ -82,7 +84,7 @@ python -m pip install -r app/requirements.txt
 python -m streamlit run app/streamlit_app.py
 ```
 
-To make the page available online, deploy this GitHub repository with Streamlit Community Cloud and set `app/streamlit_app.py` as the entrypoint. The processed modeling dataset and saved model artifacts must be available in the deployed repository; rerun the upstream notebooks if they are missing. Follow [Streamlit's deployment instructions](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/deploy). Do not publish raw Bloomberg exports, and verify the relevant data license before sharing processed data or model artifacts.
+For deployment or maintenance, use Streamlit Community Cloud with `app/streamlit_app.py` as the entrypoint. The processed modeling dataset and saved model artifacts must be available in the deployed repository; rerun the upstream notebooks if they are missing. Follow [Streamlit's deployment instructions](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/deploy). Do not publish raw Bloomberg exports, and verify the relevant data license before sharing processed data or model artifacts.
 
 Shared Bloomberg mappings and feature schemas, such as financial and market columns, ratio formulas, trend columns, and macro definitions, are maintained in `project_config.py`. Common functions for file hashing, date and security normalization, safe division, and evaluation are in `notebook_utils.py`. Notebooks import these modules and use the dependencies declared in `requirements.txt`.
 
