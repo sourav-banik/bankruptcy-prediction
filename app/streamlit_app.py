@@ -97,6 +97,63 @@ def display_value(value):
     return f"{value:,.4g}"
 
 
+RISK_REFERENCE_FILES = {
+    "Elastic Net logistic": ROOT
+    / "reports"
+    / "05_elastic_net_reporting"
+    / "elastic_net_oof_validation_predictions.csv",
+    "Random Forest": ROOT
+    / "reports"
+    / "06_random_forest_reporting"
+    / "random_forest_oof_validation_predictions.csv",
+    "Gradient Boosting (sensitivity)": ROOT
+    / "reports"
+    / "06_random_forest_reporting"
+    / "gradient_boosting_oof_and_test_predictions.csv",
+}
+
+
+@st.cache_data
+def load_oof_risk_scores(model_name):
+    """Load walk-forward scores used only as a relative-risk reference distribution."""
+    path = RISK_REFERENCE_FILES[model_name]
+    if not path.is_file():
+        return pd.Series(dtype=float)
+    frame = pd.read_csv(path)
+    score_column = (
+        "bankruptcy_probability"
+        if "bankruptcy_probability" in frame
+        else "prediction_probability"
+    )
+    if score_column not in frame:
+        return pd.Series(dtype=float)
+    if "prediction_split" in frame:
+        frame = frame.loc[frame.prediction_split.eq("walk_forward_oof_validation")]
+    return pd.to_numeric(frame[score_column], errors="coerce").dropna()
+
+
+def relative_risk_band(model_name, score):
+    """Rank a model score against that model's walk-forward validation scores."""
+    reference = load_oof_risk_scores(model_name)
+    if reference.empty:
+        return "Not available", "Not available"
+    percentile = (
+        100
+        * (reference.lt(score).sum() + 0.5 * reference.eq(score).sum())
+        / len(reference)
+    )
+    tier = (
+        "Very high"
+        if percentile >= 90
+        else "High"
+        if percentile >= 75
+        else "Moderate"
+        if percentile >= 50
+        else "Low"
+    )
+    return f"{percentile:.0f}th percentile", tier
+
+
 st.set_page_config(page_title="Bankruptcy Early-Warning Lab", layout="wide")
 st.title("Bankruptcy Early-Warning Lab")
 st.caption(
@@ -350,17 +407,20 @@ with company_tab:
                 except Exception as error:
                     st.error(f"Could not score this company event: {error}")
                 else:
-                    result_columns = st.columns(2)
+                    percentile, tier = relative_risk_band(selected_model_name, estimate)
+                    result_columns = st.columns(4)
                     result_columns[0].metric(
-                        "Model-estimated probability", f"{estimate:.1%}"
+                        "Relative bankruptcy risk score", f"{estimate:.3f}"
                     )
+                    result_columns[1].metric("Risk percentile", percentile)
+                    result_columns[2].metric("Risk tier", tier)
                     label = (
                         "Bankrupt" if event["target"] == 1 else "Non-bankrupt control"
                     )
-                    result_columns[1].metric("Historical sample label", label)
+                    result_columns[3].metric("Historical sample label", label)
                     st.caption(
-                        "This is the model estimate for a row in the matched research sample. "
-                        "It is not a calibrated real-world probability."
+                        "Score and percentile are relative to walk-forward validation scores "
+                        "in the constructed matched sample, not population bankruptcy probabilities."
                     )
 
                     if pd.notna(event["bankruptcy_date"]):

@@ -432,7 +432,6 @@
       "market_market_cap_change_12m",
       "market_volume_change_12m",
       "market_turnover_change_12m",
-      "market_bid_ask_spread_average_12m",
       "market_stock_return_12m",
       "macro_inflation_level_at_prediction_date",
       "macro_inflation_level",

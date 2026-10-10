@@ -93,7 +93,7 @@ def load_company_events(path: str | Path, feature_columns):
 
 
 def score_event(model, event):
-    """Return the model-estimated class score for one real event row."""
+    """Return the relative bankruptcy risk score for one historical event row."""
     features = list(model.feature_names_in_)
     row = pd.DataFrame([event[features].to_dict()])
     class_index = list(model.classes_).index(1)

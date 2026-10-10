@@ -1693,7 +1693,6 @@ for source, frame in upstream_exports.items():
             "market_cap_change_12m",
             "volume_change_12m",
             "turnover_change_12m",
-            "bid_ask_spread_average_12m",
         ]:
             output_column = f"market_{column}"
         elif (
@@ -2119,7 +2118,7 @@ ax.set(
 )
 missing_chart = figure_html(
     fig,
-    "Entirely unavailable bid-ask spread, true credit spread, and recession features are retained without imputation.",
+    "Unavailable true credit spread and recession features are retained without imputation.",
 )
 
 check_results = pd.DataFrame(checks)

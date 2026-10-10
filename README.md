@@ -21,7 +21,9 @@ Run notebooks in numerical order. Notebook 02 prepares Bloomberg request workboo
 | 13-15 | Combine feature families, validate the modeling dataset, and visualize event-aligned data. | `modeling_dataset_unprocessed.csv`; stage 02 and 03 reports and figures |
 | 16-18 | Create chronological grouped splits, fit preprocessing using training data, and run training-only feature diagnostics. | Split IDs and matrices in `data/processed/`; preprocessing pipeline in `models/`; stage 04 reports |
 | 19-20 | Tune and evaluate Elastic Net logistic regression and Random Forest on the same time-based test sample. | Model objects in `models/`; metrics, predictions, reports, and figures in stage 05 and 06 folders |
-| 21-22 | Compare robustness scenarios and report probability-calibration diagnostics. | Stage 07 and 08 reports and figures |
+| 21-22 | Compare robustness scenarios and report relative-score calibration diagnostics. | Stage 07 and 08 reports and figures |
+
+Notebook 19 first compares compact and full feature specifications using walk-forward out-of-fold PR-AUC. It selects compact when the full model improves by no more than 0.02; otherwise it selects full. Elastic Net tuning and threshold selection follow, and only then does notebook 19 evaluate the frozen model on the final test split. Notebook 21 reports validation robustness without using test results to select the feature specification.
 
 Bloomberg data use must comply with the applicable license. Do not redistribute raw Bloomberg exports unless permitted.
 
@@ -75,7 +77,7 @@ Outputs are grouped under matching stage directories in `reports/` and `figures/
 
 **Live demo:** [bankruptcy-lab.streamlit.app](https://bankruptcy-lab.streamlit.app)
 
-The Streamlit page in `app/streamlit_app.py` has two tabs: Project and Explore companies. Visitors can select a company and historical prediction date from `data/processed/modeling_dataset_unprocessed.csv`; the app displays the event's financial, market, and macro metrics, summarizes one-, two-, and three-year trends, and scores the selected row with Elastic Net, Random Forest, or the Gradient Boosting sensitivity model. The Project tab includes phase-based report and figure selectors, with HTML reports rendered inline. Each displayed estimate is specific to the constructed matched sample and is not a real-world calibrated probability. The app does not require raw Bloomberg workbooks. Confirm that publishing the processed dataset and fitted models is allowed by the applicable Bloomberg data license.
+The Streamlit page in `app/streamlit_app.py` has two tabs: Project and Explore companies. Visitors can select a company and historical prediction date from `data/processed/modeling_dataset_unprocessed.csv`; the app displays the event's financial, market, and macro metrics, summarizes one-, two-, and three-year trends, and scores the selected row with Elastic Net, Random Forest, or the Gradient Boosting sensitivity model. The Project tab includes phase-based report and figure selectors, with HTML reports rendered inline. The app labels outputs as relative bankruptcy risk scores and ranks them against walk-forward validation scores for that model; they are not population bankruptcy probabilities. The app does not require raw Bloomberg workbooks. Confirm that publishing the processed dataset and fitted models is allowed by the applicable Bloomberg data license.
 
 Run it locally from the repository root:
 

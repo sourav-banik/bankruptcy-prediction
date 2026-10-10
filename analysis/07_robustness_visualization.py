@@ -56,29 +56,37 @@ def main(context):
     )
     plt.close(fig)
 
-    # Keep final test results in the notebook table; these exports summarize validation.
+    # These exports contain walk-forward validation results only; notebook 19 reports final test metrics.
     robustness_results.to_csv(REPORTS / "robustness_results.csv", index=False)
     fold_validation_results.to_csv(
         REPORTS / "robustness_fold_validation_results.csv", index=False
     )
-    primary_record = {
-        "selected_primary_scenario": primary_scenario,
-        "selection_basis": "pooled out-of-fold validation PR-AUC",
-        "compact_pooled_oof_pr_auc": float(
-            primary_candidates.loc[
-                primary_candidates.scenario.eq("compact_features"),
-                "pooled_oof_pr_auc",
-            ].iloc[0]
-        ),
-        "full_pooled_oof_pr_auc": float(
-            primary_candidates.loc[
-                primary_candidates.scenario.eq("full_features"),
-                "pooled_oof_pr_auc",
-            ].iloc[0]
-        ),
-        "selected_C": float(primary_choice.selected_C),
-        "test_used_for_selection": False,
-    }
+    selection_path = PATHS.models / "primary_feature_specification.json"
+    if selection_path.is_file():
+        primary_record = json.loads(selection_path.read_text(encoding="utf-8"))
+        primary_record["selected_primary_scenario"] = primary_scenario
+        primary_record["selection_basis"] = (
+            "pooled walk-forward OOF PR-AUC with compact-feature tolerance"
+        )
+    else:
+        primary_record = {
+            "selected_primary_scenario": primary_scenario,
+            "selection_basis": "pooled out-of-fold validation PR-AUC",
+            "compact_pooled_oof_pr_auc": float(
+                primary_candidates.loc[
+                    primary_candidates.scenario.eq("compact_features"),
+                    "pooled_oof_pr_auc",
+                ].iloc[0]
+            ),
+            "full_pooled_oof_pr_auc": float(
+                primary_candidates.loc[
+                    primary_candidates.scenario.eq("full_features"),
+                    "pooled_oof_pr_auc",
+                ].iloc[0]
+            ),
+            "selected_C": float(primary_choice.selected_C),
+            "test_used_for_selection": False,
+        }
     (REPORTS / "primary_model_selection.json").write_text(
         json.dumps(primary_record, indent=2), encoding="utf-8"
     )

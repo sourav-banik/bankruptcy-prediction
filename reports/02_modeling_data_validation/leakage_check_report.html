@@ -5,7 +5,7 @@ h1{font-size:28px}h2{margin-top:32px;color:#193f5c}.notice{padding:14px 18px;bac
 .table-wrap{overflow-x:auto;margin:14px 0}.data-table{border-collapse:collapse;width:100%;font-size:13px}
 th,td{padding:8px 10px;border-bottom:1px solid #e0e5eb;text-align:left;vertical-align:top}th{background:#edf2f7;position:sticky;top:0}
 tr:nth-child(even){background:#f8fafc}img{max-width:100%;height:auto}figure{margin:22px 0}figcaption{font-size:13px;color:#536273}
-code{background:#edf2f7;padding:2px 5px}details{margin:18px 0}summary{cursor:pointer;font-weight:600}small{color:#596779}</style></head><body><main><h1>Modeling dataset: leakage check report</h1><p><small>Input: data/processed/modeling_dataset_unprocessed.csv ? 436 company-events ? 817 columns</small></p><p class="status"><strong>Overall validation: FAIL / evidence incomplete.</strong> 2 failed checks; 3 unverified checks. Do not interpret completed date checks as full certification of outcome surveillance or historical information availability.</p><p>Requested matching design: <strong>1:2</strong>. Current declared design(s): <strong>[2]</strong>.</p><h2>What these checks establish</h2><p>Source/reference dates must be on or before each individual prediction date. Financial statements must also respect the 90-day reporting lag. Historical trend endpoints are checked against their own earlier prediction cutoffs, and all trend values are independently reconstructed from cleaned observations.</p><p>Filing dates and outcome-end dates are future labels/audits and are excluded from predictor source-date checks. Control follow-up observations after prediction establish outcome coverage only.</p><h2>Unverified evidence</h2><div class="table-wrap"><table class="dataframe data-table">
+code{background:#edf2f7;padding:2px 5px}details{margin:18px 0}summary{cursor:pointer;font-weight:600}small{color:#596779}</style></head><body><main><h1>Modeling dataset: leakage check report</h1><p><small>Input: data/processed/modeling_dataset_unprocessed.csv ? 436 company-events ? 813 columns</small></p><p class="status"><strong>Overall validation: FAIL / evidence incomplete.</strong> 2 failed checks; 3 unverified checks. Do not interpret completed date checks as full certification of outcome surveillance or historical information availability.</p><p>Requested matching design: <strong>1:2</strong>. Current declared design(s): <strong>[2]</strong>.</p><h2>What these checks establish</h2><p>Source/reference dates must be on or before each individual prediction date. Financial statements must also respect the 90-day reporting lag. Historical trend endpoints are checked against their own earlier prediction cutoffs, and all trend values are independently reconstructed from cleaned observations.</p><p>Filing dates and outcome-end dates are future labels/audits and are excluded from predictor source-date checks. Control follow-up observations after prediction establish outcome coverage only.</p><h2>Unverified evidence</h2><div class="table-wrap"><table class="dataframe data-table">
   <thead>
     <tr style="text-align: right;">
       <th>section</th>
@@ -370,17 +370,17 @@ code{background:#edf2f7;padding:2px 5px}details{margin:18px 0}summary{cursor:poi
   <tbody>
     <tr>
       <td>Candidate event universe</td>
-      <td>614977</td>
+      <td>590776</td>
       <td>All bankrupt firms with filing dates plus every non-bankrupt firm at each eligible bankrupt prediction date.</td>
     </tr>
     <tr>
       <td>Eligible after notebook 05 rules</td>
-      <td>189466</td>
+      <td>185595</td>
       <td>History requirements, positive filing window, complete negative outcome, and known-filing screen.</td>
     </tr>
     <tr>
       <td>Excluded by notebook 05 rules</td>
-      <td>425511</td>
+      <td>405181</td>
       <td>Candidate observations failing one or more eligibility criteria; reasons below can overlap.</td>
     </tr>
     <tr>
@@ -390,7 +390,7 @@ code{background:#edf2f7;padding:2px 5px}details{margin:18px 0}summary{cursor:poi
     </tr>
     <tr>
       <td>Eligible observations excluded by matching</td>
-      <td>189026</td>
+      <td>185155</td>
       <td>Eligible candidates with no selected link in the primary 1:2 sample.</td>
     </tr>
     <tr>
@@ -415,42 +415,42 @@ code{background:#edf2f7;padding:2px 5px}details{margin:18px 0}summary{cursor:poi
   <tbody>
     <tr>
       <td>insufficient_financial_history</td>
-      <td>223300</td>
+      <td>215836</td>
       <td>Reasons are non-exclusive.</td>
     </tr>
     <tr>
       <td>stale_financial_history</td>
-      <td>197482</td>
+      <td>191095</td>
       <td>Reasons are non-exclusive.</td>
     </tr>
     <tr>
       <td>insufficient_market_history</td>
-      <td>230040</td>
+      <td>222620</td>
       <td>Reasons are non-exclusive.</td>
     </tr>
     <tr>
       <td>stale_market_observation</td>
-      <td>215279</td>
+      <td>208728</td>
       <td>Reasons are non-exclusive.</td>
     </tr>
     <tr>
       <td>filing_outside_positive_outcome_window</td>
-      <td>259</td>
+      <td>256</td>
       <td>Reasons are non-exclusive.</td>
     </tr>
     <tr>
       <td>incomplete_negative_outcome_window</td>
-      <td>202020</td>
+      <td>188404</td>
       <td>Reasons are non-exclusive.</td>
     </tr>
     <tr>
       <td>known_filing_through_negative_outcome</td>
-      <td>614718</td>
+      <td>590520</td>
       <td>Reasons are non-exclusive.</td>
     </tr>
     <tr>
       <td>not_selected_in_primary_match</td>
-      <td>189026</td>
+      <td>185155</td>
       <td>Downstream exclusions are separate from notebook 05 eligibility.</td>
     </tr>
     <tr>
@@ -904,18 +904,6 @@ code{background:#edf2f7;padding:2px 5px}details{margin:18px 0}summary{cursor:poi
     <tr>
       <td>metadata_turnover_change_12m_baseline_date</td>
       <td>435</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>metadata_bid_ask_spread_average_12m_start_date</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>metadata_bid_ask_spread_average_12m_end_date</td>
-      <td>0</td>
       <td>0</td>
       <td>0</td>
     </tr>
@@ -4981,7 +4969,7 @@ code{background:#edf2f7;padding:2px 5px}details{margin:18px 0}summary{cursor:poi
       <td>preprocessing</td>
       <td>Unaltered feature export: market_features</td>
       <td>PASS</td>
-      <td>5668</td>
+      <td>5232</td>
       <td>0</td>
       <td>Group prefixes rename values only; compare every contributed numeric predictor.</td>
     </tr>

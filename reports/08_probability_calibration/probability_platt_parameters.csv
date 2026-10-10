@@ -1,2 +1,2 @@
 method,regularization_C,intercept,slope,fit_rows,fit_bankruptcies,fit_matched_sample_prevalence,interpretation
-Platt scaling diagnostic on walk-forward OOF scores,1.0,-1.0530201084169435,4.106047996837008,172,58,0.3372093023255814,relative risk score; not a population probability
+Platt scaling diagnostic on walk-forward OOF scores,1.0,-0.6472377920045517,0.5228083349519039,172,58,0.3372093023255814,relative risk score; not a population probability

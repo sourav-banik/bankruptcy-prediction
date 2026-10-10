@@ -1,0 +1,11 @@
+{
+  "primary_specification": "compact",
+  "compact_pooled_oof_pr_auc": 0.7802897341154269,
+  "full_pooled_oof_pr_auc": 0.6820441500396872,
+  "full_minus_compact_pr_auc": -0.09824558407573969,
+  "pr_auc_tolerance": 0.02,
+  "selection_metric": "pooled walk-forward OOF PR-AUC",
+  "test_used_for_selection": false,
+  "compact_selected_C": 1.0,
+  "full_selected_C": 0.1
+}

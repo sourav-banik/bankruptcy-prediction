@@ -93,7 +93,7 @@ DISTRIBUTION_FIELDS = ['total_assets',
  'market_cap']
 
 # Raw market fields needed to compute the configured market features.
-MARKET_FEATURE_SOURCE_FIELDS = ['adjusted_price', 'market_cap', 'volume', 'turnover', 'bid_ask_spread']
+MARKET_FEATURE_SOURCE_FIELDS = ['adjusted_price', 'market_cap', 'volume', 'turnover']
 
 
 # Modeling feature schemas shared across feature-generation and merge notebooks.
@@ -149,7 +149,6 @@ MARKET_FEATURE_COLUMNS += [
     "market_cap_change_12m",
     "volume_change_12m",
     "turnover_change_12m",
-    "bid_ask_spread_average_12m",
     "stock_return_12m",
 ]
 
@@ -169,6 +168,8 @@ COMPACT_FEATURE_COLUMNS = [
     "market_stock_return_12m", "market_volatility_12m", "market_maximum_drawdown_12m",
     "macro_inflation", "macro_unemployment", "macro_interest_rate", "macro_credit_spread",
 ]
+
+PR_AUC_TOLERANCE = 0.02
 
 # Split membership columns shared by split export and preprocessing.
 ID_COLUMNS = [
